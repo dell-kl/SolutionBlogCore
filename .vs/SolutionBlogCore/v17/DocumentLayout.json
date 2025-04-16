@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|d:\\workgroup-kl\\c#\\proyectosmvc\\solutionblogcore\\blogcore\\areas\\client\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|solutionrelative:blogcore\\areas\\client\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|d:\\workgroup-kl\\c#\\proyectosmvc\\solutionblogcore\\blogcore\\areas\\client\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|solutionrelative:blogcore\\areas\\client\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06C700BA-31F3-4C2E-AC34-CCC402A7A3C9}|BlogCore.Models\\BlogCore.Models.csproj|d:\\workgroup-kl\\c#\\proyectosmvc\\solutionblogcore\\blogcore.models\\modelview\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06C700BA-31F3-4C2E-AC34-CCC402A7A3C9}|BlogCore.Models\\BlogCore.Models.csproj|solutionrelative:blogcore.models\\modelview\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|d:\\workgroup-kl\\c#\\proyectosmvc\\solutionblogcore\\blogcore\\wwwroot\\js\\slider.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|solutionrelative:blogcore\\wwwroot\\js\\slider.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -114,7 +126,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 585,
-          "SelectedChildIndex": 53,
+          "SelectedChildIndex": 39,
           "Children": [
             {
               "$type": "Bookmark",
@@ -270,7 +282,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Client\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "BlogCore\\Areas\\Client\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Client\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "BlogCore\\Areas\\Client\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-16T02:51:48.204Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Client\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "BlogCore\\Areas\\Client\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Client\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "BlogCore\\Areas\\Client\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T02:51:15.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore.Models\\ModelView\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "BlogCore.Models\\ModelView\\HomeViewModel.cs",
+              "ToolTip": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore.Models\\ModelView\\HomeViewModel.cs",
+              "RelativeToolTip": "BlogCore.Models\\ModelView\\HomeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T02:51:01.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "all.min.css",
               "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
               "RelativeDocumentMoniker": "BlogCore\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
@@ -282,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "articulo.js",
               "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\js\\articulo.js",
               "RelativeDocumentMoniker": "BlogCore\\wwwroot\\js\\articulo.js",
@@ -294,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Admin\\Views\\Categorias\\Edit.cshtml",
               "RelativeDocumentMoniker": "BlogCore\\Areas\\Admin\\Views\\Categorias\\Edit.cshtml",
@@ -306,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "ImagenesUtility.cs",
               "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore.Utilidades\\ImagenesUtility.cs",
               "RelativeDocumentMoniker": "BlogCore.Utilidades\\ImagenesUtility.cs",
@@ -318,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "ArticulosController.cs",
               "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Admin\\Controllers\\ArticulosController.cs",
               "RelativeDocumentMoniker": "BlogCore\\Areas\\Admin\\Controllers\\ArticulosController.cs",
@@ -330,7 +381,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "_FormularioArticulo.cshtml",
               "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Views\\Shared\\Formularios\\_FormularioArticulo.cshtml",
               "RelativeDocumentMoniker": "BlogCore\\Views\\Shared\\Formularios\\_FormularioArticulo.cshtml",
@@ -342,7 +393,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Admin\\Views\\Categorias\\Create.cshtml",
               "RelativeDocumentMoniker": "BlogCore\\Areas\\Admin\\Views\\Categorias\\Create.cshtml",
@@ -354,7 +405,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Slider.cs",
               "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore.Models\\Slider.cs",
               "RelativeDocumentMoniker": "BlogCore.Models\\Slider.cs",
@@ -366,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "ArticulosViewModel.cs",
               "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore.Models\\ModelView\\ArticulosViewModel.cs",
               "RelativeDocumentMoniker": "BlogCore.Models\\ModelView\\ArticulosViewModel.cs",
@@ -378,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "SliderViewModel.cs",
               "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore.Models\\ModelView\\SliderViewModel.cs",
               "RelativeDocumentMoniker": "BlogCore.Models\\ModelView\\SliderViewModel.cs",
@@ -390,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "_FormularioCategoria.cshtml",
               "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Views\\Shared\\Formularios\\_FormularioCategoria.cshtml",
               "RelativeDocumentMoniker": "BlogCore\\Views\\Shared\\Formularios\\_FormularioCategoria.cshtml",
@@ -402,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "_FormularioSlider.cshtml",
               "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Views\\Shared\\Formularios\\_FormularioSlider.cshtml",
               "RelativeDocumentMoniker": "BlogCore\\Views\\Shared\\Formularios\\_FormularioSlider.cshtml",
@@ -414,7 +465,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Admin\\Views\\Sliders\\Edit.cshtml",
               "RelativeDocumentMoniker": "BlogCore\\Areas\\Admin\\Views\\Sliders\\Edit.cshtml",
@@ -426,7 +477,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Create.cshtml",
               "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Admin\\Views\\Sliders\\Create.cshtml",
               "RelativeDocumentMoniker": "BlogCore\\Areas\\Admin\\Views\\Sliders\\Create.cshtml",
@@ -438,7 +489,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "CategoriasController.cs",
               "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Admin\\Controllers\\CategoriasController.cs",
               "RelativeDocumentMoniker": "BlogCore\\Areas\\Admin\\Controllers\\CategoriasController.cs",
@@ -450,20 +501,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "slider.js",
               "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\js\\slider.js",
               "RelativeDocumentMoniker": "BlogCore\\wwwroot\\js\\slider.js",
               "ToolTip": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\js\\slider.js",
               "RelativeToolTip": "BlogCore\\wwwroot\\js\\slider.js",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-04-15T07:56:25.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Admin\\Views\\Articulos\\Index.cshtml",
               "RelativeDocumentMoniker": "BlogCore\\Areas\\Admin\\Views\\Articulos\\Index.cshtml",
@@ -475,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "BlogCore\\Views\\Shared\\_Layout.cshtml",
@@ -487,7 +538,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "_ViewStart.cshtml",
               "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Admin\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "BlogCore\\Areas\\Admin\\Views\\_ViewStart.cshtml",
@@ -499,7 +550,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Admin\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "BlogCore\\Areas\\Admin\\Views\\_ViewImports.cshtml",
@@ -511,7 +562,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Admin\\Views\\Sliders\\Index.cshtml",
               "RelativeDocumentMoniker": "BlogCore\\Areas\\Admin\\Views\\Sliders\\Index.cshtml",
@@ -523,7 +574,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "SlidersController.cs",
               "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Admin\\Controllers\\SlidersController.cs",
               "RelativeDocumentMoniker": "BlogCore\\Areas\\Admin\\Controllers\\SlidersController.cs",
@@ -535,7 +586,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "UnitofWork.cs",
               "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore.AccesoDatos\\Data\\Repository\\UnitofWork.cs",
               "RelativeDocumentMoniker": "BlogCore.AccesoDatos\\Data\\Repository\\UnitofWork.cs",
@@ -547,7 +598,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "IUnitofWork.cs",
               "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore.AccesoDatos\\Data\\Repository\\IRepository\\IUnitofWork.cs",
               "RelativeDocumentMoniker": "BlogCore.AccesoDatos\\Data\\Repository\\IRepository\\IUnitofWork.cs",
@@ -559,7 +610,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "SliderRepository.cs",
               "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore.AccesoDatos\\Data\\Repository\\SliderRepository.cs",
               "RelativeDocumentMoniker": "BlogCore.AccesoDatos\\Data\\Repository\\SliderRepository.cs",
@@ -571,7 +622,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "ISliderRepository.cs",
               "DocumentMoniker": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore.AccesoDatos\\Data\\Repository\\IRepository\\ISliderRepository.cs",
               "RelativeDocumentMoniker": "BlogCore.AccesoDatos\\Data\\Repository\\IRepository\\ISliderRepository.cs",

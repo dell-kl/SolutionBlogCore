@@ -278,8 +278,7 @@
               "RelativeToolTip": "BlogCore\\wwwroot\\lib\\font-awesome\\css\\all.min.css",
               "ViewState": "AgIAAIofAAAAAAAAAAAIwJofAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-04-15T22:44:19.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T22:44:19.885Z"
             },
             {
               "$type": "Document",
@@ -291,8 +290,7 @@
               "RelativeToolTip": "BlogCore\\wwwroot\\js\\articulo.js",
               "ViewState": "AgIAADgAAAAAAAAAAAAAwEEAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-04-15T22:29:36.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T22:29:36.466Z"
             },
             {
               "$type": "Document",
@@ -304,8 +302,7 @@
               "RelativeToolTip": "BlogCore\\Areas\\Admin\\Views\\Categorias\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-15T22:10:57.292Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T22:10:57.292Z"
             },
             {
               "$type": "Document",
@@ -317,8 +314,7 @@
               "RelativeToolTip": "BlogCore.Utilidades\\ImagenesUtility.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T21:50:17.755Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T21:50:17.755Z"
             },
             {
               "$type": "Document",
@@ -330,8 +326,7 @@
               "RelativeToolTip": "BlogCore\\Areas\\Admin\\Controllers\\ArticulosController.cs",
               "ViewState": "AgIAAFQAAAAAAAAAAAAowGQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T21:45:45.067Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T21:45:45.067Z"
             },
             {
               "$type": "Document",
@@ -343,8 +338,7 @@
               "RelativeToolTip": "BlogCore\\Views\\Shared\\Formularios\\_FormularioArticulo.cshtml",
               "ViewState": "AgIAAF0AAAAAAAAAAAAAAEoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-15T21:43:05.496Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T21:43:05.496Z"
             },
             {
               "$type": "Document",
@@ -356,8 +350,7 @@
               "RelativeToolTip": "BlogCore\\Areas\\Admin\\Views\\Categorias\\Create.cshtml",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-15T21:38:44.78Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T21:38:44.78Z"
             },
             {
               "$type": "Document",
@@ -369,8 +362,7 @@
               "RelativeToolTip": "BlogCore.Models\\Slider.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAzwBMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T21:29:08.32Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T21:29:08.32Z"
             },
             {
               "$type": "Document",
@@ -382,8 +374,7 @@
               "RelativeToolTip": "BlogCore.Models\\ModelView\\ArticulosViewModel.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T21:17:54.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T21:17:54.488Z"
             },
             {
               "$type": "Document",
@@ -395,8 +386,7 @@
               "RelativeToolTip": "BlogCore.Models\\ModelView\\SliderViewModel.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAuwBMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T21:16:52.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T21:16:52.695Z"
             },
             {
               "$type": "Document",
@@ -408,8 +398,7 @@
               "RelativeToolTip": "BlogCore\\Views\\Shared\\Formularios\\_FormularioCategoria.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAABkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-15T21:16:31.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T21:16:31.353Z"
             },
             {
               "$type": "Document",
@@ -421,8 +410,7 @@
               "RelativeToolTip": "BlogCore\\Views\\Shared\\Formularios\\_FormularioSlider.cshtml",
               "ViewState": "AgIAAEMAAAAAAAAAAAAAABQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-15T21:16:20.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T21:16:20.22Z"
             },
             {
               "$type": "Document",
@@ -434,8 +422,7 @@
               "RelativeToolTip": "BlogCore\\Areas\\Admin\\Views\\Sliders\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-15T21:15:33.568Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T21:15:33.568Z"
             },
             {
               "$type": "Document",
@@ -447,8 +434,7 @@
               "RelativeToolTip": "BlogCore\\Areas\\Admin\\Views\\Sliders\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-15T21:15:21.855Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T21:15:21.855Z"
             },
             {
               "$type": "Document",
@@ -460,8 +446,7 @@
               "RelativeToolTip": "BlogCore\\Areas\\Admin\\Controllers\\CategoriasController.cs",
               "ViewState": "AgIAAE8AAAAAAAAAAAAwwFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T21:04:58.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T21:04:58.297Z"
             },
             {
               "$type": "Document",
@@ -471,7 +456,7 @@
               "RelativeDocumentMoniker": "BlogCore\\wwwroot\\js\\slider.js",
               "ToolTip": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\js\\slider.js",
               "RelativeToolTip": "BlogCore\\wwwroot\\js\\slider.js",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-04-15T07:56:25.872Z",
               "EditorCaption": ""
@@ -486,8 +471,7 @@
               "RelativeToolTip": "BlogCore\\Areas\\Admin\\Views\\Articulos\\Index.cshtml",
               "ViewState": "AgIAABsAAAAAAAAAAAAAACIAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-15T07:51:55.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T07:51:55.196Z"
             },
             {
               "$type": "Document",
@@ -499,8 +483,7 @@
               "RelativeToolTip": "BlogCore\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-15T07:47:27.865Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T07:47:27.865Z"
             },
             {
               "$type": "Document",
@@ -536,8 +519,7 @@
               "RelativeToolTip": "BlogCore\\Areas\\Admin\\Views\\Sliders\\Index.cshtml",
               "ViewState": "AgIAAAwAAAAAAAAAAAAIwAwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-15T07:45:35.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T07:45:35.89Z"
             },
             {
               "$type": "Document",
@@ -549,8 +531,7 @@
               "RelativeToolTip": "BlogCore\\Areas\\Admin\\Controllers\\SlidersController.cs",
               "ViewState": "AgIAAGcAAAAAAAAAAADwv3AAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-15T07:45:01.312Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-15T07:45:01.312Z"
             },
             {
               "$type": "Document",

@@ -17,3 +17,4 @@ D:\workgroup-kl\c#\ProyectosMVC\SolutionBlogCore\BlogCore.AccesoDatos\obj\Debug\
 D:\workgroup-kl\c#\ProyectosMVC\SolutionBlogCore\BlogCore.AccesoDatos\obj\Debug\net8.0\BlogCore.AccesoDatos.pdb
 D:\workgroup-kl\c#\ProyectosMVC\SolutionBlogCore\BlogCore.AccesoDatos\obj\Debug\net8.0\BlogCore.AccesoDatos.genruntimeconfig.cache
 D:\workgroup-kl\c#\ProyectosMVC\SolutionBlogCore\BlogCore.AccesoDatos\obj\Debug\net8.0\ref\BlogCore.AccesoDatos.dll
+D:\workgroup-kl\c#\ProyectosMVC\SolutionBlogCore\BlogCore.AccesoDatos\obj\Debug\net8.0\BlogCore.AccesoDatos.sourcelink.json

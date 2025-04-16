@@ -8,17 +8,23 @@ function cargarTabla() {
             {
                 "data": "slider_estado",
                 "render": function (data) {
-                    return `<div>
-                        <input
-                            style="width:20px;height:20px;background-color:green;"
-                            type="checkbox"
-                            onclick="Actualizando('/Admin/Sliders/StateChange/${data}',checked)"
-                            checked="${data}" /> 
 
-                            <i class="fa-solid fa-circle-check" style="color: #63E6BE;"></i>
-                    </div>`;
+                    if (!data) {
+                        resultado = `<div>
+                            <i
+                                class="fa-solid
+                                fa-eye-slash fa-x2"
+                                style="color: #e70d2e;font-size:25px;"></i>
+                        </div>`;
+                    } else {
+                        resultado = `<div>
+                           <i class="fa-solid fa-eye fa-x2" style="color: #1dd110;font-size:25px"></i>
+                        </div>`;
+                    }
+
+                    return resultado;
                 },
-                "width": "20%"
+                "width": "2%"
             },
             {
                 "data": "slider_rutaImagen",

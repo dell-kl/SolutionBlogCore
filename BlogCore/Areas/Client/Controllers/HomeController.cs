@@ -1,22 +1,25 @@
 using System.Diagnostics;
+using BlogCore.AccesoDatos.Data.Repository.IRepository;
 using BlogCore.Models;
+using BlogCore.Models.ModelView;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BlogCore.Areas.Client.Controllers
 {
-
     [Area("Client")]
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly IUnitofWork _unitOfWork;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IUnitofWork unitOfWork)
         {
-            _logger = logger;
+            _unitOfWork = unitOfWork;
         }
 
         public IActionResult Index()
         {
+            HomeViewModel home = new HomeViewModel();
+
             return View();
         }
 

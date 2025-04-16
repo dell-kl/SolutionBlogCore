@@ -138,8 +138,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>leah86r5km</Fingerprint>
-      <Integrity>E+EMdS2VTtnJFMK9N6K3dPwibxcQyq2qcIsjDa7gNJ4=</Integrity>
+      <Fingerprint>m0qtxqsent</Fingerprint>
+      <Integrity>Ci5wG6DlTTqX03kLnPN7yunfyBdHGGH6h/IQtrjJ7Rk=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\slider.js'))</OriginalItemSpec>
