@@ -1,0 +1,34 @@
+﻿@model BlogCore.Models.Articulo;
+
+@{
+    ViewData["Title"] = "Detalles del Slider";
+}
+
+<div class="container">
+    <h1 class="text-center pt-4">Detalle del Articulo</h1>
+
+    <div class="row pt-4">
+        <div class="col">
+            <img 
+                style="width: 100%"
+                src="@Model.articulo_rutaImagen" alt="@Model.articulo_descripcion"/>
+        </div>
+        <div class="col">
+            <div class="text-center">
+                <h4 >Fecha Creacion del Articulo</h4>
+                <p class="text-opacity-25">@Model.articulo_fechaCreacion</p>
+            </div>
+            <div class="text-center">
+                <h4>Descripcion del Articulo</h4>
+                @Html.Raw(Model.articulo_descripcion)
+            </div>
+            <div class="text-center mt-2">
+                <a
+                    asp-action="Index"
+                    asp-controller="Home"
+                    asp-area="Client"
+                    class="btn btn-warning">Volver a Inicio</a>
+            </div>
+        </div>
+    </div>
+</div>

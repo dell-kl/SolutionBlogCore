@@ -18,7 +18,6 @@
 </head>
 <body>
     <header>
-
         <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
             <div class="container">
                 <a class="navbar-brand" asp-area="Client" asp-controller="Home" asp-action="Index">BlogCore</a>
@@ -37,20 +36,20 @@
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categorias Administrar</a>
                             <div class="dropdown-menu">
                                 <a 
-                                    class="dropdown-item" 
-                                    asp-action="Index"
-                                    asp-controller="Categorias"
-                                    asp-area="Admin">Categorias</a>
+                                class="dropdown-item" 
+                                asp-action="Index"
+                                asp-controller="Categorias"
+                                asp-area="Admin">Categorias</a>
                                 <a 
-                                    class="dropdown-item"
-                                    asp-action="Index"
-                                    asp-controller="Articulos"
-                                    asp-area="Admin">Articulos</a>
+                                class="dropdown-item"
+                                asp-action="Index"
+                                asp-controller="Articulos"
+                                asp-area="Admin">Articulos</a>
                                 <a 
-                                    class="dropdown-item"
-                                    asp-action="Index"
-                                    asp-controller="Sliders"
-                                    asp-area="Admin">Sliders</a>
+                                class="dropdown-item"
+                                asp-action="Index"
+                                asp-controller="Sliders"
+                                asp-area="Admin">Sliders</a>
                                 <a class="dropdown-item" href="#">Usuarios</a>
                             </div>
                         </li>
@@ -59,12 +58,18 @@
                         <input class="form-control me-sm-2" type="search" placeholder="Buscar por palabra clave">
                         <button class="btn btn-secondary my-2 my-sm-0" type="submit">Buscar</button>
                     </form>
-                    
+
                     <partial name="_LoginPartial"/>
-                    
+
                 </div>
             </div>
         </nav>
+
+        @if ( ViewBag.Inicio != null )
+        {
+            @await Html.PartialAsync("~/Views/Shared/VistasReutilizables/_CarruselSlider.cshtml")
+        }
+
     </header>
 
     <div class="container">

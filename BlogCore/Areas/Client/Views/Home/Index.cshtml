@@ -1,10 +1,41 @@
 ﻿@model BlogCore.Models.ModelView.HomeViewModel;
 
 @{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Inicio";
 }
 
-<div class="text-center mt-4">
-    <h1 class="display-4">Clientes</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="row mt-1">
+    <div class="col-sm-12">
+        <h1 class="text-center text-black bg-secondary py-1">Productos y Articulos Geniales</h1>
+    </div>
 </div>
+
+
+@if ( Model.articulos.Count() > 0 )
+{
+    <hr/>
+    <div class="row">
+        @foreach(Articulo articulo in Model.articulos)
+        {
+            <div class="col-4">
+                <div class="card">
+                    <img src="@articulo.articulo_rutaImagen" class="card-img-top" alt="@articulo.articulo_descripcion"/>
+                    <div class="card-body">
+                        <h5 class="card-title">@articulo.articulo_nombre</h5>
+                        @* @Html.Raw(@articulo.articulo_descripcion) *@
+                        <a 
+                            asp-action="Details"
+                            asp-controller="Home"
+                            asp-area="Client"
+                            asp-route-id="@articulo.articulo_id"
+                            class="btn btn-primary">Ver mas</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>No existe articulos</p>
+}

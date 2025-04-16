@@ -74,8 +74,13 @@ wwwroot\lib\tinymce\tinymce.min.js
 wwwroot\lib\tinymce\tinymce.min2.js
 wwwroot\lib\toastr.js\toastr.min.css
 wwwroot\lib\toastr.js\toastr.min.js
+wwwroot\pictures\articulo\6d72e37b-244c-4a21-88ee-1d803ca1b179.jpg
+wwwroot\pictures\articulo\945b3eaf-86bd-4a62-9752-17b512282ac8.jpg
+wwwroot\pictures\articulo\acff9845-aae8-4dae-800a-e74c3766718c.jpg
 wwwroot\pictures\slider\167c9cb1-a894-423b-bb9d-73ff60ab5b5a.jpg
 wwwroot\pictures\slider\739e6241-81d4-416f-b923-d35a77706249.jpg
+wwwroot\pictures\slider\7a969a8d-5194-4d46-8383-7f8d279de886.jpg
 wwwroot\pictures\slider\850c072f-b2bb-4b41-8e3e-22e66ae9fda8.png
 wwwroot\pictures\slider\85617162-f991-43ca-bfbc-5f35560fd6f5.jpg
 wwwroot\pictures\slider\d4d51a37-b8cb-4ae4-9905-4c078f36d2c0.jpg
+wwwroot\pictures\slider\f5d2f42f-575d-459c-a8a4-c857fe0dde5f.png

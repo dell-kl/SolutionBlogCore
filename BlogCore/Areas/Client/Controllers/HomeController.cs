@@ -18,9 +18,23 @@ namespace BlogCore.Areas.Client.Controllers
 
         public IActionResult Index()
         {
-            HomeViewModel home = new HomeViewModel();
+            HomeViewModel home = new HomeViewModel()
+            {
+                sliders = _unitOfWork.Slider.GetAll(n => n.slider_estado.Equals(true)),
+                articulos = _unitOfWork.Articulo.GetAll()
+            };
 
-            return View();
+            ViewBag.Inicio = true;
+
+            return View(home);
+        }
+
+        [HttpGet]
+        public IActionResult Details(int id)
+        {
+            Articulo articulo = _unitOfWork.Articulo.GetFirstOrDefault(n => n.articulo_id.Equals(id));
+
+            return View(articulo);
         }
 
         public IActionResult Privacy()

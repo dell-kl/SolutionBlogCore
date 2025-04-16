@@ -1,0 +1,29 @@
+﻿@model BlogCore.Models.ModelView.HomeViewModel
+
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+        @if ( Model.sliders.Count() > 0 )
+        {
+            bool isFirst = true;
+            @foreach(Slider slider in Model.sliders)
+            {
+                <div class="carousel-item @(isFirst ? "active" : "")">
+                    <img src="@slider.slider_rutaImagen" height="650" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="text-white">@slider.slider_nombre</h5>                   
+                    </div>
+                </div>
+                isFirst = false;
+            }
+        }
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+    </button>
+</div>

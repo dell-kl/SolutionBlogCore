@@ -309,12 +309,28 @@
       "PackagePath": "staticwebassets\\lib\\toastr.js\\toastr.min.js"
     },
     {
+      "Id": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\articulo\\6d72e37b-244c-4a21-88ee-1d803ca1b179.jpg",
+      "PackagePath": "staticwebassets\\pictures\\articulo\\6d72e37b-244c-4a21-88ee-1d803ca1b179.jpg"
+    },
+    {
+      "Id": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\articulo\\945b3eaf-86bd-4a62-9752-17b512282ac8.jpg",
+      "PackagePath": "staticwebassets\\pictures\\articulo\\945b3eaf-86bd-4a62-9752-17b512282ac8.jpg"
+    },
+    {
+      "Id": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\articulo\\acff9845-aae8-4dae-800a-e74c3766718c.jpg",
+      "PackagePath": "staticwebassets\\pictures\\articulo\\acff9845-aae8-4dae-800a-e74c3766718c.jpg"
+    },
+    {
       "Id": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\slider\\167c9cb1-a894-423b-bb9d-73ff60ab5b5a.jpg",
       "PackagePath": "staticwebassets\\pictures\\slider\\167c9cb1-a894-423b-bb9d-73ff60ab5b5a.jpg"
     },
     {
       "Id": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\slider\\739e6241-81d4-416f-b923-d35a77706249.jpg",
       "PackagePath": "staticwebassets\\pictures\\slider\\739e6241-81d4-416f-b923-d35a77706249.jpg"
+    },
+    {
+      "Id": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\slider\\7a969a8d-5194-4d46-8383-7f8d279de886.jpg",
+      "PackagePath": "staticwebassets\\pictures\\slider\\7a969a8d-5194-4d46-8383-7f8d279de886.jpg"
     },
     {
       "Id": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\slider\\850c072f-b2bb-4b41-8e3e-22e66ae9fda8.png",
@@ -327,6 +343,10 @@
     {
       "Id": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\slider\\d4d51a37-b8cb-4ae4-9905-4c078f36d2c0.jpg",
       "PackagePath": "staticwebassets\\pictures\\slider\\d4d51a37-b8cb-4ae4-9905-4c078f36d2c0.jpg"
+    },
+    {
+      "Id": "D:\\workgroup-kl\\c#\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\slider\\f5d2f42f-575d-459c-a8a4-c857fe0dde5f.png",
+      "PackagePath": "staticwebassets\\pictures\\slider\\f5d2f42f-575d-459c-a8a4-c857fe0dde5f.png"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlogCore.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
