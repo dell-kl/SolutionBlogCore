@@ -1,0 +1,19 @@
+﻿@model BlogCore.Models.Slider;
+
+@{
+    ViewData["Title"] = "Editar Slider";
+}
+
+<h1 class="text-center">Editar Datos Slider</h1>
+
+@await Html.PartialAsync("~/Views/Shared/Formularios/_FormularioSlider.cshtml",
+    new BlogCore.Models.ModelView.SliderViewModel
+{
+    metodo = "PUT",
+    slider = Model,
+    texto = "Editar Slider Existente"
+})
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

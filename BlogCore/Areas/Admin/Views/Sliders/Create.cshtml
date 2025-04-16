@@ -1,0 +1,17 @@
+﻿@model BlogCore.Models.Slider;
+
+@{ ViewData["Title"] = "Crear Slider"; }
+
+<h1 class="text-center">Crea el Slider</h1>
+
+@await Html.PartialAsync("~/Views/Shared/Formularios/_FormularioSlider.cshtml",
+new BlogCore.Models.ModelView.SliderViewModel
+{
+    metodo = "POST",
+    slider = Model,
+    texto = "Registro Nuevo Slider"
+})
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

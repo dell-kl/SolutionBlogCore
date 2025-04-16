@@ -1,0 +1,21 @@
+﻿@model BlogCore.Models.Articulo;
+
+@{
+    ViewData["Title"] = "Crear Articulo";
+}
+
+<h1 class="text-center mt-2">Crear nuevo Articulo</h1>
+
+@await Html.PartialAsync("~/Views/Shared/Formularios/_FormularioArticulo.cshtml",
+new BlogCore.Models.ModelView.ArticulosViewModel
+{
+    articulo = Model,
+    metodo = "POST",
+    texto = "Crear Articulo",
+    listadoCategoria =  (List<SelectListItem>) TempData["categorias"]!,
+})
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+    <script src="~/js/panelTinyMCE.js"></script>
+}

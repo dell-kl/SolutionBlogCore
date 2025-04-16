@@ -1,0 +1,12 @@
+D:\workgroup-kl\c#\ProyectosMVC\SolutionBlogCore\BlogCore.Models\bin\Debug\net8.0\BlogCore.Models.deps.json
+D:\workgroup-kl\c#\ProyectosMVC\SolutionBlogCore\BlogCore.Models\bin\Debug\net8.0\BlogCore.Models.dll
+D:\workgroup-kl\c#\ProyectosMVC\SolutionBlogCore\BlogCore.Models\bin\Debug\net8.0\BlogCore.Models.pdb
+D:\workgroup-kl\c#\ProyectosMVC\SolutionBlogCore\BlogCore.Models\obj\Debug\net8.0\BlogCore.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\workgroup-kl\c#\ProyectosMVC\SolutionBlogCore\BlogCore.Models\obj\Debug\net8.0\BlogCore.Models.AssemblyInfoInputs.cache
+D:\workgroup-kl\c#\ProyectosMVC\SolutionBlogCore\BlogCore.Models\obj\Debug\net8.0\BlogCore.Models.AssemblyInfo.cs
+D:\workgroup-kl\c#\ProyectosMVC\SolutionBlogCore\BlogCore.Models\obj\Debug\net8.0\BlogCore.Models.csproj.CoreCompileInputs.cache
+D:\workgroup-kl\c#\ProyectosMVC\SolutionBlogCore\BlogCore.Models\obj\Debug\net8.0\BlogCore.Models.dll
+D:\workgroup-kl\c#\ProyectosMVC\SolutionBlogCore\BlogCore.Models\obj\Debug\net8.0\refint\BlogCore.Models.dll
+D:\workgroup-kl\c#\ProyectosMVC\SolutionBlogCore\BlogCore.Models\obj\Debug\net8.0\BlogCore.Models.pdb
+D:\workgroup-kl\c#\ProyectosMVC\SolutionBlogCore\BlogCore.Models\obj\Debug\net8.0\ref\BlogCore.Models.dll
+D:\workgroup-kl\c#\ProyectosMVC\SolutionBlogCore\BlogCore.Models\obj\Debug\net8.0\BlogCore.Models.csproj.AssemblyReference.cache

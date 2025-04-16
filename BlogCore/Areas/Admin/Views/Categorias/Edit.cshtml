@@ -1,0 +1,20 @@
+﻿@model BlogCore.Models.Categoria
+
+@{
+    ViewBag.Title = "Editar Categoria";
+}
+
+<h1 class="text-center">Editar Categoria Existente</h1>
+
+@await Html.PartialAsync(
+"~/Views/Shared/Formularios/_FormularioCategoria.cshtml",
+new BlogCore.Models.ModelView.CategoriasViewModel
+{
+    categoria = Model,
+    metodo = "PUT",
+    texto = "Editar Nuevo Categoria"
+})
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

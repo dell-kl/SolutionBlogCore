@@ -1,0 +1,48 @@
+﻿@model BlogCore.Models.ModelView.CategoriasViewModel;
+@{
+    string accion = Model.metodo.Equals("POST") ? "Create" : "Edit";
+}
+<form method="post"
+asp-action="@accion"
+asp-controller="Categorias"
+asp-area="Admin">
+
+    @if(accion.Equals("Edit"))
+    {
+        <input type="hidden" asp-for="@Model.categoria.categoria_id"/>
+    }
+
+    <div class="row px-2 offset-1 border">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="col-10 offset-1 mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="@Model.categoria.categoria_nombre"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="@Model.categoria.categoria_nombre" class="form-control" placeholder="Ingresa el nombre" />
+                    <span asp-validation-for="@Model.categoria.categoria_nombre" class="text-danger"></span>
+                </div>
+            </div>
+            <br />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="@Model.categoria.categoria_orden"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="@Model.categoria.categoria_orden" class="form-control" placeholder="Ingresa el orden" />
+                    <span asp-validation-for="@Model.categoria.categoria_orden" class="text-danger"></span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="offset-1 mb-4 mt-4">
+            @await Html.PartialAsync("_OpcionesCrearyVolver", Model)
+        </div>
+
+    </div>
+</form>
+
+

@@ -1,0 +1,22 @@
+﻿@model BlogCore.Models.Categoria;
+
+@{
+    ViewData["Title"] = "Crear Categoria";
+}
+
+<br/>
+<br/>
+<h3 class="text-center">Crear una nueva categoria</h3>
+
+@await Html.PartialAsync(
+    "~/Views/Shared/Formularios/_FormularioCategoria.cshtml",
+    new BlogCore.Models.ModelView.CategoriasViewModel
+{
+    categoria = Model,
+    metodo = "POST",
+    texto = "Registro Nuevo Categoria"
+})
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

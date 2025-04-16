@@ -1,0 +1,13 @@
+﻿@model BlogCore.Models.ModelView.CategoriasViewModel;
+
+<div>
+    <button type="submit" class="btn btn-warning">@Model.texto</button>
+    
+    &nbsp;
+    <a 
+        class="btn btn-dark"
+        asp-action="Index" 
+        asp-controller="Categorias" 
+        asp-area="Admin"
+    >Volver Lista Categorias</a>
+</div>

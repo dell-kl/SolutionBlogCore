@@ -1,0 +1,117 @@
+﻿@model BlogCore.Models.ModelView.ArticulosViewModel;
+
+@{
+    string accion = Model.metodo.Equals("POST") ? "Create" : "Edit";
+}
+
+<form 
+asp-action="@accion"
+asp-controller="Articulos"
+asp-area="Admin"
+enctype="multipart/form-data"
+method="post">
+
+    @if (accion.Equals("Edit"))
+    {
+        <input type="hidden" asp-for="@Model.articulo.articulo_id" />
+    }
+
+    <div class="row offset-1 px-2 border">
+
+        <div asp-validation-summary="All" class="text-danger"></div>
+
+        <div class="col @(accion.Equals("Edit") ? "" : "offset-1") mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="@Model.articulo.articulo_nombre"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="@Model.articulo.articulo_nombre" class="form-control" placeholder="Ingresa un nombre"/>
+                    <span asp-validation-for="@Model.articulo.articulo_nombre" class="text-danger"></span>
+                </div>
+            </div>
+            &nbsp;
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="@Model.articulo.articulo_descripcion"></label>
+                </div>
+                <div class="col-8">
+                    <textarea 
+                        id="textAreaDescripcion"
+                        asp-for="@Model.articulo.articulo_descripcion">
+                    </textarea>
+                    <span 
+                        asp-validation-for="@Model.articulo.articulo_descripcion" 
+                        class="text-danger">
+                    </span>
+                </div>
+            </div>
+            &nbsp;
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="@Model.articulo.articulo_fechaCreacion"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="@Model.articulo.articulo_fechaCreacion" class="form-control"  />
+                    <span asp-validation-for="@Model.articulo.articulo_fechaCreacion" class="text-danger"></span>
+                </div>
+            </div>
+            &nbsp;
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="@Model.fileName"></label>
+                </div>
+                <div class="col-8">
+                    <input 
+                    type="file"
+                    class="form-control"
+                    name="fileName"
+                    />
+
+                    @if (accion.Equals("Edit") )
+                    {
+                        <input type="hidden" asp-for="@Model.articulo.articulo_rutaImagen" />
+                    }
+
+                    <span asp-validation-for="@Model.fileName" class="text-danger"></span>
+                </div>
+            </div>
+            &nbsp;
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="@Model.articulo.Categoriacategoria_id"></label>
+                </div>
+                <div class="col-8">
+                    @Html.DropDownListFor(
+                        m => m.articulo.Categoriacategoria_id, 
+                        Model.listadoCategoria,
+                    "-- selecciona una categoria --", new { @class = "form-control"})
+                    <span asp-validation-for="@Model.articulo.Categoriacategoria_id" class="text-danger"></span>
+                </div>
+                &nbsp;
+            </div>
+
+            <div class="form-group row-4 mb-4">
+                <button type="submit" class="btn btn-warning">@Model.texto</button>
+
+                &nbsp;
+                <a class="btn btn-dark"
+                   asp-action="Index"
+                   asp-controller="Articulos"
+                   asp-area="Admin">Volver Lista Articulos</a>
+            </div>
+        </div>
+
+        @if ( accion.Equals("Edit") )
+        {
+            <div class="col-4 @(accion.Equals("Edit") ? "" : "offset-1") mt-4">
+                 <h2 class="text-center">Imagen</h2> 
+                 <img
+                     src="@Model.articulo.articulo_rutaImagen"
+                     class="w-100"/>
+             </div> 
+        }
+    </div>
+
+</form>

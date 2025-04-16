@@ -1,0 +1,89 @@
+﻿@model BlogCore.Models.ModelView.SliderViewModel;
+
+@{
+    string accion = Model.metodo.Equals("POST") ? "Create" : "Edit";
+}
+
+<form method="post"
+asp-action="@accion"
+asp-controller="Sliders"
+asp-area="Admin"
+enctype="multipart/form-data">
+
+    @if (accion.Equals("Edit"))
+    {
+        <input type="hidden" asp-for="@Model.slider.slider_id" />
+    }
+
+    <div class="row px-2 offset-1 border">
+        <div asp-validation-summary="All" class="text-danger"></div>
+
+        <div class="col @(accion.Equals("Edit") ? "" : "offset-1") mt-4">
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="@Model.slider.slider_nombre"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="@Model.slider.slider_nombre" class="form-control" placeholder="Ingresa un nombre al slider" />
+                    <span asp-validation-for="@Model.slider.slider_nombre" class="text-danger"></span>
+                </div>
+            </div>
+            <br />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="@Model.slider.slider_estado"></label>
+                </div>
+                <div class="col-8">
+                    Activo
+                    @Html.RadioButtonFor(Model => Model.slider.slider_estado, true  )
+                    <span class="px-4"></span>
+                    Desactivo
+                    @Html.RadioButtonFor(Model => Model.slider.slider_estado, false )
+                    <br/>
+                    <span asp-validation-for="@Model.slider.slider_estado" class="text-danger"></span>
+                </div>
+            </div>
+            <br />
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="@Model.fileName"></label>
+                </div>
+                <div class="col-8">
+                    <input
+                        type="file"
+                        name="fileName"
+                        class="form-control"/>
+
+                    @if (accion.Equals("Edit"))
+                    {
+                        <input type="hidden" asp-for="@Model.slider.slider_rutaImagen" />
+                    }
+
+                    <span asp-validation-for="@Model.fileName" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="form-group row-4 mb-4 mt-4">
+                <button type="submit" class="btn btn-warning">@Model.texto</button>
+
+                &nbsp;
+                <a class="btn btn-dark"
+                   asp-action="Index"
+                   asp-controller="Sliders"
+                   asp-area="Admin">Volver Lista Sliders</a>
+            </div>
+        </div>
+
+
+        @if (accion.Equals("Edit"))
+        {
+            <div class="col-4 @(accion.Equals("Edit") ? "" : "offset-1") mt-4">
+                <h2 class="text-center">Imagen</h2>
+                <img src="@Model.slider.slider_rutaImagen"
+                     class="w-100" />
+            </div>
+        }
+    </div>
+</form>
+
+

@@ -1,0 +1,22 @@
+﻿@model BlogCore.Models.Articulo;
+
+@{
+    ViewData["Title"] = "Editar Articulo";
+}
+
+<h1 class="text-center mt-2">Editar Articulo existente</h1>
+
+@await Html.PartialAsync("~/Views/Shared/Formularios/_FormularioArticulo.cshtml", 
+new BlogCore.Models.ModelView.ArticulosViewModel
+{
+articulo = Model,
+metodo = "PUT",
+texto = "Editar Articulo",
+listadoCategoria =  (List<SelectListItem>) TempData["categorias"]!
+}
+)
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+    <script src="~/js/panelTinyMCE.js"></script>
+}
