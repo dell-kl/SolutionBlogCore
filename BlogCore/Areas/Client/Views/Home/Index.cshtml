@@ -6,7 +6,7 @@
 
 <div class="row mt-1">
     <div class="col-sm-12">
-        <h1 class="text-center text-black bg-secondary py-1">Productos y Articulos Geniales</h1>
+        <h1 class="text-center text-black bg-secondary py-1">Articulos Geniales</h1>
     </div>
 </div>
 
@@ -33,6 +33,31 @@
                 </div>
             </div>
         }
+    </div>
+
+
+    <div class="mt-4">
+        <a asp-area="Client"
+           asp-controller="Home"
+           asp-action="Index"
+           asp-route-tipo="atras"
+           asp-route-rango="@ViewBag.Rango"
+           asp-route-indice="@ViewBag.Indice"
+           asp-route-busqueda="@ViewBag.Busqueda"
+           class="btn btn-warning">
+            <i class="fa-solid fa-arrow-left"></i> Retroceder
+        </a>
+        <a 
+            asp-area="Client"
+            asp-controller="Home"
+            asp-action="Index"
+            asp-route-tipo="siguiente"
+            asp-route-rango = "@ViewBag.Rango"
+            asp-route-indice ="@ViewBag.Indice"
+           asp-route-busqueda="@ViewBag.Busqueda"
+            class="btn btn-warning">Siguiente
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
     </div>
 }
 else

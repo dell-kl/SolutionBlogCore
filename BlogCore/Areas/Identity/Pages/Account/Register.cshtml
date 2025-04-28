@@ -1,0 +1,73 @@
+﻿@page
+@model RegisterModel
+
+@using BlogCore.Utilidades
+@{
+    ViewData["Title"] = "Registrar Cuenta";
+}
+
+<h1 class="mt-4 text-center">@ViewData["Title"]</h1>
+
+<div class="row">
+    <div class="col-md-4 mt-2 mx-auto w-50">
+        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <h2 class="text-center">Crear perfil</h2>
+            <hr />
+            <div asp-validation-summary="All" class="text-danger" role="alert"></div>
+
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Nombre" class="form-control" aria-required="true" placeholder="Introduce un nombre y apellido"/>
+                <label asp-for="Input.Nombre"></label>
+                <span asp-validation-for="Input.Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.UserName" class="form-control" aria-required="true" placeholder="Introduce un nombre de usuario para tu cuenta"/>
+                <label asp-for="Input.UserName"></label>
+                <span asp-validation-for="Input.UserName" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
+                <label asp-for="Input.Email"></label>
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                <label asp-for="Input.Password"></label>
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
+                <label asp-for="Input.ConfirmPassword"></label>
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+            </div>
+            <div class="form-floating mb-3">
+                <input asp-for="Input.Cedula" class="form-control" aria-required="true" placeholder="Introduce tu cedula"/>
+                <label asp-for="Input.Cedula"></label>
+                <span asp-validation-for="Input.Cedula" class="text-danger"></span>
+            </div>
+            @if ( User.IsInRole(DefinicionRole.admin) )
+            {                
+                <div class="form-floating mb-3">
+                    @Html.DropDownListFor(  
+                            m => m.Input.IDRol,
+                            new List<SelectListItem>() {
+                            new SelectListItem { Value = "1", Text = "Administrador" },
+                            new SelectListItem { Value = "2", Text = "Registrado" },
+                            new SelectListItem { Value = "3", Text = "Cliente"}
+                        },
+                            "-- Selecciona un rol --",
+                                new { @class = "form-select"}
+                        )
+                    <label asp-for="Input.IDRol"></label>
+                    <span asp-validation-for="Input.IDRol" class="text-danger"></span>
+                </div>
+            }
+            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Registrarte</button>
+        </form>
+    </div>
+    
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

@@ -2,11 +2,13 @@
 using BlogCore.Models;
 using BlogCore.Models.ModelView;
 using BlogCore.Utilidades;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 
 namespace BlogCore.Areas.Admin.Controllers
 {
+    [Authorize(Roles = "Administrador")]
     [Area("Admin")]
     public class SlidersController : Controller
     {

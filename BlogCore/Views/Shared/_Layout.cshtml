@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@using BlogCore.Utilidades;
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -32,30 +34,39 @@
                                 <span class="visually-hidden">(current)</span>
                             </a>
                         </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categorias Administrar</a>
-                            <div class="dropdown-menu">
-                                <a 
-                                class="dropdown-item" 
-                                asp-action="Index"
-                                asp-controller="Categorias"
-                                asp-area="Admin">Categorias</a>
-                                <a 
-                                class="dropdown-item"
-                                asp-action="Index"
-                                asp-controller="Articulos"
-                                asp-area="Admin">Articulos</a>
-                                <a 
-                                class="dropdown-item"
-                                asp-action="Index"
-                                asp-controller="Sliders"
-                                asp-area="Admin">Sliders</a>
-                                <a class="dropdown-item" href="#">Usuarios</a>
-                            </div>
-                        </li>
+                        @if (User.IsInRole(DefinicionRole.admin))
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categorias Administrar</a>
+                                <div class="dropdown-menu">
+                                    <a 
+                                    class="dropdown-item" 
+                                    asp-action="Index"
+                                    asp-controller="Categorias"
+                                    asp-area="Admin">Categorias</a>
+                                    <a 
+                                    class="dropdown-item"
+                                    asp-action="Index"
+                                    asp-controller="Articulos"
+                                    asp-area="Admin">Articulos</a>
+                                    <a 
+                                    class="dropdown-item"
+                                    asp-action="Index"
+                                    asp-controller="Sliders"
+                                    asp-area="Admin">Sliders</a>
+                                    <a class="dropdown-item"
+                                    asp-action="Index"
+                                    asp-controller="Usuario"
+                                    asp-area="Admin">Usuarios</a>
+                                </div>
+                            </li>
+                        }
                     </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-sm-2" type="search" placeholder="Buscar por palabra clave">
+                    <form asp-area="Client" asp-action="Index" asp-controller="Home" class="d-flex">
+                        <input class="form-control me-sm-2"
+                        type="search" 
+                        name="busqueda"
+                        placeholder="Buscar por palabra clave">
                         <button class="btn btn-secondary my-2 my-sm-0" type="submit">Buscar</button>
                     </form>
 
@@ -78,9 +89,22 @@
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - BlogCore - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+    <div style="height:10rem;"></div>
+    <footer class="border-top text-muted footer mt-4" id="footer">
+        <div class="container mt-4">
+            <div class="row">
+                <div class="col-10">
+                    <h1 class="fw-bold text-white">BlogCore</h1>
+                    <p class="text-white">Bienvenido a nuestra pagina de productos</p>
+                </div>
+                <div class="col-2">
+                    <div class="row">
+                        <div class="col-3 fs-1 text-white"><a><i class="fa-brands fa-facebook"></i></a></div>
+                        <div class="col-3 fs-1 text-white"><a><i class="fa-brands fa-tiktok"></i></a></div>
+                        <div class="col-3 fs-1 text-white"><a><i class="fa-brands fa-square-instagram"></i></a></div>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 

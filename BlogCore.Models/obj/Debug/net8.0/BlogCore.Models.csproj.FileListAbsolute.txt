@@ -11,3 +11,16 @@ D:\workgroup-kl\c#\ProyectosMVC\SolutionBlogCore\BlogCore.Models\obj\Debug\net8.
 D:\workgroup-kl\c#\ProyectosMVC\SolutionBlogCore\BlogCore.Models\obj\Debug\net8.0\ref\BlogCore.Models.dll
 D:\workgroup-kl\c#\ProyectosMVC\SolutionBlogCore\BlogCore.Models\obj\Debug\net8.0\BlogCore.Models.csproj.AssemblyReference.cache
 D:\workgroup-kl\c#\ProyectosMVC\SolutionBlogCore\BlogCore.Models\obj\Debug\net8.0\BlogCore.Models.sourcelink.json
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore.Models\bin\Debug\net8.0\BlogCore.Models.deps.json
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore.Models\bin\Debug\net8.0\BlogCore.Models.dll
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore.Models\bin\Debug\net8.0\BlogCore.Models.pdb
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore.Models\obj\Debug\net8.0\BlogCore.Models.csproj.AssemblyReference.cache
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore.Models\obj\Debug\net8.0\BlogCore.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore.Models\obj\Debug\net8.0\BlogCore.Models.AssemblyInfoInputs.cache
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore.Models\obj\Debug\net8.0\BlogCore.Models.AssemblyInfo.cs
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore.Models\obj\Debug\net8.0\BlogCore.Models.csproj.CoreCompileInputs.cache
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore.Models\obj\Debug\net8.0\BlogCore.Models.sourcelink.json
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore.Models\obj\Debug\net8.0\BlogCore.Models.dll
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore.Models\obj\Debug\net8.0\refint\BlogCore.Models.dll
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore.Models\obj\Debug\net8.0\BlogCore.Models.pdb
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore.Models\obj\Debug\net8.0\ref\BlogCore.Models.dll

@@ -12,12 +12,15 @@ namespace BlogCore.AccesoDatos.Data.Repository
 
         public ISliderRepository Slider { get; private set; }
 
+        public IUsuarioRepository Usuario { get; private set; }
+
         public UnitofWork(ApplicationDbContext db)
         {
             this._db = db;
             Categoria = new CategoriaRepository(_db);
             Articulo = new ArticuloRepository(_db);
             Slider = new SliderRepository(_db);
+            Usuario = new UsuarioRepository(_db);
         }
 
         public void Dispose()

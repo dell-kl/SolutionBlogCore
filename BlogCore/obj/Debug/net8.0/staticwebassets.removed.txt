@@ -1,0 +1,7 @@
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\wwwroot\pictures\articulo\0060cec6-603c-4006-9ffa-484a9975a7cb.jpg
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\wwwroot\pictures\articulo\6348acdf-baa6-42df-bebe-80b67f9b6f7c.jpg
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\wwwroot\pictures\articulo\8cf16426-321e-48f5-8df3-7b6a17ae7cfc.jpg
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\wwwroot\pictures\articulo\dbf31dae-8a9b-417b-8f46-7bee4f506b2a.jpg
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\wwwroot\pictures\articulo\dd05192b-445b-4e9f-9e8d-7232ebd0173d.jpg
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\wwwroot\pictures\articulo\e5ed5b0d-3e2d-4645-bad3-c52787f05c54.jpg
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\wwwroot\pictures\articulo\f3eefb3c-f7d1-45a5-9cab-28005471b5da.jpg

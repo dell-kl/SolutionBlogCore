@@ -3,6 +3,7 @@ using BlogCore.AccesoDatos.Data.Repository.IRepository;
 using BlogCore.Models;
 using BlogCore.Models.ModelView;
 using BlogCore.Utilidades;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
@@ -14,6 +15,7 @@ using System.Net;
 
 namespace BlogCore.Areas.Admin.Controllers
 {
+    [Authorize(Roles = "Administrador")]
     [Area("Admin")]
     public class ArticulosController : Controller
     {
