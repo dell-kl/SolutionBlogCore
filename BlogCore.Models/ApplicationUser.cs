@@ -16,5 +16,8 @@ namespace BlogCore.Models
         [Required(ErrorMessage = "Introduce un email")]
         [Display(Name = "Email")]
         public string Email { set; get; } = null!;
+
+        //relacion con reaccion Articulo
+        public ICollection<ReaccionArticulo> reaccionArticulo = new List<ReaccionArticulo>();
     }
 }

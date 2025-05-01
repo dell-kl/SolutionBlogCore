@@ -41,5 +41,10 @@ namespace BlogCore.Models
         [ForeignKey("Categoriacategoria_id")]
         [ValidateNever]
         public Categoria categoria { set; get; } = null!;
+    
+        //relaciones 
+        public ICollection<ComentarioArticulo> comentarioArticulo = new List<ComentarioArticulo>();
+        public ICollection<ReaccionArticulo> reaccionArticulo = new List<ReaccionArticulo>();
+        public ICollection<EtiquetaArticulo> etiquetaArticulo = new List<EtiquetaArticulo>();
     }
 }
