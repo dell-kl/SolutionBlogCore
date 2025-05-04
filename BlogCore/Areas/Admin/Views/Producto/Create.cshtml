@@ -1,0 +1,24 @@
+﻿@model BlogCore.Models.Producto
+
+@{
+    ViewData["Title"] = "Crear Producto";
+}
+
+<div class="container">
+    <h1 class="text-center mt-4">Crear Producto</h1>
+
+    @await Html.PartialAsync("~/Views/Shared/Formularios/_FormularioProducto.cshtml",
+    new BlogCore.Models.ModelView.ProductoViewModel()
+    {
+        producto = Model,
+        metodo = "POST",
+        texto = "Crear Producto",
+        lstCategoriaProductos = (ViewData["categorias"] as List<SelectListItem>)!,
+    })
+    
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+    <script src="~/js/panelTinyMCE.js"></script>
+}

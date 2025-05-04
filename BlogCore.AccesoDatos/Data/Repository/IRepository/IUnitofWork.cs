@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace BlogCore.AccesoDatos.Data.Repository.IRepository
+﻿namespace BlogCore.AccesoDatos.Data.Repository.IRepository
 {
     public interface IUnitofWork : IDisposable
     {
@@ -15,6 +9,14 @@ namespace BlogCore.AccesoDatos.Data.Repository.IRepository
         public ISliderRepository Slider { get; }
 
         public IUsuarioRepository Usuario { get; }
+
+        public IProductoRepository Producto { get;  }
+
+        public ICategoriaProductoRepository CategoriaProducto { get; }
+
+        public IImagenesProductoRepository ImagenesProducto { get; }
+
+        public IVideoRepository Video { get; }
 
         public void Save();
     }

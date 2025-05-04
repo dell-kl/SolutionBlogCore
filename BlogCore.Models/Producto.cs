@@ -7,6 +7,7 @@ namespace BlogCore.Models
     public class Producto
     {
         [Key]
+        [Display(Name = "Identificador")]
         public int producto_id { set; get; }
 
         [Required(ErrorMessage = "Es necesario un nombre para el producto")]
@@ -33,13 +34,15 @@ namespace BlogCore.Models
         [Display(Name = "Aplica Descuento")]
         public bool? producto_Esdescuento { set; get; } = false;
 
-        [Required(ErrorMessage = "Digita el valor del descuento que se aplicara")]
+        [Required(ErrorMessage = "Inserta un descuento, si no aplica descuento dejalo en 0")]
         [Display(Name = "Valor Descuento")]
-        public int producto_descuento { set; get; }
+        public int producto_descuento { set; get; } = 0;
         public DateTime producto_fechaCreacion { set; get; } = DateTime.Now;
         public DateTime producto_fechaModificacion { set; get; } = DateTime.Now;
 
         [Column("producto_categoriaProductoId")]
+        [Display(Name = "Categoria")]
+        [Required(ErrorMessage = "Debes insertar una categoria")]
         public int CategoriaProductocategoriaProducto_id { set; get; }
 
         [ForeignKey("CategoriaProductocategoriaProducto_id")]

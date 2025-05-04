@@ -2,6 +2,6 @@
 {
     public interface ISeedDb
     {
-        void InicializarDatos();
+        Task InicializarDatos();
     }
 }

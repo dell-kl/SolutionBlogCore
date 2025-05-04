@@ -1,4 +1,5 @@
 ﻿using BlogCore.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -22,5 +23,18 @@ namespace BlogCore.Data
         public DbSet<ReaccionArticulo> ReaccionArticulo { set; get; }
         public DbSet<EtiquetaArticulo> EtiquetaArticulo { set; get; }
         public DbSet<Etiqueta> Etiqueta { set; get; }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            
+            builder.Entity<ReaccionArticulo>()
+                .HasNoKey();
+    
+            builder.Entity<EtiquetaArticulo>()
+                .HasNoKey();
+
+
+            base.OnModelCreating(builder);
+        }
     }
 }

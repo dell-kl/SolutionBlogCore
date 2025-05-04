@@ -52,6 +52,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmlhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/workgroup/-- Tecnologias C\# --/-- .Net Core MVC --/ProyectosMVC/SolutionBlogCore/BlogCore/Areas/Admin/Views/Producto/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdG9cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workgroup/-- Tecnologias C\# --/-- .Net Core MVC --/ProyectosMVC/SolutionBlogCore/BlogCore/Areas/Admin/Views/Producto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workgroup/-- Tecnologias C\# --/-- .Net Core MVC --/ProyectosMVC/SolutionBlogCore/BlogCore/Areas/Admin/Views/Producto/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcUHJvZHVjdG9cVXBkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/workgroup/-- Tecnologias C\# --/-- .Net Core MVC --/ProyectosMVC/SolutionBlogCore/BlogCore/Areas/Admin/Views/Sliders/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcU2xpZGVyc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -262,6 +274,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/workgroup/-- Tecnologias C\# --/-- .Net Core MVC --/ProyectosMVC/SolutionBlogCore/BlogCore/Views/Shared/Formularios/_FormularioCategoria.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEZvcm11bGFyaW9zXF9Gb3JtdWxhcmlvQ2F0ZWdvcmlhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workgroup/-- Tecnologias C\# --/-- .Net Core MVC --/ProyectosMVC/SolutionBlogCore/BlogCore/Views/Shared/Formularios/_FormularioProducto.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEZvcm11bGFyaW9zXF9Gb3JtdWxhcmlvUHJvZHVjdG8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/workgroup/-- Tecnologias C\# --/-- .Net Core MVC --/ProyectosMVC/SolutionBlogCore/BlogCore/Views/Shared/Formularios/_FormularioSlider.cshtml]

@@ -1,0 +1,227 @@
+﻿@model BlogCore.Models.ModelView.ProductoViewModel;
+
+@{
+    string accion = Model.metodo.Equals("POST") ? "Create" : "Update";
+}
+
+
+<form   
+asp-area="Admin" 
+asp-action="@accion" 
+asp-controller="Producto" 
+method="post" 
+enctype="multipart/form-data">
+
+    @if (accion.Equals("Update"))
+    {
+        <input type="hidden" asp-for="@Model.producto.producto_id" />
+    }
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="row">
+        <div class="col mt-4">
+
+            <div class="form-group row">
+                <div class="col-4">
+                    <label asp-for="@Model.producto.producto_nombre"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="@Model.producto.producto_nombre"
+                    class="form-control"
+                    placeholder="Inserta un nombre de producto" />
+                    <span asp-validation-for="@Model.producto.producto_nombre"
+                    class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row mt-4">
+                <div class="col-4">
+                    <label asp-for="@Model.producto.producto_precio"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="@Model.producto.producto_precio"
+                    class="form-control"
+                    type="number"
+                    placeholder="Inserta precio del producto" />
+                    <span asp-validation-for="@Model.producto.producto_precio"
+                    class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row mt-4">
+                <div class="col-4">
+                    <label asp-for="@Model.producto.producto_stock"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="@Model.producto.producto_stock"
+                    class="form-control"
+                    placeholder="Inserta una cantidad en stock" />
+                    <span asp-validation-for="@Model.producto.producto_stock"
+                    class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row mt-4">
+                <div class="col-4">
+                    <label asp-for="@Model.producto.producto_disponiblidad"></label>
+                </div>
+
+                <div class="col-8">
+                    @Html.DropDownListFor(
+                                      m => m.producto.producto_disponiblidad,
+                                      new List<SelectListItem>(){
+                    new SelectListItem(){ Value="true", Text="Disponible" },
+                    new SelectListItem(){ Value="false", Text="No Disponible" }
+                    },
+                                      "-- Selecciona la disponiblidad", new { @class = "form-control" })
+                    <span asp-validation-for="@Model.producto.producto_disponiblidad"></span>
+                </div>
+            </div>
+            <div class="form-group row mt-4">
+                <div class="col-4">
+                    <label asp-for="@Model.producto.producto_descripcion"></label>
+                </div>
+                <div class="col-8">
+                    <textarea class="form-control"
+                    placeholder="Ingresa una descripcion"
+                    asp-for="@Model.producto.producto_descripcion">
+                    </textarea>
+                    <span asp-validation-for="@Model.producto.producto_descripcion"
+                    class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row mt-4">
+                <div class="col-4">
+                    <label asp-for="@Model.producto.producto_Esdescuento"></label>
+                </div>
+
+                <div class="col-8">
+                    @Html.DropDownListFor(
+                                      m => m.producto.producto_Esdescuento,
+                                      new List<SelectListItem>(){
+                    new SelectListItem(){ Value="true", Text="Con Descuento" },
+                    new SelectListItem(){ Value="false", Text="Sin Descuento" }
+                    },
+                                      "-- Selecciona si tiene o no descuento --", new { @class = "form-control" })
+                    <span asp-validation-for="@Model.producto.producto_Esdescuento" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row mt-4">
+                <div class="col-4">
+                    <label asp-for="@Model.producto.producto_descuento"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="@Model.producto.producto_descuento"
+                    class="form-control"
+                    placeholder="Inserta el descuento, si lo dejas vacio y/o sin descuento estara como cero" />
+                    <span asp-validation-for="@Model.producto.producto_descuento"
+                    class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row mt-4">
+                <div class="col-4">
+                    <label asp-for="@Model.producto.CategoriaProductocategoriaProducto_id"></label>
+                </div>
+
+                <div class="col-8">
+                    @Html.DropDownListFor(
+                             m => m.producto.CategoriaProductocategoriaProducto_id,
+                             Model.lstCategoriaProductos,
+                             "-- Selecciona una categoria correspondiente --", 
+                             new { @class = "form-control" }
+                             )
+                    <span asp-validation-for="@Model.producto.CategoriaProductocategoriaProducto_id" class="text-danger"></span>
+                </div>
+
+            </div>
+            <div class="form-grup row mt-4">
+                <div class="col-4">
+                    <label asp-for="@Model.filesName"></label>
+                </div>
+                <div class="col-8">
+                    <input 
+                    type="file"
+                    multiple
+                    name="filesName"
+                    placeholder="Ingresa las imagenes del producto"
+                    class="form-control"/>
+                    <span asp-validation-for="@Model.filesName" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row mt-4">
+                <div class="col-4">
+                    <label asp-for="@Model.videosName"></label>
+                </div>
+                <div class="col-8">
+                    <input
+                    type="file"
+                    multiple
+                    name="videosName"
+                    class="form-control"/>
+                    <span asp-validation-for="@Model.videosName" class="text-danger"></span>
+                </div>
+            </div>
+            <div class="form-group row-4 mt-4 mb-4">
+                <button type="submit" class="btn btn-warning">@Model.texto</button>
+
+                &nbsp;
+                <a class="btn btn-dark"
+                asp-action="Index"
+                asp-controller="Producto"
+                asp-area="Admin">Volver Lista Productos</a>
+            </div>
+        </div>
+
+        @if (accion.Equals("Update"))
+        {
+            <div class="col-4">
+                <div class="@(accion.Equals("Update") ? "" : "offset-1") mt-4">
+                    <h2 class="text-center">Imagen</h2>
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            @foreach(ImagenesProducto imagenesProducto in Model.producto.imagenesProducto)
+                            {
+                                <div class="carousel-item active">
+                                    <img 
+                                        height="250"
+                                        src="@imagenesProducto.imagenesProducto_ruta" 
+                                        class="w-100" alt="imagen de producto generado">
+                                </div>
+                            }
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="@(accion.Equals("Update") ? "" : "offset-1") mt-10">
+                    <h2 class="text-center">Videos</h2>
+                    <div id="carruselVideos" class="carousel slide">
+                        <div class="carousel-inner">
+                            @foreach (VideosProducto videosProducto in Model.producto.videosProducto)
+                            {
+                                <div class="carousel-item active">
+                                    <video 
+                                        height="250"
+                                        src="@videosProducto.videosProducto_ruta" class="object-fit-contain w-100" autoplay controls></video>
+                                </div>
+                            }
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carruselVideos" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carruselVideos" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</form>

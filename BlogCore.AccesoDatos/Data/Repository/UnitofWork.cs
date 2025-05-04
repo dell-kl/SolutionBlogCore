@@ -14,6 +14,14 @@ namespace BlogCore.AccesoDatos.Data.Repository
 
         public IUsuarioRepository Usuario { get; private set; }
 
+        public IProductoRepository Producto { get; private set; }
+
+        public ICategoriaProductoRepository CategoriaProducto { get; private set; }
+
+        public IImagenesProductoRepository ImagenesProducto { get; private set; }
+        
+        public IVideoRepository Video { get; private set; }
+
         public UnitofWork(ApplicationDbContext db)
         {
             this._db = db;
@@ -21,6 +29,10 @@ namespace BlogCore.AccesoDatos.Data.Repository
             Articulo = new ArticuloRepository(_db);
             Slider = new SliderRepository(_db);
             Usuario = new UsuarioRepository(_db);
+            Producto = new ProductoRepository(_db);
+            CategoriaProducto = new CategoriaProductoRepository(_db);
+            ImagenesProducto = new ImagenesProductoRepository(_db);
+            Video = new VideoRepository(_db);
         }
 
         public void Dispose()

@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\js\\panelTinyMCE.js"
     },
     {
+      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\js\\producto.js",
+      "PackagePath": "staticwebassets\\js\\producto.js"
+    },
+    {
       "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -309,108 +313,48 @@
       "PackagePath": "staticwebassets\\lib\\toastr.js\\toastr.min.js"
     },
     {
-      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\articulo\\29404e34-4a09-48a1-8723-3e65f4e7a9c5.jpg",
-      "PackagePath": "staticwebassets\\pictures\\articulo\\29404e34-4a09-48a1-8723-3e65f4e7a9c5.jpg"
-    },
-    {
-      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\articulo\\48cca77d-cbfa-481c-8660-8a8bd446aace.jpg",
-      "PackagePath": "staticwebassets\\pictures\\articulo\\48cca77d-cbfa-481c-8660-8a8bd446aace.jpg"
-    },
-    {
-      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\articulo\\6d72e37b-244c-4a21-88ee-1d803ca1b179.jpg",
-      "PackagePath": "staticwebassets\\pictures\\articulo\\6d72e37b-244c-4a21-88ee-1d803ca1b179.jpg"
-    },
-    {
-      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\articulo\\708793df-54c3-423a-be81-4b367d4b2180.jpg",
-      "PackagePath": "staticwebassets\\pictures\\articulo\\708793df-54c3-423a-be81-4b367d4b2180.jpg"
-    },
-    {
-      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\articulo\\73f819a7-e12a-467e-a995-cd748f063eed.jpg",
-      "PackagePath": "staticwebassets\\pictures\\articulo\\73f819a7-e12a-467e-a995-cd748f063eed.jpg"
-    },
-    {
-      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\articulo\\7be43a7a-024b-4fde-be63-e50281606b03.jpg",
-      "PackagePath": "staticwebassets\\pictures\\articulo\\7be43a7a-024b-4fde-be63-e50281606b03.jpg"
-    },
-    {
-      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\articulo\\847a586c-93d7-48d8-ab2f-0ccdfb03aa3a.jpg",
-      "PackagePath": "staticwebassets\\pictures\\articulo\\847a586c-93d7-48d8-ab2f-0ccdfb03aa3a.jpg"
-    },
-    {
-      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\articulo\\8fe0e86e-9394-43fa-9e99-65155be0731a.jpg",
-      "PackagePath": "staticwebassets\\pictures\\articulo\\8fe0e86e-9394-43fa-9e99-65155be0731a.jpg"
-    },
-    {
-      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\articulo\\945b3eaf-86bd-4a62-9752-17b512282ac8.jpg",
-      "PackagePath": "staticwebassets\\pictures\\articulo\\945b3eaf-86bd-4a62-9752-17b512282ac8.jpg"
-    },
-    {
-      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\articulo\\acff9845-aae8-4dae-800a-e74c3766718c.jpg",
-      "PackagePath": "staticwebassets\\pictures\\articulo\\acff9845-aae8-4dae-800a-e74c3766718c.jpg"
-    },
-    {
-      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\articulo\\bab62bea-b193-4d93-a671-dbd3a129341e.jpg",
-      "PackagePath": "staticwebassets\\pictures\\articulo\\bab62bea-b193-4d93-a671-dbd3a129341e.jpg"
-    },
-    {
-      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\articulo\\c1923a54-beac-4306-ad37-573aedd1e566.jpg",
-      "PackagePath": "staticwebassets\\pictures\\articulo\\c1923a54-beac-4306-ad37-573aedd1e566.jpg"
-    },
-    {
-      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\articulo\\d10cc9b3-effa-403e-85c8-b2389e46aa6e.jpg",
-      "PackagePath": "staticwebassets\\pictures\\articulo\\d10cc9b3-effa-403e-85c8-b2389e46aa6e.jpg"
-    },
-    {
       "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\personalizacion\\img_footer.jpg",
       "PackagePath": "staticwebassets\\pictures\\personalizacion\\img_footer.jpg"
     },
     {
-      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\slider\\167c9cb1-a894-423b-bb9d-73ff60ab5b5a.jpg",
-      "PackagePath": "staticwebassets\\pictures\\slider\\167c9cb1-a894-423b-bb9d-73ff60ab5b5a.jpg"
+      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\1e470c84-e734-49e4-8015-3f3874c85968.jpg",
+      "PackagePath": "staticwebassets\\pictures\\producto\\1e470c84-e734-49e4-8015-3f3874c85968.jpg"
     },
     {
-      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\slider\\32763033-b076-46f7-a7a5-9e136c5de2b0.jpg",
-      "PackagePath": "staticwebassets\\pictures\\slider\\32763033-b076-46f7-a7a5-9e136c5de2b0.jpg"
+      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\7ab1f3e8-cfaf-49b3-befc-79ffe22a655a.png",
+      "PackagePath": "staticwebassets\\pictures\\producto\\7ab1f3e8-cfaf-49b3-befc-79ffe22a655a.png"
     },
     {
-      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\slider\\47cbb2d5-6528-4520-a847-cab9c518eea6.jpg",
-      "PackagePath": "staticwebassets\\pictures\\slider\\47cbb2d5-6528-4520-a847-cab9c518eea6.jpg"
+      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\844d01ec-d753-4e6a-ae7e-8b3b18aa634b.jpg",
+      "PackagePath": "staticwebassets\\pictures\\producto\\844d01ec-d753-4e6a-ae7e-8b3b18aa634b.jpg"
     },
     {
-      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\slider\\4f849b56-9ddf-4355-9d77-5896db6b78ad.jpg",
-      "PackagePath": "staticwebassets\\pictures\\slider\\4f849b56-9ddf-4355-9d77-5896db6b78ad.jpg"
+      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\9c369d8a-2f04-4ba3-a824-422bf16f032c.jpg",
+      "PackagePath": "staticwebassets\\pictures\\producto\\9c369d8a-2f04-4ba3-a824-422bf16f032c.jpg"
     },
     {
-      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\slider\\739e6241-81d4-416f-b923-d35a77706249.jpg",
-      "PackagePath": "staticwebassets\\pictures\\slider\\739e6241-81d4-416f-b923-d35a77706249.jpg"
+      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\e6cdf1a1-b33f-43c2-a8fb-c75270dfe8ec.jpg",
+      "PackagePath": "staticwebassets\\pictures\\producto\\e6cdf1a1-b33f-43c2-a8fb-c75270dfe8ec.jpg"
     },
     {
-      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\slider\\7a969a8d-5194-4d46-8383-7f8d279de886.jpg",
-      "PackagePath": "staticwebassets\\pictures\\slider\\7a969a8d-5194-4d46-8383-7f8d279de886.jpg"
+      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\ea09527f-70ae-4bba-a2f4-4e38b3f4061a.png",
+      "PackagePath": "staticwebassets\\pictures\\producto\\ea09527f-70ae-4bba-a2f4-4e38b3f4061a.png"
     },
     {
-      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\slider\\8278756b-65c0-438f-9b76-bb3bc036535d.jpg",
-      "PackagePath": "staticwebassets\\pictures\\slider\\8278756b-65c0-438f-9b76-bb3bc036535d.jpg"
+      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\fa791ccb-8f3f-4029-b949-250d8424ea9b.jpg",
+      "PackagePath": "staticwebassets\\pictures\\producto\\fa791ccb-8f3f-4029-b949-250d8424ea9b.jpg"
     },
     {
-      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\slider\\850c072f-b2bb-4b41-8e3e-22e66ae9fda8.png",
-      "PackagePath": "staticwebassets\\pictures\\slider\\850c072f-b2bb-4b41-8e3e-22e66ae9fda8.png"
+      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\28d242f5-e255-4348-9a74-b63a90741ae1.mkv",
+      "PackagePath": "staticwebassets\\videos\\producto\\28d242f5-e255-4348-9a74-b63a90741ae1.mkv"
     },
     {
-      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\slider\\85617162-f991-43ca-bfbc-5f35560fd6f5.jpg",
-      "PackagePath": "staticwebassets\\pictures\\slider\\85617162-f991-43ca-bfbc-5f35560fd6f5.jpg"
+      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\28d242f5-e255-4348-9a74-b63a90741ae1.mp4",
+      "PackagePath": "staticwebassets\\videos\\producto\\28d242f5-e255-4348-9a74-b63a90741ae1.mp4"
     },
     {
-      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\slider\\d224e9e5-83cb-4844-8f9d-808bbf700969.jpg",
-      "PackagePath": "staticwebassets\\pictures\\slider\\d224e9e5-83cb-4844-8f9d-808bbf700969.jpg"
-    },
-    {
-      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\slider\\d4d51a37-b8cb-4ae4-9905-4c078f36d2c0.jpg",
-      "PackagePath": "staticwebassets\\pictures\\slider\\d4d51a37-b8cb-4ae4-9905-4c078f36d2c0.jpg"
-    },
-    {
-      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\slider\\f5d2f42f-575d-459c-a8a4-c857fe0dde5f.png",
-      "PackagePath": "staticwebassets\\pictures\\slider\\f5d2f42f-575d-459c-a8a4-c857fe0dde5f.png"
+      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\52d40c65-74ab-4c7b-845c-c7c4bb45e57c.mp4",
+      "PackagePath": "staticwebassets\\videos\\producto\\52d40c65-74ab-4c7b-845c-c7c4bb45e57c.mp4"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BlogCore.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

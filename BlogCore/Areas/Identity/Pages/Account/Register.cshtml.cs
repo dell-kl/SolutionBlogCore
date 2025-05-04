@@ -132,7 +132,6 @@ namespace BlogCore.Areas.Identity.Pages.Account
 
             if (ModelState.IsValid && Input.IDRol.HasValue)
             {
-                
                 var user = CreateUser();
 
                 user.Nombres = Input.Nombre;
@@ -174,15 +173,12 @@ namespace BlogCore.Areas.Identity.Pages.Account
                     return LocalRedirect(returnUrl);
                 }
                 foreach (var error in result.Errors)
-                {
                     ModelState.AddModelError(string.Empty, error.Description);
-                }
+                
             }
             else
-            {
                 ModelState.AddModelError("IDRol", "Debes introducir un rol para el usuario");
-            }
-            // If we got this far, something failed, redisplay form
+            
             return Page();
         }
 

@@ -1,0 +1,48 @@
+﻿@model IEnumerable<BlogCore.Models.Producto>
+
+@{
+    ViewData["Title"] = "Listado de Productos";
+}
+
+<div class="container">
+    <div class="row mt-4">
+        <div class="col-9">
+            <h1>Listado de Productos</h1>
+        </div>
+        <div class="col-3">
+            <a
+                asp-area="Admin"
+                asp-action="Create"
+                asp-controller="Producto"
+                
+                class="btn btn-primary">
+                Crear Producto
+            </a>
+        </div>
+    </div>
+
+    <!-- Listado de todos nuestros productos -->
+    <div class="mt-6">
+        <table 
+            id="tbl-productos"
+            class="table table-striped">
+             <thead> 
+                 <tr> 
+                     <th>@Html.DisplayNameFor(n => n.producto_id)</th> 
+                     <th>@Html.DisplayNameFor(n => n.producto_nombre)</th> 
+                     <th>@Html.DisplayNameFor(n => n.producto_precio)</th> 
+                     <th>@Html.DisplayNameFor(n => n.producto_stock)</th>
+                     <th>@Html.DisplayNameFor(n => n.producto_disponiblidad)</th>
+                     <th>Precio con Descuento</th>
+                     <th>@Html.DisplayNameFor(n => n.producto_descuento )</th>
+                     <th>Acciones</th>
+                 </tr>
+             </thead> 
+
+        </table>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/producto.js"></script>
+}

@@ -43,7 +43,14 @@ namespace BlogCore.AccesoDatos.Data.Repository
                 consulta = dbSet;
 
             if (includeProperties != null)
-                consulta = consulta.Include(includeProperties);
+            {
+                string[] tablsRln = includeProperties.Split(",");
+
+                foreach (string tabla in tablsRln)
+                {
+                    consulta = consulta.Include(tabla.Trim());
+                }
+            }
 
             if ( orderBy != null )
                 return orderBy!(consulta).ToList();
@@ -61,7 +68,15 @@ namespace BlogCore.AccesoDatos.Data.Repository
             consulta = dbSet.Where(filter!);
 
             if (includeProperties != null)
-                consulta = consulta.Include(includeProperties);
+            {
+                string[] tablsRln = includeProperties.Split(",");
+
+                foreach (string tabla in tablsRln)
+                {
+                    consulta = consulta.Include(tabla.Trim());
+                }
+
+            }
 
             return consulta.First();
         }
