@@ -113,6 +113,10 @@ namespace BlogCore.AccesoDatos.Migrations
                         .HasColumnType("int")
                         .HasColumnName("comentarioArticulo_articuloId");
 
+                    b.Property<int?>("ComentarioArticulocomentarioArticulo_id")
+                        .HasColumnType("int")
+                        .HasColumnName("comentarioArticulo_CmtArticulofkID");
+
                     b.Property<string>("comentarioArticulo_descripcion")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -123,9 +127,18 @@ namespace BlogCore.AccesoDatos.Migrations
                     b.Property<DateTime>("comentarioArticulo_fechaModificacion")
                         .HasColumnType("datetime2");
 
+                    b.Property<Guid>("comentarioArticulo_guid")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("comentarioArticulo_nombrePublicador")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("comentarioArticulo_id");
 
                     b.HasIndex("Articuloarticulo_id");
+
+                    b.HasIndex("ComentarioArticulocomentarioArticulo_id");
 
                     b.ToTable("ComentarioArticulo");
                 });
@@ -621,6 +634,13 @@ namespace BlogCore.AccesoDatos.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("BlogCore.Models.ComentarioArticulo", "ComentarioArticulocomentarioArticuloFK")
+                        .WithMany("listadoComentarioArticulos")
+                        .HasForeignKey("ComentarioArticulocomentarioArticulo_id")
+                        .HasConstraintName("FK__Comentari__comen__4AB81AF0");
+
+                    b.Navigation("ComentarioArticulocomentarioArticuloFK");
+
                     b.Navigation("articulo");
                 });
 
@@ -763,6 +783,11 @@ namespace BlogCore.AccesoDatos.Migrations
             modelBuilder.Entity("BlogCore.Models.CategoriaProducto", b =>
                 {
                     b.Navigation("productos");
+                });
+
+            modelBuilder.Entity("BlogCore.Models.ComentarioArticulo", b =>
+                {
+                    b.Navigation("listadoComentarioArticulos");
                 });
 
             modelBuilder.Entity("BlogCore.Models.Producto", b =>

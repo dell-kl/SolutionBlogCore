@@ -22,6 +22,8 @@ namespace BlogCore.AccesoDatos.Data.Repository
         
         public IVideoRepository Video { get; private set; }
 
+        public IComentarioArticuloRepository ComentarioArticulo { get; private set; }
+
         public UnitofWork(ApplicationDbContext db)
         {
             this._db = db;
@@ -33,6 +35,7 @@ namespace BlogCore.AccesoDatos.Data.Repository
             CategoriaProducto = new CategoriaProductoRepository(_db);
             ImagenesProducto = new ImagenesProductoRepository(_db);
             Video = new VideoRepository(_db);
+            ComentarioArticulo = new ComentarioArticuloRepository(_db);
         }
 
         public void Dispose()

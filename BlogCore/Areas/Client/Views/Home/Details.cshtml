@@ -1,7 +1,11 @@
-﻿@model BlogCore.Models.Articulo;
+﻿@model BlogCore.Models.ModelView.ComentarioArticuloViewModel;
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<ApplicationUser> UserManager
+@inject SignInManager<ApplicationUser> SignInManager
 
 @{
     ViewData["Title"] = "Detalles del Slider";
+
 }
 
 <div class="container">
@@ -10,25 +14,180 @@
     <div class="row pt-4">
         <div class="col">
             <img 
-                style="width: 100%"
-                src="@Model.articulo_rutaImagen" alt="@Model.articulo_descripcion"/>
+            style="width: 100%"
+            src="@Model.articulo.articulo_rutaImagen" alt="@Model.articulo.articulo_descripcion"/>
         </div>
         <div class="col">
             <div class="text-center">
                 <h4 >Fecha Creacion del Articulo</h4>
-                <p class="text-opacity-25">@Model.articulo_fechaCreacion</p>
+                <p class="text-opacity-25">@Model.articulo.articulo_fechaCreacion</p>
             </div>
             <div class="text-center">
                 <h4>Descripcion del Articulo</h4>
-                @Html.Raw(Model.articulo_descripcion)
+                @Html.Raw(Model.articulo.articulo_descripcion)
             </div>
             <div class="text-center mt-2">
                 <a
-                    asp-action="Index"
-                    asp-controller="Home"
-                    asp-area="Client"
-                    class="btn btn-warning">Volver a Inicio</a>
+                asp-action="Index"
+                asp-controller="Home"
+                asp-area="Client"
+                class="btn btn-warning">Volver a Inicio</a>
             </div>
         </div>
     </div>
+
+    <h3 class="fw-bold mt-5">Comentario</h3>
+
+    <form 
+    asp-area="Client"
+    asp-controller="Home"
+    asp-action="Details"
+    method="post">
+        <div asp-validation-summary="All" class="text-danger"></div>
+        <div class="form-group row">
+            <input type="hidden" asp-for="@Model.articulo.articulo_id"/>
+            <div class="form-group row">
+                <div>
+                    <label asp-for="@Model.comentarioArticulo"></label>
+                    <textarea 
+                    asp-for="@Model.comentarioArticulo"
+                    id="textAreaDescripcion">
+                    </textarea>
+                    <span asp-validation-for="@Model.comentarioArticulo" class="text-danger"></span>
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-warning mt-4">Comentar</button>
+    </form>
+
+    <h3 class="fw-bold mt-5">Otros Comentarios</h3>
+
+    <section style="background-color: #e7effd29;">
+        <div class="container my-5 py-5 text-body">
+            <div class="row d-flex justify-content-center">
+                <div class="p-4">
+
+                    @foreach(var comentario in Model.listadoComentariosArticulo)
+                    {
+                        if ( comentario.ComentarioArticulocomentarioArticulo_id is null )
+                        {
+                            <div class="d-flex flex-start mb-4">
+                                <img class="rounded-circle shadow-1-strong me-3"
+                                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar" width="65"
+                                height="65" />
+                                <div class="card w-100">
+                                    <div class="card-body p-4">
+                                        <div class="">
+                                            <h5>@comentario.comentarioArticulo_nombrePublicador</h5>
+                                            <p class="small">@comentario.comentarioArticulo_fechaCreacion</p>
+                                            @Html.Raw(comentario.comentarioArticulo_descripcion)
+
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div class="d-flex flex-column justify-content-start">
+                                                    @if ( SignInManager.IsSignedIn(User) )
+                                                    {
+                                                        string identificadorPost = $"{comentario.comentarioArticulo_guid}";
+
+                                                        <a class="w-50 btn btn-info btn_new_post_message rounded border-1" id="@identificadorPost"><i class="fa-solid fa-comments"></i> Dar comentario</a>
+
+                                                        <form asp-area="Client"
+                                                        asp-controller="Home"
+                                                        asp-action="AportarComentario"
+                                                        class="mt-5"
+                                                        method="post">
+                                                            <div class="form-group row">
+                                                                <input type="hidden" name="identificador_articulo_aporte" value="@Model.articulo.articulo_id" />
+                                                                <input type="hidden" name="identificador_mensaje_aporte" value="@identificadorPost" />
+                                                                <div class="form-group row">
+                                                                    <div>
+                                                                        <label>Puedes dar tu opinion sobre este comentario</label>
+                                                                        <textarea name="mensaje_aporte"
+                                                                        id="textAreaDescripcion">
+                                                                        </textarea>
+                                                                        <span id="seccion_alertas" class="text-danger"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <button type="submit" class="btn btn-warning mt-2 rounded border-1"><i class="fa-solid fa-circle"></i> Publicar</button>
+                                                            <a class="btn btn-danger mt-2 rounded border-1"><i class="fa-solid fa-ban"></i> Cancelar</a>
+                                                        </form>
+                                                    }
+                                                    @foreach(ComentarioArticulo aporteComentario in comentario.listadoComentarioArticulos)
+                                                    {
+                                                        <div class="d-flex flex-start mb-4 mt-4">
+                                                            <img class="rounded-circle shadow-1-strong me-3"
+                                                                 src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar" width="65"
+                                                                 height="65" />
+                                                            <div class="card w-100">
+                                                                <div class="card-body p-4">
+                                                                    <div>
+                                                                        <h5>@aporteComentario.comentarioArticulo_nombrePublicador</h5>
+                                                                        <p class="small">@aporteComentario.comentarioArticulo_fechaCreacion</p>
+                                                                        @Html.Raw(aporteComentario.comentarioArticulo_descripcion)
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    }
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
+
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+    <script src="~/js/panelTinyMCE.js"></script>
+    <script src="~/js/PostMessage.js"></script>
+
+    @if (TempData["error"] != null)
+    {
+        <script>
+            Swal.fire({
+            icon: "error",
+            title: "Error comentario",
+            confirmButtonText: "Entendido",
+            text: "@TempData["error"]",
+            footer: '<a href="/Identity/Account/Login">Iniciar Sesion</a><br/><a href="/Identity/Account/Register">Registrarse</a>'
+            });
+        </script>
+    }
+
+
+    @if (TempData["succes"] != null)
+    {
+        <script>
+            Swal.fire({
+            icon: "success",
+            title: "Comentario Publicado",
+            confirmButtonText: "Entendido",
+            text: "@TempData["succes"]"
+            });
+        </script>
+    }
+
+    @if (TempData["error_comentario_aporte"] != null )
+    {
+        <script>
+            Swal.fire({
+            icon: "error",
+            title: "Error comentario",
+            confirmButtonText: "Entendido",
+            text: "@TempData["error"]"
+            });
+        </script>
+    }
+}
+
+
+

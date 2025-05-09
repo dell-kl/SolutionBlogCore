@@ -16,17 +16,25 @@
     <link rel="stylesheet" href="~/lib/toastr.js/toastr.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/7.6.1/tinymce.min.js" referrerpolicy="origin"></script>
-
+    
+    @await RenderSectionAsync("Estilos", required: false)
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
-            <div class="container">
-                <a class="navbar-brand" asp-area="Client" asp-controller="Home" asp-action="Index">BlogCore</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+
+            <div class="container-fluid w-100">
+                <a class="navbar-brand ms-5"
+                   asp-area="Client"
+                   asp-controller="Home"
+                   asp-action="Index">
+                    BlogCore
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacionOpciones" aria-controls="navegacionOpciones" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarColor01">
+                
+                <div class="collapse navbar-collapse" id="navegacionOpciones">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
                             <a class="nav-link active" asp-area="Client" asp-controller="Home" asp-action="Index">
@@ -34,53 +42,61 @@
                                 <span class="visually-hidden">(current)</span>
                             </a>
                         </li>
-                         @if (User.IsInRole("Administrador")) 
-                         { 
+                        @if (User.IsInRole("Administrador"))
+                        {
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Categorias Administrar</a>
                                 <div class="dropdown-menu">
-                                    <a 
-                                    class="dropdown-item" 
-                                    asp-action="Index"
-                                    asp-controller="Categorias"
-                                    asp-area="Admin">Categorias</a>
-                                    <a 
-                                    class="dropdown-item"
-                                    asp-action="Index"
-                                    asp-controller="Articulos"
-                                    asp-area="Admin">Articulos</a>
-                                    <a 
-                                    class="dropdown-item"
-                                    asp-action="Index"
-                                    asp-controller="Sliders"
-                                    asp-area="Admin">Sliders</a>
                                     <a class="dropdown-item"
-                                    asp-action="Index"
-                                    asp-controller="Usuario"
-                                    asp-area="Admin">Usuarios</a>
-                                    <a
-                                    class="dropdown-item"
-                                    asp-action="Index"
-                                    asp-controller="Producto"
-                                    asp-area="Admin">
+                                       asp-action="Index"
+                                       asp-controller="Categorias"
+                                       asp-area="Admin">Categorias</a>
+                                    <a class="dropdown-item"
+                                       asp-action="Index"
+                                       asp-controller="Articulos"
+                                       asp-area="Admin">Articulos</a>
+                                    <a class="dropdown-item"
+                                       asp-action="Index"
+                                       asp-controller="Sliders"
+                                       asp-area="Admin">Sliders</a>
+                                    <a class="dropdown-item"
+                                       asp-action="Index"
+                                       asp-controller="Usuario"
+                                       asp-area="Admin">Usuarios</a>
+                                    <a class="dropdown-item"
+                                       asp-action="Index"
+                                       asp-controller="Producto"
+                                       asp-area="Admin">
                                         Productos
                                     </a>
                                 </div>
                             </li>
-                         } 
+                        }
                     </ul>
                     <form asp-area="Client" asp-action="Index" asp-controller="Home" class="d-flex">
-                        <input class="form-control me-sm-2"
-                        type="search" 
-                        name="busqueda"
-                        placeholder="Buscar por palabra clave">
-                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Buscar</button>
+                        
+                        <select style="width:33%;"
+                            class="form-select text-black border-1 rounded-start border border-light-subtle">
+                            <option value="1">Articulos</option>
+                            <option value="2">Productos</option>
+                            <option value="3" selected>Todo</option>
+                        </select>
+                        <input class="form-control w-100 border-1 border border-light-subtle"
+                               type="search"
+                               name="busqueda"
+                               placeholder="Buscar por palabra clave">
+                        <button class="btn btn-warning my-2 border-1 border border-light-subtle my-sm-0 rounded-end text-black"
+                                type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
                     </form>
-
-                    <partial name="_LoginPartial"/>
-
+                    <div>
+                        <partial name="_LoginPartial"/>
+                    </div>
+                    
                 </div>
             </div>
+
         </nav>
 
         @if ( ViewBag.Inicio != null )
@@ -90,7 +106,7 @@
 
     </header>
 
-    <div class="container">
+    <div class="p-0">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>

@@ -10,5 +10,6 @@ namespace BlogCore.Models.ModelView
     {
         public IEnumerable<Slider> sliders { set; get; } = null!;
         public IEnumerable<Articulo> articulos { set; get; } = null!;
+        public IEnumerable<Producto> productos { set; get; } = null!;
     }
 }

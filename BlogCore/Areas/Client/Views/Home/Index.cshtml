@@ -4,63 +4,81 @@
     ViewData["Title"] = "Inicio";
 }
 
-<div class="row mt-1">
-    <div class="col-sm-12">
-        <h1 class="text-center text-black bg-secondary py-1">Articulos Geniales</h1>
+@section Estilos { <link rel="stylesheet" href="~/css/estilosPresentacionProductosArticulos.css"/> }
+
+<div class="container">
+    <div class="row mt-4">
+        <div class="col-sm-12">
+            <h1 class="text-center text-black bg-secondary py-1">Articulos Geniales</h1>
+        </div>
+
+        <div id="carruselArticulos" class="carousel slide"> 
+            <div class="carousel-inner" id="carrusel-articulos">
+                
+            </div> 
+            <button 
+                class="carousel-control-prev bg-black rounded-circle"
+                style="height: 12%; width: 5%; margin-top: 5%;"
+                type="button"
+                id="btnArtcLeft"
+                data-bs-target="#carruselArticulos"
+                data-bs-slide="prev"> 
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span> 
+                <span class="visually-hidden">Previous</span> 
+            </button> 
+            <button 
+                class="carousel-control-next bg-black rounded-circle" 
+                type="button" 
+                id="btnArtcRight"
+                style="height: 12%; width: 5%; margin-top: 5%;"
+                data-bs-target="#carruselArticulos"
+                data-bs-slide="next"> 
+                <span class="carousel-control-next-icon" aria-hidden="true"></span> 
+                <span class="visually-hidden">Next</span> 
+            </button> 
+        </div>
     </div>
 </div>
 
+@* Separacion con una imagen informativa *@
+<div class="row mt-4 mb-4"> 
+    <img src="~/pictures/personalizacion/imagenHome_001.png"/> 
+</div> 
 
-@if ( Model.articulos.Count() > 0 )
-{
-    <hr/>
-    <div class="row">
-        @foreach(Articulo articulo in Model.articulos)
-        {
-            <div class="col-4">
-                <div class="card">
-                    <img src="@articulo.articulo_rutaImagen" class="card-img-top" alt="@articulo.articulo_descripcion"/>
-                    <div class="card-body">
-                        <h5 class="card-title">@articulo.articulo_nombre</h5>
-                        @* @Html.Raw(@articulo.articulo_descripcion) *@
-                        <a 
-                            asp-action="Details"
-                            asp-controller="Home"
-                            asp-area="Client"
-                            asp-route-id="@articulo.articulo_id"
-                            class="btn btn-primary">Ver mas</a>
-                    </div>
-                </div>
-            </div>
-        }
-    </div>
+<div class="container"> 
+     <div class="row mt-4"> 
+         <div class="col-sm-12"> 
+             <h1 class="text-center text-black bg-secondary py-1">Productos Geniales</h1> 
+         </div> 
+
+         <div id="carruselProductos" class="carousel slide"> 
+             <div class="carousel-inner" id="carrusel-productos"> 
+
+             </div> 
+             <button class="carousel-control-prev bg-black rounded-circle" 
+                     style="height: 12%; width: 5%; margin-top: 5%;" 
+                     type="button" 
+                     id="btnArtcLeft" 
+                     data-bs-target="#carruselProductos" 
+                     data-bs-slide="prev"> 
+                 <span class="carousel-control-prev-icon" aria-hidden="true"></span> 
+                 <span class="visually-hidden">Previous</span> 
+             </button> 
+             <button class="carousel-control-next bg-black rounded-circle" 
+                     type="button" 
+                     id="btnArtcRight" 
+                     style="height: 12%; width: 5%; margin-top: 5%;" 
+                     data-bs-target="#carruselProductos" 
+                     data-bs-slide="next"> 
+                 <span class="carousel-control-next-icon" aria-hidden="true"></span> 
+                 <span class="visually-hidden">Next</span> 
+             </button> 
+         </div> 
+     </div> 
+ </div>
 
 
-    <div class="mt-4">
-        <a asp-area="Client"
-           asp-controller="Home"
-           asp-action="Index"
-           asp-route-tipo="atras"
-           asp-route-rango="@ViewBag.Rango"
-           asp-route-indice="@ViewBag.Indice"
-           asp-route-busqueda="@ViewBag.Busqueda"
-           class="btn btn-warning">
-            <i class="fa-solid fa-arrow-left"></i> Retroceder
-        </a>
-        <a 
-            asp-area="Client"
-            asp-controller="Home"
-            asp-action="Index"
-            asp-route-tipo="siguiente"
-            asp-route-rango = "@ViewBag.Rango"
-            asp-route-indice ="@ViewBag.Indice"
-           asp-route-busqueda="@ViewBag.Busqueda"
-            class="btn btn-warning">Siguiente
-            <i class="fa-solid fa-arrow-right"></i>
-        </a>
-    </div>
-}
-else
-{
-    <p>No existe articulos</p>
+@section Scripts {
+    <script src="~/js/carruselPresentacionArticulos.js"></script>
+    <script src="~/js/carruselPresentacionProductos.js"></script>
 }

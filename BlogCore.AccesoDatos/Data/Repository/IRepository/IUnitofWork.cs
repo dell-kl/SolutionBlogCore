@@ -18,6 +18,8 @@
 
         public IVideoRepository Video { get; }
 
+        public IComentarioArticuloRepository ComentarioArticulo { get; }
+
         public void Save();
     }
 }
