@@ -2797,51 +2797,6 @@
       ]
     },
     {
-      "Route": "js/carruselPresentacionProductos.ejnzgqbjtf.js",
-      "AssetFile": "js/carruselPresentacionProductos.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2829"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Fnaa/2tTJdXwmyXbwQVMLxFL1TaDYHwBsk2DanG1Rws=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 15:28:00 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ejnzgqbjtf"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Fnaa/2tTJdXwmyXbwQVMLxFL1TaDYHwBsk2DanG1Rws="
-        },
-        {
-          "Name": "label",
-          "Value": "js/carruselPresentacionProductos.js"
-        }
-      ]
-    },
-    {
       "Route": "js/carruselPresentacionProductos.js",
       "AssetFile": "js/carruselPresentacionProductos.js",
       "Selectors": [],
@@ -2856,7 +2811,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2829"
+          "Value": "2836"
         },
         {
           "Name": "Content-Type",
@@ -2864,17 +2819,62 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Fnaa/2tTJdXwmyXbwQVMLxFL1TaDYHwBsk2DanG1Rws=\""
+          "Value": "\"Q5j7bD1Gqu2MPnLb6w6fca/tNPrZZSFqY0VGEaBb39g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 15:28:00 GMT"
+          "Value": "Fri, 09 May 2025 21:05:05 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Fnaa/2tTJdXwmyXbwQVMLxFL1TaDYHwBsk2DanG1Rws="
+          "Value": "sha256-Q5j7bD1Gqu2MPnLb6w6fca/tNPrZZSFqY0VGEaBb39g="
+        }
+      ]
+    },
+    {
+      "Route": "js/carruselPresentacionProductos.tk5in1ar06.js",
+      "AssetFile": "js/carruselPresentacionProductos.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2836"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q5j7bD1Gqu2MPnLb6w6fca/tNPrZZSFqY0VGEaBb39g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 21:05:05 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tk5in1ar06"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q5j7bD1Gqu2MPnLb6w6fca/tNPrZZSFqY0VGEaBb39g="
+        },
+        {
+          "Name": "label",
+          "Value": "js/carruselPresentacionProductos.js"
         }
       ]
     },

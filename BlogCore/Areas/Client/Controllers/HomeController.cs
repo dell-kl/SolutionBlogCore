@@ -53,9 +53,12 @@ namespace BlogCore.Areas.Client.Controllers
         [HttpGet]
         public IActionResult DetailsProduct(int id)
         {
+            ComentarioProductoViewModel cmtProductVM = new ComentarioProductoViewModel() { 
+                producto = _unitOfWork.Producto.GetFirstOrDefault(p => p.producto_id.Equals(id), includeProperties: "imagenesProducto, videosProducto"),
+                ListadoOpinionesProducto = _unitOfWork.OpinionesProducto.GetAll(art => art.opinionesProducto_id.Equals(id))
+            };
 
-
-            return View();
+            return View(cmtProductVM);
         }
 
         [HttpGet]

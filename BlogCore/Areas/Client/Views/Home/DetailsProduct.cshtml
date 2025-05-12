@@ -1,4 +1,126 @@
-﻿@{
+﻿@model BlogCore.Models.ModelView.ComentarioProductoViewModel
+
+@{
     ViewData["Title"] = "Detalle Producto";
 }
 
+<div class="row mt-5 mx-2">
+    <div class="col-4">
+        <div class="d-flex gap-2">
+            <div>
+                @foreach(var n in Model.producto.imagenesProducto)
+                {
+                    <div class="mb-2">
+                        <img width="50"
+                        height="50"
+                        class="border border-2 border-black border-opacity-25 rounded"
+                        src="@n.imagenesProducto_ruta" />
+                    </div>
+                }
+            </div>
+            <div>
+                <img width="450"
+                height="450"
+                src="@Model.producto.imagenesProducto.First().imagenesProducto_ruta" />
+            </div>
+        </div>
+    </div>
+    <div class="col-6">
+        <div class="ps-4">
+            <h1>@Model.producto.producto_nombre</h1>
+            <hr/>
+            <h2 class="fw-bolder fs-4">Detalles Producto</h2>
+            <div class="puntuacion">
+
+            </div>
+            <div class="precio d-flex gap-1">
+                <p>Precio: </p>
+                <p class="text-danger fw-bold">$@Model.producto.producto_precio</p>
+            </div>
+            <div class="fechaPublicacion d-flex gap-1">
+                <p>Fecha Publicacion: </p>
+                <p class="text-black-50">@Model.producto.producto_fechaCreacion</p>
+            </div>
+            <div class="disponibilidadProducto d-flex gap-1 align-items-center">
+                <p>Disponiblidad: </p>
+                @{
+                    var textoDisponibilidad = ((bool)Model.producto.producto_disponiblidad!) ? "Disponible" : "No Disponible";
+                    var color = ((bool)Model.producto.producto_disponiblidad!) ? "bg-success" : "bg-danger";
+                }
+                <p class="@color p-2 rounded text-white fw-bold">@textoDisponibilidad</p>
+            </div>
+            <div class="UnidadesStockDisponibles d-flex gap-1 align-items-center">
+                <p class="m-0">En Stock: </p>
+                <div class="border border-2 rounded">
+                    <p class="p-2 m-0">@Model.producto.producto_stock Unidades Disponibles</p>
+                </div>
+            </div>
+            <hr/>
+            <h5 class="fw-light pt-3">Descripcion del producto</h5>
+            <div id="seccionDescripcion" class="text-right overflow-hidden" style="height: 6rem;">
+                @Html.Raw(Model.producto.producto_descripcion)
+            </div>
+            <div>
+                <a id="descripcionOverflow" class="text-decoration-underline" style="cursor:pointer;">Leer mas</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-2">
+        <div class="border border-1 border-black border-opacity-25 p-2 rounded pt-2 pb-4">
+            <p class="text-danger fw-bold fs-4">$@Model.producto.producto_precio</p>
+
+            <h4 class="text-warning fw-bold">Descuento</h4>
+            @if ((bool) Model.producto.producto_Esdescuento! )
+            {
+                <p class="fw-medium">Aplica descuento del %@Model.producto.producto_descuento</p>
+            }
+            else
+            {
+                <p>No aplica descuento</p>
+            }
+
+            <p class="fw-lighter" style="font-size: 80%;">
+                <i class="fa-solid fa-circle-exclamation"></i> Estos productos tienen un alcance de envio solamente
+                a nivel nacional. 
+            </p>
+
+            <p class="fw-lighter" style="font-size: 80%;">
+                <i class="fa-solid fa-boxes-packing"></i> Cada producto sumado a su carrito de compra
+                se le adjuntara el respectivo descuento mas el 
+                iva determinado por la <strong>Republica del Ecuador</strong>.
+            </p>
+
+            <form method="get">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Cantidad</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+
+                <button type="button" style="background-color: #ffb443db" class="btn border border-1 rounded w-100"><i class="fa-solid fa-cart-shopping"></i> Agregar al carrito</button>
+                <button type="button" style="background-color: #ff6e21" class="btn btn-warning border border-1 rounded w-100 text-black"><i class="fa-solid fa-money-bill"></i> Comprar ahora</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    let idBoxDescription = "seccionDescripcion";
+    document.getElementById("descripcionOverflow").onclick = (e) => {
+        
+        let elemento = document.getElementById(idBoxDescription);
+        
+        if ( elemento.classList.contains("overflow-hidden") )
+        {
+            e.target.innerText = "Leer menos";
+            elemento.classList.remove("overflow-hidden");
+            elemento.style.height = "100%";
+        }
+        else {
+            e.target.innerText = "Leer mas";
+            elemento.classList.add("overflow-hidden");
+            elemento.style.height = "6rem";
+        }
+    };
+</script>

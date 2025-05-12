@@ -56,7 +56,7 @@ const inyectarComponenteProducto = (datos, active) => {
                         </div> 
                         <div class="mt-2"> 
                             <a
-                            href="Client/Home/Details/${dato.producto_id}"
+                            href="Client/Home/DetailsProduct/${dato.producto_id}"
                             class="btn btn-primary"><i class="fa-solid fa-newspaper"></i> Visitar Articulo</a> 
                         </div> 
                     </div> 

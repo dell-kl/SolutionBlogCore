@@ -72,17 +72,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-C\u002Byh9CKEIVC6d1J58gRQX5K7swT5XgwFNGiDR\u002BCLJ\u002BM="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2774"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022C\u002Byh9CKEIVC6d1J58gRQX5K7swT5XgwFNGiDR\u002BCLJ\u002BM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 15:11:37 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BlogCore/js/carruselPresentacionProductos.ejnzgqbjtf.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\carruselPresentacionProductos.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ejnzgqbjtf"},{"Name":"integrity","Value":"sha256-Fnaa/2tTJdXwmyXbwQVMLxFL1TaDYHwBsk2DanG1Rws="},{"Name":"label","Value":"_content/BlogCore/js/carruselPresentacionProductos.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2829"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Fnaa/2tTJdXwmyXbwQVMLxFL1TaDYHwBsk2DanG1Rws=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 15:28:00 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BlogCore/js/carruselPresentacionProductos.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\carruselPresentacionProductos.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Fnaa/2tTJdXwmyXbwQVMLxFL1TaDYHwBsk2DanG1Rws="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2829"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Fnaa/2tTJdXwmyXbwQVMLxFL1TaDYHwBsk2DanG1Rws=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 15:28:00 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Q5j7bD1Gqu2MPnLb6w6fca/tNPrZZSFqY0VGEaBb39g="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2836"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Q5j7bD1Gqu2MPnLb6w6fca/tNPrZZSFqY0VGEaBb39g=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 21:05:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BlogCore/js/carruselPresentacionProductos.tk5in1ar06.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\carruselPresentacionProductos.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tk5in1ar06"},{"Name":"integrity","Value":"sha256-Q5j7bD1Gqu2MPnLb6w6fca/tNPrZZSFqY0VGEaBb39g="},{"Name":"label","Value":"_content/BlogCore/js/carruselPresentacionProductos.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2836"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022Q5j7bD1Gqu2MPnLb6w6fca/tNPrZZSFqY0VGEaBb39g=\u0022"},{"Name":"Last-Modified","Value":"Fri, 09 May 2025 21:05:05 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BlogCore/js/categoria.awpxjy1514.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\categoria.js'))</AssetFile>

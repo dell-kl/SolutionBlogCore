@@ -120,8 +120,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>ejnzgqbjtf</Fingerprint>
-      <Integrity>Fnaa/2tTJdXwmyXbwQVMLxFL1TaDYHwBsk2DanG1Rws=</Integrity>
+      <Fingerprint>tk5in1ar06</Fingerprint>
+      <Integrity>Q5j7bD1Gqu2MPnLb6w6fca/tNPrZZSFqY0VGEaBb39g=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\carruselPresentacionProductos.js'))</OriginalItemSpec>

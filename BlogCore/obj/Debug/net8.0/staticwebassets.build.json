@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nYEoDxOfjMF5RxWeAqdiI7v8O7n7wqDEr0LRgwi+DNA=",
+  "Hash": "9Hwj5y9YBx7MK9HmblZA0RiEV/SSOKmwINTMguyDe1w=",
   "Source": "BlogCore",
   "BasePath": "_content/BlogCore",
   "Mode": "Default",
@@ -1438,8 +1438,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ejnzgqbjtf",
-      "Integrity": "Fnaa/2tTJdXwmyXbwQVMLxFL1TaDYHwBsk2DanG1Rws=",
+      "Fingerprint": "tk5in1ar06",
+      "Integrity": "Q5j7bD1Gqu2MPnLb6w6fca/tNPrZZSFqY0VGEaBb39g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\carruselPresentacionProductos.js"
@@ -7034,51 +7034,6 @@
       ]
     },
     {
-      "Route": "js/carruselPresentacionProductos.ejnzgqbjtf.js",
-      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\js\\carruselPresentacionProductos.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2829"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Fnaa/2tTJdXwmyXbwQVMLxFL1TaDYHwBsk2DanG1Rws=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 15:28:00 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "ejnzgqbjtf"
-        },
-        {
-          "Name": "label",
-          "Value": "js/carruselPresentacionProductos.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-Fnaa/2tTJdXwmyXbwQVMLxFL1TaDYHwBsk2DanG1Rws="
-        }
-      ]
-    },
-    {
       "Route": "js/carruselPresentacionProductos.js",
       "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\js\\carruselPresentacionProductos.js",
       "Selectors": [],
@@ -7089,7 +7044,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2829"
+          "Value": "2836"
         },
         {
           "Name": "Content-Type",
@@ -7097,11 +7052,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Fnaa/2tTJdXwmyXbwQVMLxFL1TaDYHwBsk2DanG1Rws=\""
+          "Value": "\"Q5j7bD1Gqu2MPnLb6w6fca/tNPrZZSFqY0VGEaBb39g=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 09 May 2025 15:28:00 GMT"
+          "Value": "Fri, 09 May 2025 21:05:05 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7111,7 +7066,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Fnaa/2tTJdXwmyXbwQVMLxFL1TaDYHwBsk2DanG1Rws="
+          "Value": "sha256-Q5j7bD1Gqu2MPnLb6w6fca/tNPrZZSFqY0VGEaBb39g="
+        }
+      ]
+    },
+    {
+      "Route": "js/carruselPresentacionProductos.tk5in1ar06.js",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\js\\carruselPresentacionProductos.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2836"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Q5j7bD1Gqu2MPnLb6w6fca/tNPrZZSFqY0VGEaBb39g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 09 May 2025 21:05:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tk5in1ar06"
+        },
+        {
+          "Name": "label",
+          "Value": "js/carruselPresentacionProductos.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Q5j7bD1Gqu2MPnLb6w6fca/tNPrZZSFqY0VGEaBb39g="
         }
       ]
     },

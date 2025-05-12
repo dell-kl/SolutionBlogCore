@@ -9,6 +9,7 @@ namespace BlogCore.Models.ModelView
     public class ComentarioProductoViewModel
     {
         public Producto producto { set; get; } = new Producto();
-    
+        public IEnumerable<OpinionesProducto> ListadoOpinionesProducto { set; get; } = new List<OpinionesProducto>();
+        
     }
 }

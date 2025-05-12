@@ -20,6 +20,7 @@
 
         public IComentarioArticuloRepository ComentarioArticulo { get; }
 
+        public IOpinionesProductoRepository OpinionesProducto { get; }
         public void Save();
     }
 }
