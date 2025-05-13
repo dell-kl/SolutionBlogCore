@@ -55,11 +55,56 @@ namespace BlogCore.Areas.Client.Controllers
         {
             ComentarioProductoViewModel cmtProductVM = new ComentarioProductoViewModel() { 
                 producto = _unitOfWork.Producto.GetFirstOrDefault(p => p.producto_id.Equals(id), includeProperties: "imagenesProducto, videosProducto"),
-                ListadoOpinionesProducto = _unitOfWork.OpinionesProducto.GetAll(art => art.opinionesProducto_id.Equals(id))
+                ListadoOpinionesProducto = _unitOfWork.OpinionesProducto.GetAll(art => art.opinionesProducto_id.Equals(id)),
+                ListadoComentarioProducto = _unitOfWork.ComentarioProducto.GetAll(cmt => cmt.Productoproducto_id.Equals(id))
             };
 
             return View(cmtProductVM);
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult DetailsProduct(ComentarioProductoViewModel modelo)
+        {
+            if ( ModelState.IsValid )
+            {
+                if (!((ClaimsIdentity)this.User.Identity!).IsAuthenticated)
+                    TempData["error"] = "Inicia sesion para comentar o registrate primero";
+                else
+                {
+                    var nombreUsuario = ((ClaimsIdentity)this.User.Identity).Claims.ToList()[1].Value;
+
+                    _unitOfWork.ComentarioProducto.Add(new ComentarioProducto()
+                    {
+                        comentarioProducto_guid = Guid.NewGuid(),
+                        comentarioProducto_nombrePublicador = nombreUsuario,
+                        comentarioProducto_descripcion = modelo.comentarioProducto,
+                        comentarioProducto_fechaCreacion = DateTime.Now,
+                        comentarioProducto_fechaModificacion = DateTime.Now,
+                        Productoproducto_id = modelo.producto.producto_id
+                    });
+
+                    TempData["succes"] = "Tu comentario permitira que mejoremos nuestra calida de servicio como tienda";
+
+                    _unitOfWork.Save();
+                }
+            }
+
+            ModelValidationState ValiCampoComent = ModelState
+                .Where(n => n.Key.Equals("comentarioProducto")).First().Value!.ValidationState;
+
+            if (ValiCampoComent.ToString().Equals("Invalid")) 
+            {
+                modelo.producto = _unitOfWork.Producto.GetFirstOrDefault(p => p.producto_id.Equals(modelo.producto.producto_id), includeProperties: "imagenesProducto, videosProducto");
+                modelo.ListadoOpinionesProducto = _unitOfWork.OpinionesProducto.GetAll(art => art.opinionesProducto_id.Equals(modelo.producto.producto_id));
+                return View(modelo);
+            }
+
+            _unitOfWork.Dispose();
+
+            return RedirectToAction("DetailsProduct", new { id = modelo.producto.producto_id });
+        }
+
 
         [HttpGet]
         public IActionResult Details(int id)
@@ -147,6 +192,48 @@ namespace BlogCore.Areas.Client.Controllers
             ComentarioArticuloViewModel datosVista = DatosArticuloYComentario(_unitOfWork, identificador_articulo_aporte, null);
             _unitOfWork.Dispose();
             return View("Details", datosVista);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult AportarComentarioProducto(int identificador_producto_aporte, Guid identificador_mensaje_aporte, string mensaje_aporte)
+        {
+            ComentarioProducto? comentarioProducto = _unitOfWork.ComentarioProducto.GetFirstOrDefault(cmt => cmt.comentarioProducto_guid.Equals(identificador_mensaje_aporte));
+
+            if (!((ClaimsIdentity)this.User.Identity!).IsAuthenticated)
+                TempData["error"] = "Inicia sesion para comentar o registrate primero";
+            else if (
+                identificador_producto_aporte != 0
+                &&
+                comentarioProducto is not null
+                &&
+                !mensaje_aporte.IsNullOrEmpty()
+            )
+            {
+                // todos los datos se cumplen realizamos el aporte al comentario.
+                var nombreUsuario = ((ClaimsIdentity)this.User.Identity).Claims.ToList()[1].Value;
+
+                var mensajeAportar = new ComentarioProducto()
+                {
+                    comentarioProducto_guid = Guid.NewGuid(),
+                    comentarioProducto_nombrePublicador = nombreUsuario,
+                    comentarioProducto_descripcion = mensaje_aporte,
+                    comentarioProducto_fechaCreacion = DateTime.Now,
+                    comentarioProducto_fechaModificacion = DateTime.Now,
+                    Productoproducto_id = identificador_producto_aporte,
+                    ComentarioProductocomentarioProducto_id = comentarioProducto.comentarioProducto_id
+                };
+
+                _unitOfWork.ComentarioProducto.Add(mensajeAportar);
+                _unitOfWork.Save();
+            }
+            else
+                TempData["error_comentario_aporte"] = "No se guardo tu comentario, intentalo en otro momento.";
+
+          
+            _unitOfWork.Dispose();
+
+            return RedirectToAction("DetailsProduct", new { id = identificador_producto_aporte });
         }
 
         public IActionResult Privacy()

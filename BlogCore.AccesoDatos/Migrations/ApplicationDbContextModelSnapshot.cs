@@ -143,6 +143,48 @@ namespace BlogCore.AccesoDatos.Migrations
                     b.ToTable("ComentarioArticulo");
                 });
 
+            modelBuilder.Entity("BlogCore.Models.ComentarioProducto", b =>
+                {
+                    b.Property<int>("comentarioProducto_id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("comentarioProducto_id"));
+
+                    b.Property<int?>("ComentarioProductocomentarioProducto_id")
+                        .HasColumnType("int")
+                        .HasColumnName("comentarioProducto_CmtProductFkID");
+
+                    b.Property<int>("Productoproducto_id")
+                        .HasColumnType("int")
+                        .HasColumnName("comentarioProducto_productoId");
+
+                    b.Property<string>("comentarioProducto_descripcion")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("comentarioProducto_fechaCreacion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("comentarioProducto_fechaModificacion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<Guid>("comentarioProducto_guid")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("comentarioProducto_nombrePublicador")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("comentarioProducto_id");
+
+                    b.HasIndex("ComentarioProductocomentarioProducto_id");
+
+                    b.HasIndex("Productoproducto_id");
+
+                    b.ToTable("ComentarioProducto");
+                });
+
             modelBuilder.Entity("BlogCore.Models.Etiqueta", b =>
                 {
                     b.Property<int>("etiqueta_id")
@@ -644,6 +686,24 @@ namespace BlogCore.AccesoDatos.Migrations
                     b.Navigation("articulo");
                 });
 
+            modelBuilder.Entity("BlogCore.Models.ComentarioProducto", b =>
+                {
+                    b.HasOne("BlogCore.Models.ComentarioProducto", "comentarioProductoFK")
+                        .WithMany("listadoComentarioProductos")
+                        .HasForeignKey("ComentarioProductocomentarioProducto_id")
+                        .HasConstraintName("FK_Comentario_product_4AB81AF0");
+
+                    b.HasOne("BlogCore.Models.Producto", "producto")
+                        .WithMany()
+                        .HasForeignKey("Productoproducto_id")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("comentarioProductoFK");
+
+                    b.Navigation("producto");
+                });
+
             modelBuilder.Entity("BlogCore.Models.EtiquetaArticulo", b =>
                 {
                     b.HasOne("BlogCore.Models.Articulo", "articulo")
@@ -788,6 +848,11 @@ namespace BlogCore.AccesoDatos.Migrations
             modelBuilder.Entity("BlogCore.Models.ComentarioArticulo", b =>
                 {
                     b.Navigation("listadoComentarioArticulos");
+                });
+
+            modelBuilder.Entity("BlogCore.Models.ComentarioProducto", b =>
+                {
+                    b.Navigation("listadoComentarioProductos");
                 });
 
             modelBuilder.Entity("BlogCore.Models.Producto", b =>

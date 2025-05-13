@@ -22,6 +22,7 @@ namespace BlogCore.Data
         public DbSet<EtiquetaArticulo> EtiquetaArticulo { set; get; }
         public DbSet<Etiqueta> Etiqueta { set; get; }
         public DbSet<ComentarioArticulo> ComentarioArticulo { set; get; }
+        public DbSet<ComentarioProducto> ComentarioProducto { set; get; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
@@ -41,6 +42,15 @@ namespace BlogCore.Data
                 .HasConstraintName("FK__Comentari__comen__4AB81AF0");
                 //.OnDelete(DeleteBehavior.NoAction);
             });
+
+            builder.Entity<ComentarioProducto>(entity =>
+            {
+                entity
+                .HasOne(n => n.comentarioProductoFK)
+                .WithMany(n => n.listadoComentarioProductos)
+                .HasForeignKey(fk => fk.ComentarioProductocomentarioProducto_id)
+                .HasConstraintName("FK_Comentario_product_4AB81AF0");
+            });    
 
             base.OnModelCreating(builder);
         }

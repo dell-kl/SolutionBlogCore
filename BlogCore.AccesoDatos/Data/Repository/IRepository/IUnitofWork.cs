@@ -21,6 +21,9 @@
         public IComentarioArticuloRepository ComentarioArticulo { get; }
 
         public IOpinionesProductoRepository OpinionesProducto { get; }
+
+        public IComentarioProductoRepository ComentarioProducto { get; }
+
         public void Save();
     }
 }

@@ -1,4 +1,7 @@
 ﻿@model BlogCore.Models.ModelView.ComentarioProductoViewModel
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<ApplicationUser> UserManager
+@inject SignInManager<ApplicationUser> SignInManager
 
 @{
     ViewData["Title"] = "Detalle Producto";
@@ -7,20 +10,73 @@
 <div class="row mt-5 mx-2">
     <div class="col-4">
         <div class="d-flex gap-2">
-            <div>
-                @foreach(var n in Model.producto.imagenesProducto)
+            <div class="seccion-vertical-imagenes">
+                @{
+                    int totalImagenes = 4;
+                    int longitudColeccionImagenes = Model.producto.imagenesProducto.Count();
+                    var imagenesProducto = Model.producto.imagenesProducto.Take(totalImagenes);
+
+                }
+                @foreach(var n in imagenesProducto)
                 {
                     <div class="mb-2">
-                        <img width="50"
-                        height="50"
-                        class="border border-2 border-black border-opacity-25 rounded"
-                        src="@n.imagenesProducto_ruta" />
+                        @if ( 
+                                !n.imagenesProducto_id.Equals(imagenesProducto.Last().imagenesProducto_id
+                            ) 
+                            ||
+                            (
+                                n.imagenesProducto_id.Equals(imagenesProducto.Last().imagenesProducto_id)
+                                &&
+                                longitudColeccionImagenes < totalImagenes
+                            )
+                        )
+                        {
+                            <img width="50"
+                            height="50"
+                            id="imagen_responsive"
+                            class="border border-2 border-black border-opacity-25 rounded"
+                            src="@n.imagenesProducto_ruta" />
+                        }
+                        else if (n.imagenesProducto_id.Equals(imagenesProducto.Last().imagenesProducto_id) && longitudColeccionImagenes > totalImagenes )
+                        {
+                            int totalImagenesRestantes = ((List<ImagenesProducto>)Model.producto.imagenesProducto)
+                                .GetRange(totalImagenes, longitudColeccionImagenes - totalImagenes).Count();
+                            
+                            <div class="position-relative" style="cursor:pointer;">
+                                <img width="50"
+                                height="50"
+                                id="imagen_responsive"
+                                class="border border-2 border-black border-opacity-25 rounded"
+                                src="@n.imagenesProducto_ruta" />
+                                <div class="sombreado text-white fw-bold pt-2 ps-2 fs-4 position-absolute top-0 rounded" style="width: 100%; height: 100%; background-color: rgba( 0 0 0 / .3);">
+                                    + @totalImagenesRestantes
+                                </div>
+                            </div>
+                        }
                     </div>
                 }
+
+                @{
+                    var totalVideosProducto = Model.producto.videosProducto.Count();
+                }
+
+                <div class="mb-2">
+                    <div class="position-relative" style="cursor:pointer;">
+                        <img width="50"
+                                height="50"
+                                id="imagen_responsive"
+                                class="border border-2 border-black border-opacity-25 rounded"
+                                src="~/pictures/personalizacion/play_img.jpg" />
+                        <div class="sombreado text-white fw-bold pt-2 ps-2 fs-4 position-absolute top-0 rounded" style="width: 100%; height: 100%; background-color: rgba( 0 0 0 / .3);">
+                            + @totalVideosProducto
+                        </div>
+                    </div>
+                </div>
             </div>
             <div>
                 <img width="450"
                 height="450"
+                id="tarima_imagen_responsive"
                 src="@Model.producto.imagenesProducto.First().imagenesProducto_ruta" />
             </div>
         </div>
@@ -105,6 +161,136 @@
     </div>
 </div>
 
+@* Seccion de comentarios y opiniones del producto *@
+<div class="row ms-4">
+    <div class="seccion-1">
+        <ul class="nav nav-underline">
+            <li class="nav-item">
+                <a  id="opiniones"
+                   class="nav-link active nav-link-Y29tZW50YXJpbyB5IG9waW5pb25lcwo"
+                   aria-current="page" 
+                    href="#seccion_opiniones">Opiniones Producto</a>
+            </li>
+            <li class="nav-item">
+                <a  id="comentario"
+                   class="nav-link nav-link-Y29tZW50YXJpbyB5IG9waW5pb25lcwo"
+                   href="#seccion_comentario">Comentario Producto</a>
+            </li>
+        </ul>
+
+        <div>
+            <section id="seccion_opiniones" class="d-block mt-4">
+                <h2 class="fs-4">Opiniones de nuestro producto</h2>
+            </section>
+            <section id="seccion_comentario" class="d-none mt-4">
+                <h2 class="fs-4">Comentarios del Producto</h2>
+
+                <form asp-area="Client"
+                      asp-controller="Home"
+                      asp-action="DetailsProduct"
+                      method="post">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <div class="form-group row">
+                        <input type="hidden" asp-for="@Model.producto.producto_id" />
+                        <div class="form-group row">
+                            <div>
+                                <label asp-for="@Model.comentarioProducto"></label>
+                                <textarea asp-for="@Model.comentarioProducto"
+                                          id="textAreaDescripcion">
+                                </textarea>
+                                <span asp-validation-for="@Model.comentarioProducto" class="text-danger"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-warning mt-4">Comentario</button>
+                </form>
+
+                <div>
+                    <section style="background-color: #e7effd29;">
+                        <div class="container my-5 py-5 text-body">
+                            <div class="row d-flex justify-content-center">
+                                <div class="p-4">
+
+                                    @foreach (var comentario in Model.ListadoComentarioProducto)
+                                    {
+                                        if (comentario.ComentarioProductocomentarioProducto_id is null)
+                                        {
+                                            <div class="d-flex flex-start mb-4">
+                                                <img class="rounded-circle shadow-1-strong me-3"
+                                                     src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar" width="65"
+                                                     height="65" />
+                                                <div class="card w-100">
+                                                    <div class="card-body p-4">
+                                                        <div class="">
+                                                            <h5>@comentario.comentarioProducto_nombrePublicador</h5>
+                                                            <p class="small">@comentario.comentarioProducto_fechaCreacion</p>
+                                                            @Html.Raw(comentario.comentarioProducto_descripcion)
+
+                                                            <div class="d-flex justify-content-between align-items-center">
+                                                                <div class="d-flex flex-column justify-content-start">
+                                                                    @if (SignInManager.IsSignedIn(User))
+                                                                    {
+                                                                        string identificadorPost = $"{comentario.comentarioProducto_guid}";
+
+                                                                        <a class="w-50 btn btn-info btn_new_post_message rounded border-1" id="@identificadorPost"><i class="fa-solid fa-comments"></i> Dar comentario</a>
+
+                                                                        <form asp-area="Client"
+                                                                              asp-controller="Home"
+                                                                              asp-action="AportarComentarioProducto"
+                                                                              class="mt-5"
+                                                                              method="post">
+                                                                            <div class="form-group row">
+                                                                                <input type="hidden" name="identificador_producto_aporte" value="@Model.producto.producto_id" />
+                                                                                <input type="hidden" name="identificador_mensaje_aporte" value="@identificadorPost" />
+                                                                                <div class="form-group row">
+                                                                                    <div>
+                                                                                        <label>Puedes dar tu opinion sobre este comentario</label>
+                                                                                        <textarea name="mensaje_aporte"
+                                                                                                  id="textAreaDescripcion">
+                                                                                    </textarea>
+                                                                                        <span id="seccion_alertas" class="text-danger"></span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <button type="submit" class="btn btn-warning mt-2 rounded border-1"><i class="fa-solid fa-circle"></i> Publicar</button>
+                                                                            <a class="btn btn-danger mt-2 rounded border-1"><i class="fa-solid fa-ban"></i> Cancelar</a>
+                                                                        </form>
+                                                                    }
+                                                                     @foreach (ComentarioProducto aporteComentario in comentario.listadoComentarioProductos) 
+                                                                     { 
+                                                                         <div class="d-flex flex-start mb-4 mt-4"> 
+                                                                             <img class="rounded-circle shadow-1-strong me-3" 
+                                                                                  src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar" width="65" 
+                                                                                  height="65" /> 
+                                                                             <div class="card w-100"> 
+                                                                                 <div class="card-body p-4"> 
+                                                                                     <div> 
+                                                                                         <h5>@aporteComentario.comentarioProducto_nombrePublicador</h5> 
+                                                                                         <p class="small">@aporteComentario.comentarioProducto_nombrePublicador</p> 
+                                                                                         @Html.Raw(aporteComentario.comentarioProducto_descripcion) 
+                                                                                     </div> 
+                                                                                 </div> 
+                                                                             </div> 
+                                                                         </div> 
+                                                                     } 
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        }
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
 <script>
     let idBoxDescription = "seccionDescripcion";
     document.getElementById("descripcionOverflow").onclick = (e) => {
@@ -123,4 +309,77 @@
             elemento.style.height = "6rem";
         }
     };
+
+    const enlacesNavegacion = document.querySelectorAll(".nav-link-Y29tZW50YXJpbyB5IG9waW5pb25lcwo");
+    enlacesNavegacion.forEach(enlace => {
+        enlace.onclick = (evento) => {
+            
+            let identificador = evento.target.id;
+            let seccion = document.getElementById(`seccion_${identificador}`);
+            let verificar = !seccion.classList.contains("d-block");
+
+            if(verificar)
+            {
+                document.getElementById(`seccion_${identificador}`).classList.add("d-block");
+                document.getElementById(`seccion_${identificador}`).classList.remove("d-none");
+                document.getElementById(identificador).classList.add("active");
+            }
+
+            if ( identificador == "comentario" )
+            {
+                document.getElementById("seccion_opiniones").classList.remove("d-block");
+                document.getElementById("seccion_opiniones").classList.add("d-none");
+                document.getElementById("opiniones").classList.remove("active");
+            }
+            
+            if ( identificador == "opiniones" )
+            {
+                document.getElementById("seccion_comentario").classList.remove("d-block");
+                document.getElementById("seccion_comentario").classList.add("d-none");
+                document.getElementById("comentario").classList.remove("active");
+            }
+        };
+    });
 </script>
+
+@section Scripts {
+    <script src="~/js/imagenesResponsive.js"></script>
+    <script src="~/js/panelTinyMCE.js"></script>
+
+    @if (TempData["error"] != null)
+    {
+        <script>
+            Swal.fire({
+            icon: "error",
+            title: "Error comentario",
+            confirmButtonText: "Entendido",
+            text: "@TempData["error"]",
+            footer: '<a href="/Identity/Account/Login">Iniciar Sesion</a><br/><a href="/Identity/Account/Register">Registrarse</a>'
+            });
+        </script>
+    }
+
+    @if (TempData["succes"] != null)
+    {
+        <script>
+            Swal.fire({
+            icon: "success",
+            title: "Comentario Publicado",
+            confirmButtonText: "Entendido",
+            text: "@TempData["succes"]"
+            });
+        </script>
+    }
+
+    @if (TempData["error_comentario_aporte"] != null)
+    {
+        <script>
+            Swal.fire({
+            icon: "error",
+            title: "Error comentario",
+            confirmButtonText: "Entendido",
+            text: "@TempData["error_comentario_aporte"]"
+            });
+        </script>
+    }
+}
