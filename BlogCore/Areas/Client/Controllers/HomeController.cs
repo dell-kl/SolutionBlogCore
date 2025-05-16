@@ -39,6 +39,29 @@ namespace BlogCore.Areas.Client.Controllers
             return modelo;
         };
 
+        // pulir este delegado para mas adelante. 
+        Func<IUnitofWork, int, ComentarioProductoViewModel?, ComentarioProductoViewModel> DatosProductoYComentario = (_unitOfWork, id, modelo) => {
+            Producto producto = _unitOfWork.Producto.GetFirstOrDefault(n => n.producto_id.Equals(id), includeProperties: "imagenesProducto, videosProducto");
+            IEnumerable<ComentarioProducto> listadoComentarioProducto = _unitOfWork.ComentarioProducto.GetAll(n => n.Productoproducto_id.Equals(id));
+            IEnumerable<OpinionesProducto> listadoOpinionesProducto = _unitOfWork.OpinionesProducto.GetAll(n => n.Productoproducto_id.Equals(id));
+
+            if (modelo is null)
+                modelo = new ComentarioProductoViewModel()
+                {
+                    producto = producto,
+                    ListadoComentarioProducto = listadoComentarioProducto,
+                    ListadoOpinionesProducto = listadoOpinionesProducto
+                };
+            else
+            {
+                modelo.producto = producto;
+                modelo.ListadoOpinionesProducto = listadoOpinionesProducto;
+                modelo.ListadoComentarioProducto = listadoComentarioProducto;
+            }
+
+            return modelo;
+        };
+
         public IActionResult Index()
         {
             HomeViewModel homeViewModel = new HomeViewModel()
@@ -51,16 +74,8 @@ namespace BlogCore.Areas.Client.Controllers
         }
 
         [HttpGet]
-        public IActionResult DetailsProduct(int id)
-        {
-            ComentarioProductoViewModel cmtProductVM = new ComentarioProductoViewModel() { 
-                producto = _unitOfWork.Producto.GetFirstOrDefault(p => p.producto_id.Equals(id), includeProperties: "imagenesProducto, videosProducto"),
-                ListadoOpinionesProducto = _unitOfWork.OpinionesProducto.GetAll(art => art.opinionesProducto_id.Equals(id)),
-                ListadoComentarioProducto = _unitOfWork.ComentarioProducto.GetAll(cmt => cmt.Productoproducto_id.Equals(id))
-            };
-
-            return View(cmtProductVM);
-        }
+        public IActionResult DetailsProduct(int id) =>
+            View(DatosProductoYComentario(_unitOfWork, id, null));
 
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -94,12 +109,8 @@ namespace BlogCore.Areas.Client.Controllers
                 .Where(n => n.Key.Equals("comentarioProducto")).First().Value!.ValidationState;
 
             if (ValiCampoComent.ToString().Equals("Invalid")) 
-            {
-                modelo.producto = _unitOfWork.Producto.GetFirstOrDefault(p => p.producto_id.Equals(modelo.producto.producto_id), includeProperties: "imagenesProducto, videosProducto");
-                modelo.ListadoOpinionesProducto = _unitOfWork.OpinionesProducto.GetAll(art => art.opinionesProducto_id.Equals(modelo.producto.producto_id));
-                return View(modelo);
-            }
-
+                return View(View(DatosProductoYComentario(_unitOfWork, modelo.producto.producto_id, modelo)));
+            
             _unitOfWork.Dispose();
 
             return RedirectToAction("DetailsProduct", new { id = modelo.producto.producto_id });
@@ -198,10 +209,13 @@ namespace BlogCore.Areas.Client.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult AportarComentarioProducto(int identificador_producto_aporte, Guid identificador_mensaje_aporte, string mensaje_aporte)
         {
+            var confirmar = identificador_mensaje_aporte.ToString();
+
             ComentarioProducto? comentarioProducto = _unitOfWork.ComentarioProducto.GetFirstOrDefault(cmt => cmt.comentarioProducto_guid.Equals(identificador_mensaje_aporte));
 
             if (!((ClaimsIdentity)this.User.Identity!).IsAuthenticated)
                 TempData["error"] = "Inicia sesion para comentar o registrate primero";
+
             else if (
                 identificador_producto_aporte != 0
                 &&

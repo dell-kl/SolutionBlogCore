@@ -40,6 +40,7 @@ namespace BlogCore.AccesoDatos.Data.Repository
                 productoDb.producto_disponiblidad = producto.producto_disponiblidad;
                 productoDb.producto_descripcion = producto.producto_descripcion;
                 productoDb.producto_Esdescuento = producto.producto_Esdescuento;
+                productoDb.producto_descuento = producto.producto_descuento;
                 productoDb.producto_fechaCreacion = producto.producto_fechaCreacion;
                 productoDb.producto_fechaModificacion = DateTime.Now;
                 productoDb.CategoriaProductocategoriaProducto_id = producto.CategoriaProductocategoriaProducto_id;
