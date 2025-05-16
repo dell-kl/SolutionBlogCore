@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "f1MJUQWEkS4X2c7eLML88vfedY39dZxS979pr0HVYGc=",
+  "Hash": "usTAi8vpLu2sqIWc6lDXg+R/rhJGIRxD/l66g+DmrlM=",
   "Source": "BlogCore",
   "BasePath": "_content/BlogCore",
   "Mode": "Default",
@@ -1480,8 +1480,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "dereoeb21z",
-      "Integrity": "yz36btoZ12mF5SrwvMZpckGC6eZ0ubnBM2lv2TOUmOg=",
+      "Fingerprint": "wwgoti1aji",
+      "Integrity": "YD+vvO7nKpzo7Y3uQ5+4aL830MIaAtlc7MvbT+gZVKA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\imagenesResponsive.js"
@@ -6274,51 +6274,6 @@
       ]
     },
     {
-      "Route": "js/imagenesResponsive.dereoeb21z.js",
-      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\js\\imagenesResponsive.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "983"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yz36btoZ12mF5SrwvMZpckGC6eZ0ubnBM2lv2TOUmOg=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 05:06:10 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "dereoeb21z"
-        },
-        {
-          "Name": "label",
-          "Value": "js/imagenesResponsive.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-yz36btoZ12mF5SrwvMZpckGC6eZ0ubnBM2lv2TOUmOg="
-        }
-      ]
-    },
-    {
       "Route": "js/imagenesResponsive.js",
       "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\js\\imagenesResponsive.js",
       "Selectors": [],
@@ -6329,7 +6284,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "983"
+          "Value": "1353"
         },
         {
           "Name": "Content-Type",
@@ -6337,11 +6292,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yz36btoZ12mF5SrwvMZpckGC6eZ0ubnBM2lv2TOUmOg=\""
+          "Value": "\"YD+vvO7nKpzo7Y3uQ5+4aL830MIaAtlc7MvbT+gZVKA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 05:06:10 GMT"
+          "Value": "Fri, 16 May 2025 19:29:53 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6351,7 +6306,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yz36btoZ12mF5SrwvMZpckGC6eZ0ubnBM2lv2TOUmOg="
+          "Value": "sha256-YD+vvO7nKpzo7Y3uQ5+4aL830MIaAtlc7MvbT+gZVKA="
+        }
+      ]
+    },
+    {
+      "Route": "js/imagenesResponsive.wwgoti1aji.js",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\js\\imagenesResponsive.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1353"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YD+vvO7nKpzo7Y3uQ5+4aL830MIaAtlc7MvbT+gZVKA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 16 May 2025 19:29:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wwgoti1aji"
+        },
+        {
+          "Name": "label",
+          "Value": "js/imagenesResponsive.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YD+vvO7nKpzo7Y3uQ5+4aL830MIaAtlc7MvbT+gZVKA="
         }
       ]
     },

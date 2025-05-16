@@ -96,17 +96,17 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pvPPOuOkOnjLdenVcLYWWGADrQbUL1MI04LO9IzRTuo="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3123"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022pvPPOuOkOnjLdenVcLYWWGADrQbUL1MI04LO9IzRTuo=\u0022"},{"Name":"Last-Modified","Value":"Sat, 12 Apr 2025 09:42:07 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/BlogCore/js/imagenesResponsive.dereoeb21z.js">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\imagenesResponsive.js'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"dereoeb21z"},{"Name":"integrity","Value":"sha256-yz36btoZ12mF5SrwvMZpckGC6eZ0ubnBM2lv2TOUmOg="},{"Name":"label","Value":"_content/BlogCore/js/imagenesResponsive.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"983"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022yz36btoZ12mF5SrwvMZpckGC6eZ0ubnBM2lv2TOUmOg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 May 2025 05:06:10 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BlogCore/js/imagenesResponsive.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\imagenesResponsive.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yz36btoZ12mF5SrwvMZpckGC6eZ0ubnBM2lv2TOUmOg="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"983"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022yz36btoZ12mF5SrwvMZpckGC6eZ0ubnBM2lv2TOUmOg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 May 2025 05:06:10 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YD\u002BvvO7nKpzo7Y3uQ5\u002B4aL830MIaAtlc7MvbT\u002BgZVKA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1353"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022YD\u002BvvO7nKpzo7Y3uQ5\u002B4aL830MIaAtlc7MvbT\u002BgZVKA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 May 2025 19:29:53 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/BlogCore/js/imagenesResponsive.wwgoti1aji.js">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\imagenesResponsive.js'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wwgoti1aji"},{"Name":"integrity","Value":"sha256-YD\u002BvvO7nKpzo7Y3uQ5\u002B4aL830MIaAtlc7MvbT\u002BgZVKA="},{"Name":"label","Value":"_content/BlogCore/js/imagenesResponsive.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1353"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022YD\u002BvvO7nKpzo7Y3uQ5\u002B4aL830MIaAtlc7MvbT\u002BgZVKA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 16 May 2025 19:29:53 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BlogCore/js/panelTinyMCE.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\panelTinyMCE.js'))</AssetFile>

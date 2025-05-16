@@ -20,14 +20,14 @@
                 {
                     <div class="mb-2">
                         @if ( 
-                            !n.imagenesProducto_id.Equals(imagenesProducto.Last().imagenesProducto_id) 
-                            ||
-                            (
-                            n.imagenesProducto_id.Equals(imagenesProducto.Last().imagenesProducto_id)
-                            &&
-                            longitudColeccionImagenes < totalImagenes
-                            )
-                        )
+                          !n.imagenesProducto_id.Equals(imagenesProducto.Last().imagenesProducto_id) 
+                          ||
+                          (
+                          n.imagenesProducto_id.Equals(imagenesProducto.Last().imagenesProducto_id)
+                          &&
+                          longitudColeccionImagenes < totalImagenes
+                          )
+                      )
                         {
                             <img width="50"
                             height="50"
@@ -60,9 +60,9 @@
                 <div class="mb-2">
                     <div id="imagen_responsive" class="position-relative" style="cursor:pointer;">
                         <img width="50"
-                                height="50"
-                                class="border border-2 border-black border-opacity-25 rounded"
-                                src="~/pictures/personalizacion/play_img.jpg" />
+                        height="50"
+                        class="border border-2 border-black border-opacity-25 rounded"
+                        src="~/pictures/personalizacion/play_img.jpg" />
                         <div class="sombreado text-white fw-bold pt-2 ps-2 fs-4 position-absolute top-0 rounded" style="width: 100%; height: 100%; background-color: rgba( 0 0 0 / .3);">
                             + @totalVideosProducto
                         </div>
@@ -79,15 +79,15 @@
         </div>
 
         <div class="modal fade" id="TW9kYWwgZGUgcGludHVyYXMgeSB2aWRlb3MK" tabindex="-1" aria-labelledby="TW9kYWwgZGUgZGV0YWxsZXMK" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
+            <div class="modal-dialog modal-visual" style="max-width: unset;">
+                <div class="modal-content rounded border-1 m-auto" style="width: 95%;">
                     <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="TW9kYWwgZGUgZGV0YWxsZXMK">Imagenes/Videos Producto</h1>
+                        <h1 class="modal-title fs-5" id="TW9kYWwgZGUgZGV0YWxsZXMK">Contenido Visual Producto</h1>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
 
-                        <ul class="nav nav-underline">
+                        <ul class="nav nav-underline mb-4">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Imagenes</a>
                             </li>
@@ -95,6 +95,43 @@
                                 <a class="nav-link" href="#">Videos</a>
                             </li>
                         </ul>
+
+                        <div class="imagenes d-block">
+                            <div class="d-flex gap-4 justify-content-center plataforma-cGxhdGFmb3JtYSBwcmVzZW50YWNpb24gZGVzZGUgZXN0ZQo m-auto" style="height: 30rem; width: 94%;">
+                                <div class="imagen-central-aW1hZ2VuIGNlbnRyYWwK" style="width: 90%;">
+                                    <img
+                                    style="height: 100%;width: 100%;"
+                                    class="rounded border-1"
+                                    id="imagen-presentacion-lZ3RVCk1lRUVVJWZVZkWE1IaFpWMDVIWWpOd1"
+                                    src="@Model.producto.imagenesProducto.First().imagenesProducto_ruta"/>
+                                </div>
+                                <div class="paleta-fotos-cGFsZXRhIGRlIGZvdG9zCg">
+                                    <h3 class="text-center fw-light mb-2">Seccion Imagenes</h3>
+                                    <div class="d-flex flex-wrap gap-1">
+                                        @foreach(ImagenesProducto imagenes in Model.producto.imagenesProducto)
+                                        {
+                                            
+                                            Guid guid = Guid.NewGuid();
+                                            
+                                            <div>
+                                                <img
+                                                    id="img-@guid"
+                                                    width="100"
+                                                    class="rounded border-1 modal-proyeccion-imagen"
+                                                    height="100"
+                                                    src="@imagenes.imagenesProducto_ruta"
+                                                    />
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="videos d-none">
+                            <div class="row">
+
+                            </div>
+                        </div>
 
                     </div>
                     <div class="modal-footer">

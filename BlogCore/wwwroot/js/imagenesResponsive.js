@@ -7,6 +7,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
     cargando();
+    escuchandoImagenesModal();
 });
 
 function cargando() {
@@ -22,4 +23,15 @@ function cargando() {
             document.getElementById("tarima_imagen_responsive").src = enlaceImagen;
         });
     });
+}
+
+function escuchandoImagenesModal() {
+
+    document.querySelectorAll(".modal-proyeccion-imagen").forEach(imagen => {
+        imagen.onclick = (e) => {
+            let rutaImagen = e.target.src;
+            document.getElementById("imagen-presentacion-lZ3RVCk1lRUVVJWZVZkWE1IaFpWMDVIWWpOd1").src = rutaImagen;
+        };
+    });
+
 }

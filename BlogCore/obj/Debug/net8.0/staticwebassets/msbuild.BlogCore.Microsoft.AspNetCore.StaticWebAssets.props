@@ -156,8 +156,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>dereoeb21z</Fingerprint>
-      <Integrity>yz36btoZ12mF5SrwvMZpckGC6eZ0ubnBM2lv2TOUmOg=</Integrity>
+      <Fingerprint>wwgoti1aji</Fingerprint>
+      <Integrity>YD+vvO7nKpzo7Y3uQ5+4aL830MIaAtlc7MvbT+gZVKA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\imagenesResponsive.js'))</OriginalItemSpec>
