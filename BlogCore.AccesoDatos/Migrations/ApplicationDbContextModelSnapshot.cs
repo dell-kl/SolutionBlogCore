@@ -344,6 +344,9 @@ namespace BlogCore.AccesoDatos.Migrations
                     b.Property<decimal>("producto_precio")
                         .HasColumnType("decimal(18,2)");
 
+                    b.Property<decimal>("producto_precioDescuento")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<int>("producto_stock")
                         .HasColumnType("int");
 

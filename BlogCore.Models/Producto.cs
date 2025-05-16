@@ -37,6 +37,10 @@ namespace BlogCore.Models
         [Required(ErrorMessage = "Inserta un descuento, si no aplica descuento dejalo en 0")]
         [Display(Name = "Valor Descuento")]
         public int producto_descuento { set; get; } = 0;
+
+        //este precio se va a calcular solo... crearemos nosotros un disparador.
+        public decimal producto_precioDescuento { set; get; } = 0;
+        
         public DateTime producto_fechaCreacion { set; get; } = DateTime.Now;
         public DateTime producto_fechaModificacion { set; get; } = DateTime.Now;
 

@@ -24,6 +24,7 @@ namespace BlogCore.Data
         public DbSet<ComentarioArticulo> ComentarioArticulo { set; get; }
         public DbSet<ComentarioProducto> ComentarioProducto { set; get; }
 
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             builder.Entity<ReaccionArticulo>()
@@ -31,6 +32,10 @@ namespace BlogCore.Data
     
             builder.Entity<EtiquetaArticulo>()
                 .HasNoKey();
+
+            builder.Entity<Producto>()
+                .ToTable(tbl => tbl.HasTrigger("TGR_CalcularDescuento"));
+                //.ToTable(tbl => tbl.UseSqlOutputClause(false))
 
             //relacion recursiva
             builder.Entity<ComentarioArticulo>(entity =>

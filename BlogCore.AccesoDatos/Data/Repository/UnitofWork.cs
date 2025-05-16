@@ -6,6 +6,7 @@ namespace BlogCore.AccesoDatos.Data.Repository
     public class UnitofWork : IUnitofWork
     {
         private readonly ApplicationDbContext _db;
+
         public ICategoriaRepository Categoria {  get; private set; }
 
         public IArticuloRepository Articulo { get; private set; }
@@ -51,7 +52,8 @@ namespace BlogCore.AccesoDatos.Data.Repository
 
         public void Save()
         {
-            _db.SaveChanges();
+            _db.SaveChanges();   
         }
+
     }
 }
