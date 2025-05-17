@@ -18,6 +18,7 @@ namespace BlogCore.Areas.Admin.Controllers
         private readonly IWebHostEnvironment _webHostEnvironment;
         private const string RUTA = "\\pictures\\producto\\";
         private const string RUTA_VIDEO = "\\videos\\producto\\";
+        private const string RUTA_IMG_VIDEO = "\\videos\\producto\\screenshot_producto\\";
 
         Action<ProductoViewModel, ModelStateDictionary> verificarArchivos = (datos, ModelState) => { 
             Predicate<IFormFileCollection> archivos = (archivo) => archivo.IsNullOrEmpty();
@@ -72,6 +73,7 @@ namespace BlogCore.Areas.Admin.Controllers
                     _unitOfWork.Producto.Add(modelo.producto);
                     _unitOfWork.Save();
 
+                    //obtenemos el producto especificando todos sus campos. 
                     var producto = _unitOfWork.Producto.GetAll(
                             n => n.producto_nombre.Equals(modelo.producto.producto_nombre) &&
                             n.producto_precio.Equals(modelo.producto.producto_precio) &&
@@ -104,7 +106,7 @@ namespace BlogCore.Areas.Admin.Controllers
                     //guardamos los videos
                     foreach (var item in modelo.videosName)
                     {
-                        string ruta = VideosUtility.guardarVideo(RUTA_VIDEO, _webHostEnvironment.WebRootPath, item);
+                        string ruta = VideosUtility.guardarVideo(RUTA_IMG_VIDEO, RUTA_VIDEO, _webHostEnvironment.WebRootPath, item);
 
                         //guardar el video respectivo
                         _unitOfWork.Video.Add(new VideosProducto()
@@ -175,7 +177,7 @@ namespace BlogCore.Areas.Admin.Controllers
                         //guardamos los videos
                         foreach (var item in modelo.videosName)
                         {
-                            string ruta = VideosUtility.guardarVideo(RUTA_VIDEO, _webHostEnvironment.WebRootPath, item);
+                            string ruta = VideosUtility.guardarVideo(RUTA_IMG_VIDEO, RUTA_VIDEO, _webHostEnvironment.WebRootPath, item);
 
                             //guardar el video respectivo
                             _unitOfWork.Video.Add(new VideosProducto()

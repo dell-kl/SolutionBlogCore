@@ -354,7 +354,12 @@ namespace BlogCore.AccesoDatos.Migrations
 
                     b.HasIndex("CategoriaProductocategoriaProducto_id");
 
-                    b.ToTable("Producto");
+                    b.ToTable("Producto", t =>
+                        {
+                            t.HasTrigger("TGR_CalcularDescuento");
+                        });
+
+                    b.HasAnnotation("SqlServer:UseSqlOutputClause", false);
                 });
 
             modelBuilder.Entity("BlogCore.Models.ReaccionArticulo", b =>
@@ -424,6 +429,10 @@ namespace BlogCore.AccesoDatos.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("videosProducto_ruta")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("videosProducto_rutaFotoVideo")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

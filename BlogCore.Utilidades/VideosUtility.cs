@@ -1,9 +1,5 @@
 ﻿using Microsoft.AspNetCore.Http;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace BlogCore.Utilidades
 {
@@ -15,13 +11,18 @@ namespace BlogCore.Utilidades
                 System.IO.File.Delete(ruta);
         }
 
-        public static string guardarVideo(string rutaLocal, string rutaAbsoluta, IFormFile file)
+        public static string guardarVideo(string rutaScreenshot, string rutaLocal, string rutaAbsoluta, IFormFile file)
         {
             rutaAbsoluta = $"{rutaAbsoluta}{rutaLocal}";
+            rutaScreenshot = $"{rutaAbsoluta}{rutaScreenshot}";
 
             if (!Directory.Exists(rutaAbsoluta))
                 Directory.CreateDirectory(rutaAbsoluta);
 
+            if(!Directory.Exists(rutaScreenshot))
+                Directory.CreateDirectory(rutaScreenshot);
+
+            
             FileInfo infoArchivo = new FileInfo(file.FileName);
             string guiImagen = $"{Guid.NewGuid().ToString()}{infoArchivo.Extension}";
             string rutaCompleta = $"{rutaAbsoluta}{guiImagen}";
@@ -31,6 +32,23 @@ namespace BlogCore.Utilidades
                 file.CopyTo(stream);
             }
 
+            rutaScreenshot = $"{rutaScreenshot}{Guid.NewGuid()}.png";
+            string ffmpeg_cmd = $"-i \"{rutaCompleta}\" \"{rutaScreenshot}\"";
+
+            Process proceso = new Process
+            {
+                StartInfo = new ProcessStartInfo()
+                {
+                    FileName = "ffmpeg",
+                    Arguments = ffmpeg_cmd,
+                    RedirectStandardInput = true,
+                    UseShellExecute = false,
+                    CreateNoWindow = true
+                }
+            };
+            proceso.Start();
+            proceso.WaitForExit();
+            
             return $"{rutaLocal}{guiImagen}";
         }
     }

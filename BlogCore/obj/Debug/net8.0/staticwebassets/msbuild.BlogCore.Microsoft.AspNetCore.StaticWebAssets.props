@@ -156,8 +156,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>wwgoti1aji</Fingerprint>
-      <Integrity>YD+vvO7nKpzo7Y3uQ5+4aL830MIaAtlc7MvbT+gZVKA=</Integrity>
+      <Fingerprint>09tjzyo1fz</Fingerprint>
+      <Integrity>LFokWWX2FUjiQvelLcvoQ28usQdOsUAxX5Mo+EkrrVs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\imagenesResponsive.js'))</OriginalItemSpec>
@@ -1566,156 +1566,174 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\personalizacion\tiendaShopping.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\4c9201d7-f4c2-4cd1-8334-fc6302241b3b.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\0231817f-74bb-403a-b67a-e518510f8ac7.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>BlogCore</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/BlogCore</BasePath>
-      <RelativePath>pictures/producto/4c9201d7-f4c2-4cd1-8334-fc6302241b3b.jpg</RelativePath>
+      <RelativePath>pictures/producto/0231817f-74bb-403a-b67a-e518510f8ac7.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>95ms75i4k0</Fingerprint>
-      <Integrity>HRoZRi3V/1o/x86Eytj5P8AoQwHQnH8UVNfgtJO+2qo=</Integrity>
+      <Fingerprint>6aq0hbxjhn</Fingerprint>
+      <Integrity>DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\4c9201d7-f4c2-4cd1-8334-fc6302241b3b.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\0231817f-74bb-403a-b67a-e518510f8ac7.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\5ddcdaa5-d03b-4c70-9809-1c20952039c9.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\0cb6b19a-b481-4804-b2b6-384177423e42.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>BlogCore</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/BlogCore</BasePath>
-      <RelativePath>pictures/producto/5ddcdaa5-d03b-4c70-9809-1c20952039c9.jpg</RelativePath>
+      <RelativePath>pictures/producto/0cb6b19a-b481-4804-b2b6-384177423e42.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>49kf5ydygw</Fingerprint>
-      <Integrity>uK7CNueJqRzssGMNNc8XzIP+b9eU7w5cxbDIDDIrIHo=</Integrity>
+      <Fingerprint>5ijr72040q</Fingerprint>
+      <Integrity>fUpdwLVKxHQlWYDcWUd7Ao76p8MsWMzIMgxev1uCt68=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\5ddcdaa5-d03b-4c70-9809-1c20952039c9.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\0cb6b19a-b481-4804-b2b6-384177423e42.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\6aeeb621-be02-4f00-a1de-5dd5f58022a1.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\1e68c379-1637-46c9-8a06-ec01af409936.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>BlogCore</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/BlogCore</BasePath>
-      <RelativePath>pictures/producto/6aeeb621-be02-4f00-a1de-5dd5f58022a1.jpg</RelativePath>
+      <RelativePath>pictures/producto/1e68c379-1637-46c9-8a06-ec01af409936.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4tpsboaouu</Fingerprint>
-      <Integrity>qFxQ7yr3W7Bag+3kk+ohq3n+h1cdRwYS+Jo3zAsogxM=</Integrity>
+      <Fingerprint>gbtwycvke2</Fingerprint>
+      <Integrity>bF60aAxPTJA+obMr7whqYEdBhXGh+p3JCUg/c2npI3A=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\6aeeb621-be02-4f00-a1de-5dd5f58022a1.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\1e68c379-1637-46c9-8a06-ec01af409936.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\77ea0740-1667-4729-bce9-466d0ce4eedb.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\7558900c-98c5-4e0a-98f6-c4376f2e7412.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>BlogCore</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/BlogCore</BasePath>
-      <RelativePath>pictures/producto/77ea0740-1667-4729-bce9-466d0ce4eedb.jpg</RelativePath>
+      <RelativePath>pictures/producto/7558900c-98c5-4e0a-98f6-c4376f2e7412.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>fs5qf653hu</Fingerprint>
-      <Integrity>MQnuXX7LrRzzcwpCLiTqur8YWPp9DY6a1PEb2Fa83h0=</Integrity>
+      <Fingerprint>zymyy2amix</Fingerprint>
+      <Integrity>y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\77ea0740-1667-4729-bce9-466d0ce4eedb.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\7558900c-98c5-4e0a-98f6-c4376f2e7412.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\9c313ee1-3ea2-45d4-b232-46107181af1c.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\b4e31362-3950-4385-bed8-c044ae7b9af7.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>BlogCore</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/BlogCore</BasePath>
-      <RelativePath>pictures/producto/9c313ee1-3ea2-45d4-b232-46107181af1c.jpg</RelativePath>
+      <RelativePath>pictures/producto/b4e31362-3950-4385-bed8-c044ae7b9af7.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>20tnigvmk8</Fingerprint>
-      <Integrity>kvR4tNlwNRYtxN9ao5iCt+mUj/NHfMUZRfr1qzFXyfI=</Integrity>
+      <Fingerprint>gbtwycvke2</Fingerprint>
+      <Integrity>bF60aAxPTJA+obMr7whqYEdBhXGh+p3JCUg/c2npI3A=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\9c313ee1-3ea2-45d4-b232-46107181af1c.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\b4e31362-3950-4385-bed8-c044ae7b9af7.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\ba65954e-4b78-4869-b78d-c3640bb514ff.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\b6b013ef-c9d2-4d29-9875-4a3fc7d2908a.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>BlogCore</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/BlogCore</BasePath>
-      <RelativePath>pictures/producto/ba65954e-4b78-4869-b78d-c3640bb514ff.jpg</RelativePath>
+      <RelativePath>pictures/producto/b6b013ef-c9d2-4d29-9875-4a3fc7d2908a.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>r1icz453ef</Fingerprint>
-      <Integrity>oXabRrRIveTB3jm2F9n9tFHxHmSkxm0PHg0jopJak6s=</Integrity>
+      <Fingerprint>6aq0hbxjhn</Fingerprint>
+      <Integrity>DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\ba65954e-4b78-4869-b78d-c3640bb514ff.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\b6b013ef-c9d2-4d29-9875-4a3fc7d2908a.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\videos\producto\292eff3b-8a21-4806-9787-b298d210fa45.mp4'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\d232b869-18ab-4e6b-9d11-28afcde18d43.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>BlogCore</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/BlogCore</BasePath>
-      <RelativePath>videos/producto/292eff3b-8a21-4806-9787-b298d210fa45.mp4</RelativePath>
+      <RelativePath>pictures/producto/d232b869-18ab-4e6b-9d11-28afcde18d43.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>zlokquyt9p</Fingerprint>
-      <Integrity>l6vC8nZwiexX3Dzvx5ArEPX4ZOFxGyQBSCyLcnnajfo=</Integrity>
+      <Fingerprint>zymyy2amix</Fingerprint>
+      <Integrity>y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\videos\producto\292eff3b-8a21-4806-9787-b298d210fa45.mp4'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\d232b869-18ab-4e6b-9d11-28afcde18d43.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\videos\producto\f6f913c8-b51c-45c4-9150-ed7fe964c210.mp4'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\eafce815-fa90-42fc-98e2-04e127e2b0ee.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>BlogCore</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/BlogCore</BasePath>
-      <RelativePath>videos/producto/f6f913c8-b51c-45c4-9150-ed7fe964c210.mp4</RelativePath>
+      <RelativePath>pictures/producto/eafce815-fa90-42fc-98e2-04e127e2b0ee.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>pzgvolcpy6</Fingerprint>
-      <Integrity>xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50=</Integrity>
+      <Fingerprint>6aq0hbxjhn</Fingerprint>
+      <Integrity>DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\videos\producto\f6f913c8-b51c-45c4-9150-ed7fe964c210.mp4'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\eafce815-fa90-42fc-98e2-04e127e2b0ee.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\videos\producto\fd71f811-3d18-4d97-b820-d85879ece5f0.mp4'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\f0823bac-27ce-48fa-b04a-b8915f3f6b48.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>BlogCore</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/BlogCore</BasePath>
-      <RelativePath>videos/producto/fd71f811-3d18-4d97-b820-d85879ece5f0.mp4</RelativePath>
+      <RelativePath>pictures/producto/f0823bac-27ce-48fa-b04a-b8915f3f6b48.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>o9mycu30eb</Fingerprint>
+      <Integrity>PJnCHfDXU+Nfn9/xT6irmj1zeLegKhyBD1wwXGO1bMw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\pictures\producto\f0823bac-27ce-48fa-b04a-b8915f3f6b48.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\videos\producto\70c36533-8751-4120-9eb0-327a85235072.mp4'))">
+      <SourceType>Package</SourceType>
+      <SourceId>BlogCore</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BlogCore</BasePath>
+      <RelativePath>videos/producto/70c36533-8751-4120-9eb0-327a85235072.mp4</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
@@ -1726,7 +1744,43 @@
       <Integrity>JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\videos\producto\fd71f811-3d18-4d97-b820-d85879ece5f0.mp4'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\videos\producto\70c36533-8751-4120-9eb0-327a85235072.mp4'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\videos\producto\7f2a8a68-84e8-4db1-bbb5-a8e4d524de75.mp4'))">
+      <SourceType>Package</SourceType>
+      <SourceId>BlogCore</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BlogCore</BasePath>
+      <RelativePath>videos/producto/7f2a8a68-84e8-4db1-bbb5-a8e4d524de75.mp4</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zlokquyt9p</Fingerprint>
+      <Integrity>l6vC8nZwiexX3Dzvx5ArEPX4ZOFxGyQBSCyLcnnajfo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\videos\producto\7f2a8a68-84e8-4db1-bbb5-a8e4d524de75.mp4'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\videos\producto\cef2f648-8141-4bb4-b3dc-df8d1c38db3b.mp4'))">
+      <SourceType>Package</SourceType>
+      <SourceId>BlogCore</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BlogCore</BasePath>
+      <RelativePath>videos/producto/cef2f648-8141-4bb4-b3dc-df8d1c38db3b.mp4</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>p3uz42obap</Fingerprint>
+      <Integrity>JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\videos\producto\cef2f648-8141-4bb4-b3dc-df8d1c38db3b.mp4'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

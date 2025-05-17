@@ -9,6 +9,9 @@ namespace BlogCore.Models
         [Key]
         public int videosProducto_id { set; get; }
         public string videosProducto_ruta { set; get; } = null!;
+
+        //este sera una toma que estara en formato imagen sobre el video.
+        public string videosProducto_rutaFotoVideo { set; get; } = null!;
         public bool videosProducto_estado { set; get; } = true;
         public DateTime videosProducto_fechaCreacion { set; get; } = DateTime.Now;
         public DateTime videosProducto_fechaModificacion { set; get; } = DateTime.Now;
