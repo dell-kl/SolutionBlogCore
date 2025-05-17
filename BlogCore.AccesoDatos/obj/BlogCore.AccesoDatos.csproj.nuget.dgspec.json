@@ -228,10 +228,6 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "FFmpeg.AutoGen": {
-              "target": "Package",
-              "version": "[7.1.1, )"
-            },
             "Microsoft.AspNetCore.Http.Features": {
               "target": "Package",
               "version": "[6.0.0-preview.4.21253.5, )"
@@ -247,6 +243,10 @@
             "SixLabors.ImageSharp": {
               "target": "Package",
               "version": "[3.1.7, )"
+            },
+            "Xabe.FFmpeg": {
+              "target": "Package",
+              "version": "[6.0.1, )"
             }
           },
           "imports": [

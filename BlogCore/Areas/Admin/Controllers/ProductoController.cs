@@ -18,7 +18,7 @@ namespace BlogCore.Areas.Admin.Controllers
         private readonly IWebHostEnvironment _webHostEnvironment;
         private const string RUTA = "\\pictures\\producto\\";
         private const string RUTA_VIDEO = "\\videos\\producto\\";
-        private const string RUTA_IMG_VIDEO = "\\videos\\producto\\screenshot_producto\\";
+        private const string RUTA_IMG_VIDEO = "\\screenshot_videos_producto\\";
 
         Action<ProductoViewModel, ModelStateDictionary> verificarArchivos = (datos, ModelState) => { 
             Predicate<IFormFileCollection> archivos = (archivo) => archivo.IsNullOrEmpty();
@@ -106,15 +106,16 @@ namespace BlogCore.Areas.Admin.Controllers
                     //guardamos los videos
                     foreach (var item in modelo.videosName)
                     {
-                        string ruta = VideosUtility.guardarVideo(RUTA_IMG_VIDEO, RUTA_VIDEO, _webHostEnvironment.WebRootPath, item);
+                        Dictionary<string, string> ruta = await VideosUtility.guardarVideo(RUTA_IMG_VIDEO, RUTA_VIDEO, _webHostEnvironment.WebRootPath, item);
 
                         //guardar el video respectivo
                         _unitOfWork.Video.Add(new VideosProducto()
                         {
-                            videosProducto_ruta = ruta,
+                            videosProducto_ruta = ruta["rutaVideo"],
                             videosProducto_estado = true,
                             videosProducto_fechaCreacion = DateTime.Now,
                             videosProducto_fechaModificacion = DateTime.Now,
+                            videosProducto_rutaFotoVideo = ruta["rutaScreenshot"],
                             Productoproducto_id = producto!.producto_id
                         });
                         _unitOfWork.Save();
@@ -142,7 +143,7 @@ namespace BlogCore.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult Update(ProductoViewModel modelo)
+        public async Task<IActionResult> Update(ProductoViewModel modelo)
         {
             //validacion adicional para verificar si el Id mandado es el correcto
             Producto productoRegistrado = _unitOfWork.Producto.GetFirstOrDefault(m => m.producto_id.Equals(modelo.producto.producto_id));
@@ -177,12 +178,13 @@ namespace BlogCore.Areas.Admin.Controllers
                         //guardamos los videos
                         foreach (var item in modelo.videosName)
                         {
-                            string ruta = VideosUtility.guardarVideo(RUTA_IMG_VIDEO, RUTA_VIDEO, _webHostEnvironment.WebRootPath, item);
+                            Dictionary<string, string> ruta = await VideosUtility.guardarVideo(RUTA_IMG_VIDEO, RUTA_VIDEO, _webHostEnvironment.WebRootPath, item);
 
                             //guardar el video respectivo
                             _unitOfWork.Video.Add(new VideosProducto()
                             {
-                                videosProducto_ruta = ruta,
+                                videosProducto_ruta = ruta["rutaVideo"],
+                                videosProducto_rutaFotoVideo = ruta["rutaScreenshot"],
                                 videosProducto_estado = true,
                                 videosProducto_fechaCreacion = DateTime.Now,
                                 videosProducto_fechaModificacion = DateTime.Now,

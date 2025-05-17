@@ -84,15 +84,3 @@ wwwroot\pictures\personalizacion\imagenHome_001.png
 wwwroot\pictures\personalizacion\img_footer.jpg
 wwwroot\pictures\personalizacion\play_img.jpg
 wwwroot\pictures\personalizacion\tiendaShopping.jpg
-wwwroot\pictures\producto\0231817f-74bb-403a-b67a-e518510f8ac7.jpg
-wwwroot\pictures\producto\0cb6b19a-b481-4804-b2b6-384177423e42.jpg
-wwwroot\pictures\producto\1e68c379-1637-46c9-8a06-ec01af409936.jpg
-wwwroot\pictures\producto\7558900c-98c5-4e0a-98f6-c4376f2e7412.jpg
-wwwroot\pictures\producto\b4e31362-3950-4385-bed8-c044ae7b9af7.jpg
-wwwroot\pictures\producto\b6b013ef-c9d2-4d29-9875-4a3fc7d2908a.jpg
-wwwroot\pictures\producto\d232b869-18ab-4e6b-9d11-28afcde18d43.jpg
-wwwroot\pictures\producto\eafce815-fa90-42fc-98e2-04e127e2b0ee.jpg
-wwwroot\pictures\producto\f0823bac-27ce-48fa-b04a-b8915f3f6b48.jpg
-wwwroot\videos\producto\70c36533-8751-4120-9eb0-327a85235072.mp4
-wwwroot\videos\producto\7f2a8a68-84e8-4db1-bbb5-a8e4d524de75.mp4
-wwwroot\videos\producto\cef2f648-8141-4bb4-b3dc-df8d1c38db3b.mp4

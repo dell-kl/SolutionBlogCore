@@ -632,9 +632,4 @@ D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogC
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\BlogCore.pdb
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\BlogCore.genruntimeconfig.cache
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\ref\BlogCore.dll
-D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\FFMpegCore.dll
-D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\Instances.dll
-D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\System.IO.Pipelines.dll
-D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\System.Text.Encodings.Web.dll
-D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\System.Text.Json.dll
-D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\Xabe.FFmpeg.dll
