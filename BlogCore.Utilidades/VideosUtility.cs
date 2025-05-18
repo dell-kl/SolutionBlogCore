@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
+using System.Drawing;
 using Xabe.FFmpeg;
+
 
 namespace BlogCore.Utilidades
 {
@@ -11,11 +13,11 @@ namespace BlogCore.Utilidades
                 System.IO.File.Delete(ruta);
         }
 
-        public static async Task<Dictionary<string, string>> guardarVideo(string rutaScreenshot, string rutaLocal, string rutaAbsoluta, IFormFile file)
+        public static async Task<Dictionary<string, string>> guardarVideo(string rutaScreenshot, string rutaLocal, string rutaRoot, IFormFile file)
         {
             Dictionary<string, string> rutas = new Dictionary<string, string>();
 
-            rutaAbsoluta = $"{rutaAbsoluta}{rutaLocal}";
+            string rutaAbsoluta = $"{rutaRoot}{rutaLocal}";
             string rutaAbsolutaScreenshot = $"{rutaAbsoluta}{rutaScreenshot}";
 
             if (!Directory.Exists(rutaAbsoluta))
@@ -46,12 +48,37 @@ namespace BlogCore.Utilidades
                     .AddParameter($"-ss {5} -i \"{rutaCompleta}\" -frames:v 1 \"{$"{rutaAbsolutaScreenshot}{nombreScreenshot}"}\"", ParameterPosition.PreInput)
                     .Start();
 
-                rutas.Add("rutaScreenshot", $"{rutaLocal}{rutaScreenshot}{nombreScreenshot}");
+                //dibujamos justamente algo en la imagen ya agregada en el sistema de archivos
+                string nombreImagenDibujada = dibujarEnImagen($"{rutaAbsolutaScreenshot}", rutaRoot, $"{rutaAbsolutaScreenshot}{nombreScreenshot}");
+
+                rutas.Add("rutaScreenshot", $"{rutaLocal}{rutaScreenshot}{nombreImagenDibujada}");
             }
 
             rutas.Add("rutaVideo", $"{rutaLocal}{guiImagen}");
 
             return rutas;
+        }
+
+        public static string dibujarEnImagen(string rutaAbsolutaScreenshot, string rutaRoot, string rutaImagenScreenshot)
+        {
+            Bitmap bitmap = new Bitmap(Image.FromFile(rutaImagenScreenshot), width: 800, height: 800);
+            Graphics grafico = Graphics.FromImage(bitmap);
+           
+            string rutaIcono = $"{rutaRoot}\\pictures\\personalizacion\\icon_play.png";
+            
+            if ( File.Exists(rutaIcono) )
+            {
+                Image imagen = Image.FromFile(rutaIcono);
+                grafico.DrawImage(imagen, new Point() { X = (imagen.Width*30)/100, Y = (imagen.Height*25)/100 });
+            }
+
+            string nombreScreenshot = $"{Guid.NewGuid()}.jpg";
+            string imagenNueva = $"{rutaAbsolutaScreenshot}{nombreScreenshot}";
+            bitmap.Save(imagenNueva);
+
+            File.Delete(rutaImagenScreenshot);
+
+            return nombreScreenshot;
         }
     }
 }

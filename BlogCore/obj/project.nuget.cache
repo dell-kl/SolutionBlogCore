@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "cKmcI3MceBQ=",
+  "dgSpecHash": "GiVVvzAqorU=",
   "success": true,
   "projectFilePath": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\BlogCore.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\dennis.P\\.nuget\\packages\\aspose.drawing\\25.5.0\\aspose.drawing.25.5.0.nupkg.sha512",
     "C:\\Users\\dennis.P\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\dennis.P\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
     "C:\\Users\\dennis.P\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",

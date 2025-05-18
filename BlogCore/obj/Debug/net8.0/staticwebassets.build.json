@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WC1VlBG6P9ovVbViV+teC5PSmwYc7+KsTLzpR+GRhC4=",
+  "Hash": "CIsJhdkI8mEbeLauy7y6lpEBPDTfotIp6KL1M/3oSxk=",
   "Source": "BlogCore",
   "BasePath": "_content/BlogCore",
   "Mode": "Default",
@@ -3041,6 +3041,27 @@
       "OriginalItemSpec": "wwwroot\\lib\\toastr.js\\toastr.min.js"
     },
     {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\personalizacion\\icon_play.png",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "pictures/personalizacion/icon_play#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mpry42x2ol",
+      "Integrity": "NuPxnugRhG6DmmwvJioWDQrj7DnYyMbnri3noi22FwM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pictures\\personalizacion\\icon_play.png"
+    },
+    {
       "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\personalizacion\\imagenHome_001.png",
       "SourceId": "BlogCore",
       "SourceType": "Discovered",
@@ -3123,6 +3144,867 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\pictures\\personalizacion\\tiendaShopping.jpg"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\12f19dc7-6cc2-45af-874a-482fd852b3c2.jpg",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "pictures/producto/12f19dc7-6cc2-45af-874a-482fd852b3c2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o9mycu30eb",
+      "Integrity": "PJnCHfDXU+Nfn9/xT6irmj1zeLegKhyBD1wwXGO1bMw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pictures\\producto\\12f19dc7-6cc2-45af-874a-482fd852b3c2.jpg"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\15572e3c-6ead-4697-8ba8-026486ff2451.jpg",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "pictures/producto/15572e3c-6ead-4697-8ba8-026486ff2451#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zymyy2amix",
+      "Integrity": "y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pictures\\producto\\15572e3c-6ead-4697-8ba8-026486ff2451.jpg"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\163f0cf8-0686-49b3-90d5-3a01dae42b4b.jpg",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "pictures/producto/163f0cf8-0686-49b3-90d5-3a01dae42b4b#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zymyy2amix",
+      "Integrity": "y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pictures\\producto\\163f0cf8-0686-49b3-90d5-3a01dae42b4b.jpg"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\1d1fbfb5-753a-4ba1-aa6e-77cbc1e740ab.jpg",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "pictures/producto/1d1fbfb5-753a-4ba1-aa6e-77cbc1e740ab#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gbtwycvke2",
+      "Integrity": "bF60aAxPTJA+obMr7whqYEdBhXGh+p3JCUg/c2npI3A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pictures\\producto\\1d1fbfb5-753a-4ba1-aa6e-77cbc1e740ab.jpg"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\26b66870-b376-4b7a-a198-406900fa405d.jpg",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "pictures/producto/26b66870-b376-4b7a-a198-406900fa405d#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zymyy2amix",
+      "Integrity": "y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pictures\\producto\\26b66870-b376-4b7a-a198-406900fa405d.jpg"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\32aa7996-7124-4d26-b70a-f329650834c7.jpg",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "pictures/producto/32aa7996-7124-4d26-b70a-f329650834c7#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6aq0hbxjhn",
+      "Integrity": "DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pictures\\producto\\32aa7996-7124-4d26-b70a-f329650834c7.jpg"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\4705fc68-a00d-45e3-afb5-5cf6aab6901c.jpg",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "pictures/producto/4705fc68-a00d-45e3-afb5-5cf6aab6901c#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zymyy2amix",
+      "Integrity": "y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pictures\\producto\\4705fc68-a00d-45e3-afb5-5cf6aab6901c.jpg"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\4f723e59-36f6-4cbb-b8f6-30a4bfefe4a6.jpg",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "pictures/producto/4f723e59-36f6-4cbb-b8f6-30a4bfefe4a6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6aq0hbxjhn",
+      "Integrity": "DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pictures\\producto\\4f723e59-36f6-4cbb-b8f6-30a4bfefe4a6.jpg"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\53f54ae1-917f-4e46-be04-803b9c83a66e.jpg",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "pictures/producto/53f54ae1-917f-4e46-be04-803b9c83a66e#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6aq0hbxjhn",
+      "Integrity": "DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pictures\\producto\\53f54ae1-917f-4e46-be04-803b9c83a66e.jpg"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\560710de-aa16-43af-ba60-382c24d26e45.jpg",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "pictures/producto/560710de-aa16-43af-ba60-382c24d26e45#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ijr72040q",
+      "Integrity": "fUpdwLVKxHQlWYDcWUd7Ao76p8MsWMzIMgxev1uCt68=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pictures\\producto\\560710de-aa16-43af-ba60-382c24d26e45.jpg"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\726af033-be4a-42b2-bd9e-249e615accac.jpg",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "pictures/producto/726af033-be4a-42b2-bd9e-249e615accac#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gbtwycvke2",
+      "Integrity": "bF60aAxPTJA+obMr7whqYEdBhXGh+p3JCUg/c2npI3A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pictures\\producto\\726af033-be4a-42b2-bd9e-249e615accac.jpg"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\89c00a61-ce06-4e78-898e-3b3f3c91ee23.jpg",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "pictures/producto/89c00a61-ce06-4e78-898e-3b3f3c91ee23#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6aq0hbxjhn",
+      "Integrity": "DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pictures\\producto\\89c00a61-ce06-4e78-898e-3b3f3c91ee23.jpg"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\9e964ae2-1ba3-4f55-98df-8a1bb4a60bd0.jpg",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "pictures/producto/9e964ae2-1ba3-4f55-98df-8a1bb4a60bd0#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zymyy2amix",
+      "Integrity": "y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pictures\\producto\\9e964ae2-1ba3-4f55-98df-8a1bb4a60bd0.jpg"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\bfa8ffb0-48aa-4f2b-8b6d-8401375e6162.jpg",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "pictures/producto/bfa8ffb0-48aa-4f2b-8b6d-8401375e6162#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6aq0hbxjhn",
+      "Integrity": "DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pictures\\producto\\bfa8ffb0-48aa-4f2b-8b6d-8401375e6162.jpg"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\c39c3078-45cb-4d8e-881c-5408e55be2e1.jpg",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "pictures/producto/c39c3078-45cb-4d8e-881c-5408e55be2e1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "6aq0hbxjhn",
+      "Integrity": "DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pictures\\producto\\c39c3078-45cb-4d8e-881c-5408e55be2e1.jpg"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\cf6897d3-6430-4c6d-aa35-5cd2625b4a1c.jpg",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "pictures/producto/cf6897d3-6430-4c6d-aa35-5cd2625b4a1c#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gbtwycvke2",
+      "Integrity": "bF60aAxPTJA+obMr7whqYEdBhXGh+p3JCUg/c2npI3A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pictures\\producto\\cf6897d3-6430-4c6d-aa35-5cd2625b4a1c.jpg"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\ecbc1344-1c86-4b43-9ebf-1de34fbb560c.jpg",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "pictures/producto/ecbc1344-1c86-4b43-9ebf-1de34fbb560c#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zymyy2amix",
+      "Integrity": "y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pictures\\producto\\ecbc1344-1c86-4b43-9ebf-1de34fbb560c.jpg"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\ed5972df-d3b7-4110-807c-2386479e99cd.jpg",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "pictures/producto/ed5972df-d3b7-4110-807c-2386479e99cd#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "o9mycu30eb",
+      "Integrity": "PJnCHfDXU+Nfn9/xT6irmj1zeLegKhyBD1wwXGO1bMw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pictures\\producto\\ed5972df-d3b7-4110-807c-2386479e99cd.jpg"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\fe8f8cf8-bda7-41cb-92ee-7c2737d3dc68.jpg",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "pictures/producto/fe8f8cf8-bda7-41cb-92ee-7c2737d3dc68#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zymyy2amix",
+      "Integrity": "y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\pictures\\producto\\fe8f8cf8-bda7-41cb-92ee-7c2737d3dc68.jpg"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\035b3307-00b4-4722-b0bb-ae83d38690c6.mp4",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "videos/producto/035b3307-00b4-4722-b0bb-ae83d38690c6#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pzgvolcpy6",
+      "Integrity": "xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\producto\\035b3307-00b4-4722-b0bb-ae83d38690c6.mp4"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\16966208-308f-4f2d-bc93-75fe7a8d6060.mp4",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "videos/producto/16966208-308f-4f2d-bc93-75fe7a8d6060#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pzgvolcpy6",
+      "Integrity": "xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\producto\\16966208-308f-4f2d-bc93-75fe7a8d6060.mp4"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\25f03ffc-63ed-4584-83f1-5949e9ce9426.mp4",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "videos/producto/25f03ffc-63ed-4584-83f1-5949e9ce9426#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p3uz42obap",
+      "Integrity": "JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\producto\\25f03ffc-63ed-4584-83f1-5949e9ce9426.mp4"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\2edc5b42-7e9d-4b59-a105-94a6e51260e8.mp4",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "videos/producto/2edc5b42-7e9d-4b59-a105-94a6e51260e8#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zlokquyt9p",
+      "Integrity": "l6vC8nZwiexX3Dzvx5ArEPX4ZOFxGyQBSCyLcnnajfo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\producto\\2edc5b42-7e9d-4b59-a105-94a6e51260e8.mp4"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\472175ef-c92c-484d-8f66-c5876b9ab0fe.mp4",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "videos/producto/472175ef-c92c-484d-8f66-c5876b9ab0fe#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p3uz42obap",
+      "Integrity": "JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\producto\\472175ef-c92c-484d-8f66-c5876b9ab0fe.mp4"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\6d119d7f-8d94-40d1-bfd8-fcc26543cba2.mp4",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "videos/producto/6d119d7f-8d94-40d1-bfd8-fcc26543cba2#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zlokquyt9p",
+      "Integrity": "l6vC8nZwiexX3Dzvx5ArEPX4ZOFxGyQBSCyLcnnajfo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\producto\\6d119d7f-8d94-40d1-bfd8-fcc26543cba2.mp4"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\6ff024d2-2ab4-48e2-a3d5-16671ac2fc2c.mp4",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "videos/producto/6ff024d2-2ab4-48e2-a3d5-16671ac2fc2c#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p3uz42obap",
+      "Integrity": "JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\producto\\6ff024d2-2ab4-48e2-a3d5-16671ac2fc2c.mp4"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\80a68a66-0817-4eb8-a22b-89f582dce0d2.mp4",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "videos/producto/80a68a66-0817-4eb8-a22b-89f582dce0d2#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p3uz42obap",
+      "Integrity": "JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\producto\\80a68a66-0817-4eb8-a22b-89f582dce0d2.mp4"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\81465612-61de-4199-afee-fa831db102be.mp4",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "videos/producto/81465612-61de-4199-afee-fa831db102be#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pzgvolcpy6",
+      "Integrity": "xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\producto\\81465612-61de-4199-afee-fa831db102be.mp4"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\94fb0fd6-9cd4-4b5f-8772-f1010500497b.mp4",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "videos/producto/94fb0fd6-9cd4-4b5f-8772-f1010500497b#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p3uz42obap",
+      "Integrity": "JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\producto\\94fb0fd6-9cd4-4b5f-8772-f1010500497b.mp4"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\9adcb015-b40b-46ca-83c6-7fd5e2ced0ed.mp4",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "videos/producto/9adcb015-b40b-46ca-83c6-7fd5e2ced0ed#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pzgvolcpy6",
+      "Integrity": "xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\producto\\9adcb015-b40b-46ca-83c6-7fd5e2ced0ed.mp4"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\af36968e-2217-4b36-bb65-5373683d0692.mp4",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "videos/producto/af36968e-2217-4b36-bb65-5373683d0692#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p3uz42obap",
+      "Integrity": "JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\producto\\af36968e-2217-4b36-bb65-5373683d0692.mp4"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\b4d98928-e3da-4c7a-9cf7-72688c4b7987.mp4",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "videos/producto/b4d98928-e3da-4c7a-9cf7-72688c4b7987#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zlokquyt9p",
+      "Integrity": "l6vC8nZwiexX3Dzvx5ArEPX4ZOFxGyQBSCyLcnnajfo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\producto\\b4d98928-e3da-4c7a-9cf7-72688c4b7987.mp4"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\b9e7bffd-76bb-4cd3-97c2-10d7a53b5304.mp4",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "videos/producto/b9e7bffd-76bb-4cd3-97c2-10d7a53b5304#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p3uz42obap",
+      "Integrity": "JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\producto\\b9e7bffd-76bb-4cd3-97c2-10d7a53b5304.mp4"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\c03107ea-8e8b-48e8-9c21-f1cdf194ec14.mp4",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "videos/producto/c03107ea-8e8b-48e8-9c21-f1cdf194ec14#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pzgvolcpy6",
+      "Integrity": "xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\producto\\c03107ea-8e8b-48e8-9c21-f1cdf194ec14.mp4"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\c76e5a2e-51ff-47dd-ae33-44cc35d5461f.mp4",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "videos/producto/c76e5a2e-51ff-47dd-ae33-44cc35d5461f#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zlokquyt9p",
+      "Integrity": "l6vC8nZwiexX3Dzvx5ArEPX4ZOFxGyQBSCyLcnnajfo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\producto\\c76e5a2e-51ff-47dd-ae33-44cc35d5461f.mp4"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\ee10f5ad-b06f-4471-944c-9c582e2c0c42.mp4",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "videos/producto/ee10f5ad-b06f-4471-944c-9c582e2c0c42#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pzgvolcpy6",
+      "Integrity": "xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\producto\\ee10f5ad-b06f-4471-944c-9c582e2c0c42.mp4"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\f4baa998-b1b5-4159-ad05-434dd9429a82.mp4",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "videos/producto/f4baa998-b1b5-4159-ad05-434dd9429a82#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "p3uz42obap",
+      "Integrity": "JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\producto\\f4baa998-b1b5-4159-ad05-434dd9429a82.mp4"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\screenshot_videos_producto\\04055a85-1024-40a2-8506-a8b532c59516.jpg",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "videos/producto/screenshot_videos_producto/04055a85-1024-40a2-8506-a8b532c59516#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "t21krt9mrq",
+      "Integrity": "ix7FMqGoO2uHFqzKF18M679TSVKj8F5XFswUhO6kpz0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\producto\\screenshot_videos_producto\\04055a85-1024-40a2-8506-a8b532c59516.jpg"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\screenshot_videos_producto\\9b79e657-c72b-4d2b-a653-bf2efd346de9.jpg",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "videos/producto/screenshot_videos_producto/9b79e657-c72b-4d2b-a653-bf2efd346de9#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "53ln0z4lm1",
+      "Integrity": "gbb24c094i5xbzGTwmlF0BV7D+ypoYB2yRyKGsNkK/0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\producto\\screenshot_videos_producto\\9b79e657-c72b-4d2b-a653-bf2efd346de9.jpg"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\screenshot_videos_producto\\e067319f-abc4-4f4f-9af1-890e9d20b1ee.jpg",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "videos/producto/screenshot_videos_producto/e067319f-abc4-4f4f-9af1-890e9d20b1ee#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ov00deci5c",
+      "Integrity": "jJbz2b/3yX3y9n42z9qos1jUHOTT+AjDlvjgn4kCjXM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\producto\\screenshot_videos_producto\\e067319f-abc4-4f4f-9af1-890e9d20b1ee.jpg"
+    },
+    {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\screenshot_videos_producto\\e2f84e05-33ff-45a3-9226-6a78c404a33f.jpg",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "videos/producto/screenshot_videos_producto/e2f84e05-33ff-45a3-9226-6a78c404a33f#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k6d1m3qteg",
+      "Integrity": "BGUowZzwy4PX12oFvldPOoEmEoNgtbb2FquuCfwoyQI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\videos\\producto\\screenshot_videos_producto\\e2f84e05-33ff-45a3-9226-6a78c404a33f.jpg"
     }
   ],
   "Endpoints": [
@@ -3149,7 +4031,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Apr 2025 19:29:02 GMT"
+          "Value": "Sat, 17 May 2025 23:33:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3186,7 +4068,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Apr 2025 19:29:02 GMT"
+          "Value": "Sat, 17 May 2025 23:33:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3223,7 +4105,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Apr 2025 19:29:02 GMT"
+          "Value": "Sat, 17 May 2025 23:33:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3268,7 +4150,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Apr 2025 19:29:02 GMT"
+          "Value": "Sat, 17 May 2025 23:33:29 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12235,6 +13117,88 @@
       ]
     },
     {
+      "Route": "pictures/personalizacion/icon_play.mpry42x2ol.png",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\personalizacion\\icon_play.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12596"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NuPxnugRhG6DmmwvJioWDQrj7DnYyMbnri3noi22FwM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 02:09:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mpry42x2ol"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/personalizacion/icon_play.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NuPxnugRhG6DmmwvJioWDQrj7DnYyMbnri3noi22FwM="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/personalizacion/icon_play.png",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\personalizacion\\icon_play.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12596"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NuPxnugRhG6DmmwvJioWDQrj7DnYyMbnri3noi22FwM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 02:09:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NuPxnugRhG6DmmwvJioWDQrj7DnYyMbnri3noi22FwM="
+        }
+      ]
+    },
+    {
       "Route": "pictures/personalizacion/imagenHome_001.n2r9k5fk2e.png",
       "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\personalizacion\\imagenHome_001.png",
       "Selectors": [],
@@ -12559,6 +13523,3368 @@
         {
           "Name": "integrity",
           "Value": "sha256-d5ZlICNllDe4XLP4o0XnjXVFzUvDfUaCqhwYgXpAkx4="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/12f19dc7-6cc2-45af-874a-482fd852b3c2.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\12f19dc7-6cc2-45af-874a-482fd852b3c2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2061594"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PJnCHfDXU+Nfn9/xT6irmj1zeLegKhyBD1wwXGO1bMw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:29:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PJnCHfDXU+Nfn9/xT6irmj1zeLegKhyBD1wwXGO1bMw="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/12f19dc7-6cc2-45af-874a-482fd852b3c2.o9mycu30eb.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\12f19dc7-6cc2-45af-874a-482fd852b3c2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2061594"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PJnCHfDXU+Nfn9/xT6irmj1zeLegKhyBD1wwXGO1bMw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:29:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o9mycu30eb"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/producto/12f19dc7-6cc2-45af-874a-482fd852b3c2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PJnCHfDXU+Nfn9/xT6irmj1zeLegKhyBD1wwXGO1bMw="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/15572e3c-6ead-4697-8ba8-026486ff2451.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\15572e3c-6ead-4697-8ba8-026486ff2451.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "827063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:02:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/15572e3c-6ead-4697-8ba8-026486ff2451.zymyy2amix.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\15572e3c-6ead-4697-8ba8-026486ff2451.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "827063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:02:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zymyy2amix"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/producto/15572e3c-6ead-4697-8ba8-026486ff2451.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/163f0cf8-0686-49b3-90d5-3a01dae42b4b.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\163f0cf8-0686-49b3-90d5-3a01dae42b4b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "827063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 04:59:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/163f0cf8-0686-49b3-90d5-3a01dae42b4b.zymyy2amix.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\163f0cf8-0686-49b3-90d5-3a01dae42b4b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "827063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 04:59:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zymyy2amix"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/producto/163f0cf8-0686-49b3-90d5-3a01dae42b4b.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/1d1fbfb5-753a-4ba1-aa6e-77cbc1e740ab.gbtwycvke2.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\1d1fbfb5-753a-4ba1-aa6e-77cbc1e740ab.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "592197"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bF60aAxPTJA+obMr7whqYEdBhXGh+p3JCUg/c2npI3A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:30:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gbtwycvke2"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/producto/1d1fbfb5-753a-4ba1-aa6e-77cbc1e740ab.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bF60aAxPTJA+obMr7whqYEdBhXGh+p3JCUg/c2npI3A="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/1d1fbfb5-753a-4ba1-aa6e-77cbc1e740ab.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\1d1fbfb5-753a-4ba1-aa6e-77cbc1e740ab.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "592197"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bF60aAxPTJA+obMr7whqYEdBhXGh+p3JCUg/c2npI3A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:30:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bF60aAxPTJA+obMr7whqYEdBhXGh+p3JCUg/c2npI3A="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/26b66870-b376-4b7a-a198-406900fa405d.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\26b66870-b376-4b7a-a198-406900fa405d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "827063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:29:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/26b66870-b376-4b7a-a198-406900fa405d.zymyy2amix.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\26b66870-b376-4b7a-a198-406900fa405d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "827063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:29:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zymyy2amix"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/producto/26b66870-b376-4b7a-a198-406900fa405d.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/32aa7996-7124-4d26-b70a-f329650834c7.6aq0hbxjhn.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\32aa7996-7124-4d26-b70a-f329650834c7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1333707"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:05:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6aq0hbxjhn"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/producto/32aa7996-7124-4d26-b70a-f329650834c7.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/32aa7996-7124-4d26-b70a-f329650834c7.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\32aa7996-7124-4d26-b70a-f329650834c7.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1333707"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:05:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/4705fc68-a00d-45e3-afb5-5cf6aab6901c.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\4705fc68-a00d-45e3-afb5-5cf6aab6901c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "827063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:27:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/4705fc68-a00d-45e3-afb5-5cf6aab6901c.zymyy2amix.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\4705fc68-a00d-45e3-afb5-5cf6aab6901c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "827063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:27:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zymyy2amix"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/producto/4705fc68-a00d-45e3-afb5-5cf6aab6901c.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/4f723e59-36f6-4cbb-b8f6-30a4bfefe4a6.6aq0hbxjhn.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\4f723e59-36f6-4cbb-b8f6-30a4bfefe4a6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1333707"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:27:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6aq0hbxjhn"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/producto/4f723e59-36f6-4cbb-b8f6-30a4bfefe4a6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/4f723e59-36f6-4cbb-b8f6-30a4bfefe4a6.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\4f723e59-36f6-4cbb-b8f6-30a4bfefe4a6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1333707"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:27:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/53f54ae1-917f-4e46-be04-803b9c83a66e.6aq0hbxjhn.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\53f54ae1-917f-4e46-be04-803b9c83a66e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1333707"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 04:58:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6aq0hbxjhn"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/producto/53f54ae1-917f-4e46-be04-803b9c83a66e.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/53f54ae1-917f-4e46-be04-803b9c83a66e.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\53f54ae1-917f-4e46-be04-803b9c83a66e.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1333707"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 04:58:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/560710de-aa16-43af-ba60-382c24d26e45.5ijr72040q.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\560710de-aa16-43af-ba60-382c24d26e45.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4529889"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fUpdwLVKxHQlWYDcWUd7Ao76p8MsWMzIMgxev1uCt68=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:30:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5ijr72040q"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/producto/560710de-aa16-43af-ba60-382c24d26e45.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fUpdwLVKxHQlWYDcWUd7Ao76p8MsWMzIMgxev1uCt68="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/560710de-aa16-43af-ba60-382c24d26e45.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\560710de-aa16-43af-ba60-382c24d26e45.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4529889"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fUpdwLVKxHQlWYDcWUd7Ao76p8MsWMzIMgxev1uCt68=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:30:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fUpdwLVKxHQlWYDcWUd7Ao76p8MsWMzIMgxev1uCt68="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/726af033-be4a-42b2-bd9e-249e615accac.gbtwycvke2.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\726af033-be4a-42b2-bd9e-249e615accac.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "592197"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bF60aAxPTJA+obMr7whqYEdBhXGh+p3JCUg/c2npI3A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:12:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gbtwycvke2"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/producto/726af033-be4a-42b2-bd9e-249e615accac.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bF60aAxPTJA+obMr7whqYEdBhXGh+p3JCUg/c2npI3A="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/726af033-be4a-42b2-bd9e-249e615accac.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\726af033-be4a-42b2-bd9e-249e615accac.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "592197"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bF60aAxPTJA+obMr7whqYEdBhXGh+p3JCUg/c2npI3A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:12:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bF60aAxPTJA+obMr7whqYEdBhXGh+p3JCUg/c2npI3A="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/89c00a61-ce06-4e78-898e-3b3f3c91ee23.6aq0hbxjhn.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\89c00a61-ce06-4e78-898e-3b3f3c91ee23.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1333707"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:12:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6aq0hbxjhn"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/producto/89c00a61-ce06-4e78-898e-3b3f3c91ee23.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/89c00a61-ce06-4e78-898e-3b3f3c91ee23.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\89c00a61-ce06-4e78-898e-3b3f3c91ee23.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1333707"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:12:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/9e964ae2-1ba3-4f55-98df-8a1bb4a60bd0.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\9e964ae2-1ba3-4f55-98df-8a1bb4a60bd0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "827063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 04:56:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/9e964ae2-1ba3-4f55-98df-8a1bb4a60bd0.zymyy2amix.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\9e964ae2-1ba3-4f55-98df-8a1bb4a60bd0.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "827063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 04:56:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zymyy2amix"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/producto/9e964ae2-1ba3-4f55-98df-8a1bb4a60bd0.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/bfa8ffb0-48aa-4f2b-8b6d-8401375e6162.6aq0hbxjhn.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\bfa8ffb0-48aa-4f2b-8b6d-8401375e6162.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1333707"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:02:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6aq0hbxjhn"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/producto/bfa8ffb0-48aa-4f2b-8b6d-8401375e6162.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/bfa8ffb0-48aa-4f2b-8b6d-8401375e6162.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\bfa8ffb0-48aa-4f2b-8b6d-8401375e6162.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1333707"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:02:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/c39c3078-45cb-4d8e-881c-5408e55be2e1.6aq0hbxjhn.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\c39c3078-45cb-4d8e-881c-5408e55be2e1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1333707"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:25:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6aq0hbxjhn"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/producto/c39c3078-45cb-4d8e-881c-5408e55be2e1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/c39c3078-45cb-4d8e-881c-5408e55be2e1.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\c39c3078-45cb-4d8e-881c-5408e55be2e1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1333707"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:25:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DhKmHbW2qP92dkBcgoXoJg1hriVqPIa6PpY7ghKy6BE="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/cf6897d3-6430-4c6d-aa35-5cd2625b4a1c.gbtwycvke2.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\cf6897d3-6430-4c6d-aa35-5cd2625b4a1c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "592197"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bF60aAxPTJA+obMr7whqYEdBhXGh+p3JCUg/c2npI3A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:25:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gbtwycvke2"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/producto/cf6897d3-6430-4c6d-aa35-5cd2625b4a1c.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bF60aAxPTJA+obMr7whqYEdBhXGh+p3JCUg/c2npI3A="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/cf6897d3-6430-4c6d-aa35-5cd2625b4a1c.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\cf6897d3-6430-4c6d-aa35-5cd2625b4a1c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "592197"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bF60aAxPTJA+obMr7whqYEdBhXGh+p3JCUg/c2npI3A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:25:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bF60aAxPTJA+obMr7whqYEdBhXGh+p3JCUg/c2npI3A="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/ecbc1344-1c86-4b43-9ebf-1de34fbb560c.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\ecbc1344-1c86-4b43-9ebf-1de34fbb560c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "827063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:05:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/ecbc1344-1c86-4b43-9ebf-1de34fbb560c.zymyy2amix.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\ecbc1344-1c86-4b43-9ebf-1de34fbb560c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "827063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:05:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zymyy2amix"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/producto/ecbc1344-1c86-4b43-9ebf-1de34fbb560c.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/ed5972df-d3b7-4110-807c-2386479e99cd.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\ed5972df-d3b7-4110-807c-2386479e99cd.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2061594"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PJnCHfDXU+Nfn9/xT6irmj1zeLegKhyBD1wwXGO1bMw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 04:56:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PJnCHfDXU+Nfn9/xT6irmj1zeLegKhyBD1wwXGO1bMw="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/ed5972df-d3b7-4110-807c-2386479e99cd.o9mycu30eb.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\ed5972df-d3b7-4110-807c-2386479e99cd.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2061594"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PJnCHfDXU+Nfn9/xT6irmj1zeLegKhyBD1wwXGO1bMw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 04:56:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o9mycu30eb"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/producto/ed5972df-d3b7-4110-807c-2386479e99cd.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PJnCHfDXU+Nfn9/xT6irmj1zeLegKhyBD1wwXGO1bMw="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/fe8f8cf8-bda7-41cb-92ee-7c2737d3dc68.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\fe8f8cf8-bda7-41cb-92ee-7c2737d3dc68.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "827063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 04:58:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs="
+        }
+      ]
+    },
+    {
+      "Route": "pictures/producto/fe8f8cf8-bda7-41cb-92ee-7c2737d3dc68.zymyy2amix.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\pictures\\producto\\fe8f8cf8-bda7-41cb-92ee-7c2737d3dc68.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "827063"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 04:58:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zymyy2amix"
+        },
+        {
+          "Name": "label",
+          "Value": "pictures/producto/fe8f8cf8-bda7-41cb-92ee-7c2737d3dc68.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y3KLh+PxB44wlNINpB6pxBkjnuBhwyr2AUTqelS6lKs="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/035b3307-00b4-4722-b0bb-ae83d38690c6.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\035b3307-00b4-4722-b0bb-ae83d38690c6.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3264760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:25:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/035b3307-00b4-4722-b0bb-ae83d38690c6.pzgvolcpy6.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\035b3307-00b4-4722-b0bb-ae83d38690c6.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3264760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:25:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pzgvolcpy6"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/producto/035b3307-00b4-4722-b0bb-ae83d38690c6.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/16966208-308f-4f2d-bc93-75fe7a8d6060.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\16966208-308f-4f2d-bc93-75fe7a8d6060.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3264760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 04:56:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/16966208-308f-4f2d-bc93-75fe7a8d6060.pzgvolcpy6.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\16966208-308f-4f2d-bc93-75fe7a8d6060.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3264760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 04:56:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pzgvolcpy6"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/producto/16966208-308f-4f2d-bc93-75fe7a8d6060.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/25f03ffc-63ed-4584-83f1-5949e9ce9426.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\25f03ffc-63ed-4584-83f1-5949e9ce9426.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "917038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:25:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/25f03ffc-63ed-4584-83f1-5949e9ce9426.p3uz42obap.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\25f03ffc-63ed-4584-83f1-5949e9ce9426.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "917038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:25:21 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p3uz42obap"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/producto/25f03ffc-63ed-4584-83f1-5949e9ce9426.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/2edc5b42-7e9d-4b59-a105-94a6e51260e8.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\2edc5b42-7e9d-4b59-a105-94a6e51260e8.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "874868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l6vC8nZwiexX3Dzvx5ArEPX4ZOFxGyQBSCyLcnnajfo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:30:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l6vC8nZwiexX3Dzvx5ArEPX4ZOFxGyQBSCyLcnnajfo="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/2edc5b42-7e9d-4b59-a105-94a6e51260e8.zlokquyt9p.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\2edc5b42-7e9d-4b59-a105-94a6e51260e8.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "874868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l6vC8nZwiexX3Dzvx5ArEPX4ZOFxGyQBSCyLcnnajfo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:30:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zlokquyt9p"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/producto/2edc5b42-7e9d-4b59-a105-94a6e51260e8.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l6vC8nZwiexX3Dzvx5ArEPX4ZOFxGyQBSCyLcnnajfo="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/472175ef-c92c-484d-8f66-c5876b9ab0fe.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\472175ef-c92c-484d-8f66-c5876b9ab0fe.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "917038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:27:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/472175ef-c92c-484d-8f66-c5876b9ab0fe.p3uz42obap.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\472175ef-c92c-484d-8f66-c5876b9ab0fe.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "917038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:27:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p3uz42obap"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/producto/472175ef-c92c-484d-8f66-c5876b9ab0fe.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/6d119d7f-8d94-40d1-bfd8-fcc26543cba2.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\6d119d7f-8d94-40d1-bfd8-fcc26543cba2.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "874868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l6vC8nZwiexX3Dzvx5ArEPX4ZOFxGyQBSCyLcnnajfo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:12:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l6vC8nZwiexX3Dzvx5ArEPX4ZOFxGyQBSCyLcnnajfo="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/6d119d7f-8d94-40d1-bfd8-fcc26543cba2.zlokquyt9p.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\6d119d7f-8d94-40d1-bfd8-fcc26543cba2.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "874868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l6vC8nZwiexX3Dzvx5ArEPX4ZOFxGyQBSCyLcnnajfo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:12:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zlokquyt9p"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/producto/6d119d7f-8d94-40d1-bfd8-fcc26543cba2.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l6vC8nZwiexX3Dzvx5ArEPX4ZOFxGyQBSCyLcnnajfo="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/6ff024d2-2ab4-48e2-a3d5-16671ac2fc2c.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\6ff024d2-2ab4-48e2-a3d5-16671ac2fc2c.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "917038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 04:56:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/6ff024d2-2ab4-48e2-a3d5-16671ac2fc2c.p3uz42obap.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\6ff024d2-2ab4-48e2-a3d5-16671ac2fc2c.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "917038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 04:56:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p3uz42obap"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/producto/6ff024d2-2ab4-48e2-a3d5-16671ac2fc2c.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/80a68a66-0817-4eb8-a22b-89f582dce0d2.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\80a68a66-0817-4eb8-a22b-89f582dce0d2.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "917038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 04:58:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/80a68a66-0817-4eb8-a22b-89f582dce0d2.p3uz42obap.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\80a68a66-0817-4eb8-a22b-89f582dce0d2.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "917038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 04:58:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p3uz42obap"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/producto/80a68a66-0817-4eb8-a22b-89f582dce0d2.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/81465612-61de-4199-afee-fa831db102be.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\81465612-61de-4199-afee-fa831db102be.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3264760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:05:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/81465612-61de-4199-afee-fa831db102be.pzgvolcpy6.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\81465612-61de-4199-afee-fa831db102be.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3264760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:05:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pzgvolcpy6"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/producto/81465612-61de-4199-afee-fa831db102be.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/94fb0fd6-9cd4-4b5f-8772-f1010500497b.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\94fb0fd6-9cd4-4b5f-8772-f1010500497b.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "917038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:29:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/94fb0fd6-9cd4-4b5f-8772-f1010500497b.p3uz42obap.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\94fb0fd6-9cd4-4b5f-8772-f1010500497b.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "917038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:29:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p3uz42obap"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/producto/94fb0fd6-9cd4-4b5f-8772-f1010500497b.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/9adcb015-b40b-46ca-83c6-7fd5e2ced0ed.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\9adcb015-b40b-46ca-83c6-7fd5e2ced0ed.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3264760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:27:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/9adcb015-b40b-46ca-83c6-7fd5e2ced0ed.pzgvolcpy6.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\9adcb015-b40b-46ca-83c6-7fd5e2ced0ed.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3264760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:27:41 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pzgvolcpy6"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/producto/9adcb015-b40b-46ca-83c6-7fd5e2ced0ed.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/af36968e-2217-4b36-bb65-5373683d0692.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\af36968e-2217-4b36-bb65-5373683d0692.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "917038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:12:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/af36968e-2217-4b36-bb65-5373683d0692.p3uz42obap.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\af36968e-2217-4b36-bb65-5373683d0692.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "917038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:12:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p3uz42obap"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/producto/af36968e-2217-4b36-bb65-5373683d0692.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/b4d98928-e3da-4c7a-9cf7-72688c4b7987.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\b4d98928-e3da-4c7a-9cf7-72688c4b7987.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "874868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l6vC8nZwiexX3Dzvx5ArEPX4ZOFxGyQBSCyLcnnajfo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:02:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l6vC8nZwiexX3Dzvx5ArEPX4ZOFxGyQBSCyLcnnajfo="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/b4d98928-e3da-4c7a-9cf7-72688c4b7987.zlokquyt9p.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\b4d98928-e3da-4c7a-9cf7-72688c4b7987.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "874868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l6vC8nZwiexX3Dzvx5ArEPX4ZOFxGyQBSCyLcnnajfo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:02:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zlokquyt9p"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/producto/b4d98928-e3da-4c7a-9cf7-72688c4b7987.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l6vC8nZwiexX3Dzvx5ArEPX4ZOFxGyQBSCyLcnnajfo="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/b9e7bffd-76bb-4cd3-97c2-10d7a53b5304.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\b9e7bffd-76bb-4cd3-97c2-10d7a53b5304.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "917038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:05:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/b9e7bffd-76bb-4cd3-97c2-10d7a53b5304.p3uz42obap.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\b9e7bffd-76bb-4cd3-97c2-10d7a53b5304.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "917038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:05:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p3uz42obap"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/producto/b9e7bffd-76bb-4cd3-97c2-10d7a53b5304.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/c03107ea-8e8b-48e8-9c21-f1cdf194ec14.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\c03107ea-8e8b-48e8-9c21-f1cdf194ec14.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3264760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:30:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/c03107ea-8e8b-48e8-9c21-f1cdf194ec14.pzgvolcpy6.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\c03107ea-8e8b-48e8-9c21-f1cdf194ec14.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3264760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:30:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pzgvolcpy6"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/producto/c03107ea-8e8b-48e8-9c21-f1cdf194ec14.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/c76e5a2e-51ff-47dd-ae33-44cc35d5461f.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\c76e5a2e-51ff-47dd-ae33-44cc35d5461f.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "874868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l6vC8nZwiexX3Dzvx5ArEPX4ZOFxGyQBSCyLcnnajfo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 04:58:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-l6vC8nZwiexX3Dzvx5ArEPX4ZOFxGyQBSCyLcnnajfo="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/c76e5a2e-51ff-47dd-ae33-44cc35d5461f.zlokquyt9p.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\c76e5a2e-51ff-47dd-ae33-44cc35d5461f.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "874868"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l6vC8nZwiexX3Dzvx5ArEPX4ZOFxGyQBSCyLcnnajfo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 04:58:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zlokquyt9p"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/producto/c76e5a2e-51ff-47dd-ae33-44cc35d5461f.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l6vC8nZwiexX3Dzvx5ArEPX4ZOFxGyQBSCyLcnnajfo="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/ee10f5ad-b06f-4471-944c-9c582e2c0c42.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\ee10f5ad-b06f-4471-944c-9c582e2c0c42.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3264760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 04:59:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/ee10f5ad-b06f-4471-944c-9c582e2c0c42.pzgvolcpy6.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\ee10f5ad-b06f-4471-944c-9c582e2c0c42.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3264760"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 04:59:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pzgvolcpy6"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/producto/ee10f5ad-b06f-4471-944c-9c582e2c0c42.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xfNflcfICYQcN9QfHis6BmOCga9SwAs2qoG9ivOzA50="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/f4baa998-b1b5-4159-ad05-434dd9429a82.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\f4baa998-b1b5-4159-ad05-434dd9429a82.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "917038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:30:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/f4baa998-b1b5-4159-ad05-434dd9429a82.p3uz42obap.mp4",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\f4baa998-b1b5-4159-ad05-434dd9429a82.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "917038"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:30:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "p3uz42obap"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/producto/f4baa998-b1b5-4159-ad05-434dd9429a82.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JY9Jcw9fpUZ3XDqMdoKG7ycPMd1S67uP38jmubNcqDU="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/screenshot_videos_producto/04055a85-1024-40a2-8506-a8b532c59516.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\screenshot_videos_producto\\04055a85-1024-40a2-8506-a8b532c59516.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30550"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ix7FMqGoO2uHFqzKF18M679TSVKj8F5XFswUhO6kpz0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:30:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ix7FMqGoO2uHFqzKF18M679TSVKj8F5XFswUhO6kpz0="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/screenshot_videos_producto/04055a85-1024-40a2-8506-a8b532c59516.t21krt9mrq.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\screenshot_videos_producto\\04055a85-1024-40a2-8506-a8b532c59516.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "30550"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ix7FMqGoO2uHFqzKF18M679TSVKj8F5XFswUhO6kpz0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:30:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "t21krt9mrq"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/producto/screenshot_videos_producto/04055a85-1024-40a2-8506-a8b532c59516.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ix7FMqGoO2uHFqzKF18M679TSVKj8F5XFswUhO6kpz0="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/screenshot_videos_producto/9b79e657-c72b-4d2b-a653-bf2efd346de9.53ln0z4lm1.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\screenshot_videos_producto\\9b79e657-c72b-4d2b-a653-bf2efd346de9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gbb24c094i5xbzGTwmlF0BV7D+ypoYB2yRyKGsNkK/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:29:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "53ln0z4lm1"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/producto/screenshot_videos_producto/9b79e657-c72b-4d2b-a653-bf2efd346de9.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gbb24c094i5xbzGTwmlF0BV7D+ypoYB2yRyKGsNkK/0="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/screenshot_videos_producto/9b79e657-c72b-4d2b-a653-bf2efd346de9.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\screenshot_videos_producto\\9b79e657-c72b-4d2b-a653-bf2efd346de9.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34708"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gbb24c094i5xbzGTwmlF0BV7D+ypoYB2yRyKGsNkK/0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:29:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gbb24c094i5xbzGTwmlF0BV7D+ypoYB2yRyKGsNkK/0="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/screenshot_videos_producto/e067319f-abc4-4f4f-9af1-890e9d20b1ee.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\screenshot_videos_producto\\e067319f-abc4-4f4f-9af1-890e9d20b1ee.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34705"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jJbz2b/3yX3y9n42z9qos1jUHOTT+AjDlvjgn4kCjXM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:30:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jJbz2b/3yX3y9n42z9qos1jUHOTT+AjDlvjgn4kCjXM="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/screenshot_videos_producto/e067319f-abc4-4f4f-9af1-890e9d20b1ee.ov00deci5c.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\screenshot_videos_producto\\e067319f-abc4-4f4f-9af1-890e9d20b1ee.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34705"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jJbz2b/3yX3y9n42z9qos1jUHOTT+AjDlvjgn4kCjXM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:30:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ov00deci5c"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/producto/screenshot_videos_producto/e067319f-abc4-4f4f-9af1-890e9d20b1ee.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jJbz2b/3yX3y9n42z9qos1jUHOTT+AjDlvjgn4kCjXM="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/screenshot_videos_producto/e2f84e05-33ff-45a3-9226-6a78c404a33f.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\screenshot_videos_producto\\e2f84e05-33ff-45a3-9226-6a78c404a33f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33173"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BGUowZzwy4PX12oFvldPOoEmEoNgtbb2FquuCfwoyQI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:30:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BGUowZzwy4PX12oFvldPOoEmEoNgtbb2FquuCfwoyQI="
+        }
+      ]
+    },
+    {
+      "Route": "videos/producto/screenshot_videos_producto/e2f84e05-33ff-45a3-9226-6a78c404a33f.k6d1m3qteg.jpg",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\videos\\producto\\screenshot_videos_producto\\e2f84e05-33ff-45a3-9226-6a78c404a33f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "33173"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BGUowZzwy4PX12oFvldPOoEmEoNgtbb2FquuCfwoyQI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 18 May 2025 05:30:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k6d1m3qteg"
+        },
+        {
+          "Name": "label",
+          "Value": "videos/producto/screenshot_videos_producto/e2f84e05-33ff-45a3-9226-6a78c404a33f.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-BGUowZzwy4PX12oFvldPOoEmEoNgtbb2FquuCfwoyQI="
         }
       ]
     }

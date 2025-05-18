@@ -318,13 +318,14 @@ D:\workgroup-kl\c#\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\stati
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\appsettings.Development.json
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\appsettings.json
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\libman.json
-D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\BlogCore.staticwebassets.endpoints.json
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\BlogCore.staticwebassets.runtime.json
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\BlogCore.staticwebassets.endpoints.json
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\BlogCore.exe
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\BlogCore.deps.json
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\BlogCore.runtimeconfig.json
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\BlogCore.dll
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\BlogCore.pdb
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\Aspose.Drawing.dll
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\Azure.Core.dll
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\Azure.Identity.dll
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\Humanizer.dll
@@ -426,6 +427,7 @@ D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogC
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\System.Security.Permissions.dll
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\Xabe.FFmpeg.dll
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\af\Humanizer.resources.dll
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\ar\Humanizer.resources.dll
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\az\Humanizer.resources.dll
@@ -632,4 +634,3 @@ D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogC
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\BlogCore.pdb
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\BlogCore.genruntimeconfig.cache
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\ref\BlogCore.dll
-D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\Xabe.FFmpeg.dll

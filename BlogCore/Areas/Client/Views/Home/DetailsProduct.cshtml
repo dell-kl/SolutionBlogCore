@@ -20,14 +20,14 @@
                 {
                     <div class="mb-2">
                         @if ( 
-                          !n.imagenesProducto_id.Equals(imagenesProducto.Last().imagenesProducto_id) 
-                          ||
-                          (
-                          n.imagenesProducto_id.Equals(imagenesProducto.Last().imagenesProducto_id)
-                          &&
-                          longitudColeccionImagenes < totalImagenes
-                          )
-                      )
+                         !n.imagenesProducto_id.Equals(imagenesProducto.Last().imagenesProducto_id) 
+                         ||
+                         (
+                         n.imagenesProducto_id.Equals(imagenesProducto.Last().imagenesProducto_id)
+                         &&
+                         longitudColeccionImagenes < totalImagenes
+                         )
+                     )
                         {
                             <img width="50"
                             height="50"
@@ -55,6 +55,7 @@
 
                 @{
                     var totalVideosProducto = Model.producto.videosProducto.Count();
+                    string rutaFotoVideo = Model.producto.videosProducto.First().videosProducto_rutaFotoVideo;
                 }
 
                 <div class="mb-2">
@@ -62,7 +63,7 @@
                         <img width="50"
                         height="50"
                         class="border border-2 border-black border-opacity-25 rounded"
-                        src="~/pictures/personalizacion/play_img.jpg" />
+                        src="@rutaFotoVideo" />
                         <div class="sombreado text-white fw-bold pt-2 ps-2 fs-4 position-absolute top-0 rounded" style="width: 100%; height: 100%; background-color: rgba( 0 0 0 / .3);">
                             + @totalVideosProducto
                         </div>
@@ -89,16 +90,16 @@
 
                         <ul class="nav nav-underline mb-4">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Imagenes</a>
+                                <a class="nav-link enlace-navegacion-modal-hcmEgY29zYXMgdmlzdWFsZXMK active" id="ZW5sYWNlIG5hdmVnYWNpb24gaW1hZ2VuZXMK" aria-current="page" href="#">Imagenes</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Videos</a>
+                                <a class="nav-link enlace-navegacion-modal-hcmEgY29zYXMgdmlzdWFsZXMK" id="ZW5sYWNlIG5hdmVnYWNpb24gdmlkZW9zC" href="#">Videos</a>
                             </li>
                         </ul>
 
-                        <div class="imagenes d-block">
+                        <div class="imagenes ZW5sYWNlIG5hdmVnYWNpb24gaW1hZ2VuZXMK d-block">
                             <div class="d-flex gap-4 justify-content-center plataforma-cGxhdGFmb3JtYSBwcmVzZW50YWNpb24gZGVzZGUgZXN0ZQo m-auto" style="height: 30rem; width: 94%;">
-                                <div class="imagen-central-aW1hZ2VuIGNlbnRyYWwK" style="width: 90%;">
+                                <div class="imagen-central-aW1hZ2VuIGNlbnRyYWwK" style="width: 80%;">
                                     <img
                                     style="height: 100%;width: 100%;"
                                     class="rounded border-1"
@@ -127,7 +128,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="videos d-none">
+                        <div class="videos ZW5sYWNlIG5hdmVnYWNpb24gdmlkZW9zC d-none">
                             <div class="row">
 
                             </div>
