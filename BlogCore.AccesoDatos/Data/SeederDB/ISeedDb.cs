@@ -3,5 +3,6 @@
     public interface ISeedDb
     {
         Task InicializarDatos();
+        Task InicializarSentenciaTSQL();
     }
 }

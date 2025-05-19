@@ -53,7 +53,8 @@ using (var scope = app.Services.CreateScope() )
     try
     {
         var serviceDbSeed = services.GetRequiredService<ISeedDb>();
-        await serviceDbSeed.InicializarDatos(); 
+        await serviceDbSeed.InicializarDatos();
+        await serviceDbSeed.InicializarSentenciaTSQL();
     }
     catch(Exception e )
     {

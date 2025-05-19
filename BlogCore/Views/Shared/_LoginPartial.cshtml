@@ -6,16 +6,16 @@
 <ul class="navbar-nav ps-2 d-flex align-items-baseline">
 @if (SignInManager.IsSignedIn(User))
 {
-    <li class="nav-item">
+    <li class="nav-item m-0">
         <a 
-            class="nav-link" 
+            class="nav-link text-white" 
             asp-area="Identity" 
             asp-page="/Account/Manage/Index" 
             title="Manage">Hola @User.Identity?.Name!</a>
     </li>
-    <li class="nav-item">
+    <li class="nav-item m-0">
         <form  class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-            <button  type="submit" class="nav-link btn btn-link">Cerrar Sesion</button>
+            <button  type="submit" class="nav-link btn btn-link text-white">Cerrar Sesion</button>
         </form>
     </li>
 }

@@ -20,14 +20,14 @@
                 {
                     <div class="mb-2">
                         @if ( 
-                         !n.imagenesProducto_id.Equals(imagenesProducto.Last().imagenesProducto_id) 
-                         ||
-                         (
-                         n.imagenesProducto_id.Equals(imagenesProducto.Last().imagenesProducto_id)
-                         &&
-                         longitudColeccionImagenes < totalImagenes
-                         )
-                     )
+                       !n.imagenesProducto_id.Equals(imagenesProducto.Last().imagenesProducto_id) 
+                       ||
+                       (
+                       n.imagenesProducto_id.Equals(imagenesProducto.Last().imagenesProducto_id)
+                       &&
+                       longitudColeccionImagenes < totalImagenes
+                       )
+                    )
                         {
                             <img width="50"
                             height="50"
@@ -111,17 +111,17 @@
                                     <div class="d-flex flex-wrap gap-1">
                                         @foreach(ImagenesProducto imagenes in Model.producto.imagenesProducto)
                                         {
-                                            
+
                                             Guid guid = Guid.NewGuid();
-                                            
+
                                             <div>
                                                 <img
-                                                    id="img-@guid"
-                                                    width="100"
-                                                    class="rounded border-1 modal-proyeccion-imagen"
-                                                    height="100"
-                                                    src="@imagenes.imagenesProducto_ruta"
-                                                    />
+                                                id="img-@guid"
+                                                width="100"
+                                                class="rounded border-1 modal-proyeccion-imagen"
+                                                height="100"
+                                                src="@imagenes.imagenesProducto_ruta"
+                                                />
                                             </div>
                                         }
                                     </div>
@@ -129,8 +129,31 @@
                             </div>
                         </div>
                         <div class="videos ZW5sYWNlIG5hdmVnYWNpb24gdmlkZW9zC d-none">
-                            <div class="row">
-
+                            <div class="d-flex gap-4 justify-content-center plataforma-cGxhdGFmb3JtYSBwcmVzZW50YWNpb24gZGVzZGUgZXN0ZQo m-auto" style="height: 30rem; width: 94%;">
+                                <div class="video-central-aW1hZ2VuIGNlbnRyYWwK" style="width: 80%;">
+                                    <video 
+                                    controls
+                                    style="height: 100%;width: 100%;"
+                                    id="imagen-presentacion-aW1hZ2VuIHZpZGVvIHByZXNlbnRhY2lvbiB0YXJpbWEK"
+                                    class="rounded border-1"
+                                    src="@Model.producto.videosProducto.First().videosProducto_ruta"></video>
+                                </div>
+                                <div class="paleta-fotos-cGFsZXRhIGRlIGZvdG9zCg">
+                                    <h3 class="text-center fw-light mb-2">Seccion Videos</h3>
+                                    <div class="d-flex flex-wrap gap-1">
+                                        @foreach (VideosProducto videos in Model.producto.videosProducto)
+                                        {
+                                            <div>
+                                                <img 
+                                                     id="@videos.videosProducto_ruta"
+                                                     width="100"
+                                                     class="rounded border-1 modal-proyeccion-video"
+                                                     height="100"
+                                                     src="@videos.videosProducto_rutaFotoVideo" />
+                                            </div>
+                                        }
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
@@ -400,6 +423,32 @@
                 document.getElementById("seccion_comentario").classList.remove("d-block");
                 document.getElementById("seccion_comentario").classList.add("d-none");
                 document.getElementById("comentario").classList.remove("active");
+            }
+        };
+    });
+
+    const enlacesNavegacionModal = document.querySelectorAll(".enlace-navegacion-modal-hcmEgY29zYXMgdmlzdWFsZXMK");
+    let codigos = ["ZW5sYWNlIG5hdmVnYWNpb24gaW1hZ2VuZXMK", "ZW5sYWNlIG5hdmVnYWNpb24gdmlkZW9zC"]
+    enlacesNavegacionModal.forEach(navegacion => {
+        navegacion.onclick = (e) => {
+            let id = e.target.id;
+            let seccion = document.getElementsByClassName(id)[0];
+            document.getElementsByClassName(id)[0].classList.add("d-block");
+            document.getElementsByClassName(id)[0].classList.remove("d-none");
+            e.target.classList.add("active");
+
+            if ( seccion.classList.contains(codigos[0]) )
+            {
+                document.getElementsByClassName(codigos[1])[0].classList.remove("d-block");
+                document.getElementsByClassName(codigos[1])[0].classList.add("d-none");
+                document.getElementById(codigos[1]).classList.remove("active");
+            }
+
+            if ( seccion.classList.contains(codigos[1]) )
+            {
+                document.getElementsByClassName(codigos[0])[0].classList.remove("d-block");
+                document.getElementsByClassName(codigos[0])[0].classList.add("d-none");
+                document.getElementById(codigos[0]).classList.remove("active");
             }
         };
     });

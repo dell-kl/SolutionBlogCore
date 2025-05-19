@@ -92,6 +92,9 @@ namespace BlogCore.AccesoDatos.Migrations
                     b.Property<DateTime>("categoriaProducto_fechaModificacion")
                         .HasColumnType("datetime2");
 
+                    b.Property<Guid>("categoriaProducto_guid")
+                        .HasColumnType("uniqueidentifier");
+
                     b.Property<string>("categoriaProducto_nombre")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

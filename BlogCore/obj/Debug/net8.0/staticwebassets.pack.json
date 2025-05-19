@@ -37,6 +37,10 @@
       "PackagePath": "staticwebassets\\js\\categoria.js"
     },
     {
+      "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\js\\categoriasProducto.js",
+      "PackagePath": "staticwebassets\\js\\categoriasProducto.js"
+    },
+    {
       "Id": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\js\\imagenesResponsive.js",
       "PackagePath": "staticwebassets\\js\\imagenesResponsive.js"
     },

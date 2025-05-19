@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace BlogCore.AccesoDatos.Migrations
 {
     /// <inheritdoc />
-    public partial class Migracion_Nueva_Configuracion : Migration
+    public partial class MigracionGeneral : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -73,6 +73,7 @@ namespace BlogCore.AccesoDatos.Migrations
                 {
                     categoriaProducto_id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    categoriaProducto_guid = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
                     categoriaProducto_nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     categoriaProducto_fechaCreacion = table.Column<DateTime>(type: "datetime2", nullable: false),
                     categoriaProducto_fechaModificacion = table.Column<DateTime>(type: "datetime2", nullable: false)

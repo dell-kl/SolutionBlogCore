@@ -8,6 +8,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     cargando();
     escuchandoImagenesModal();
+    escucnandoImagnesVideo();
 });
 
 function cargando() {
@@ -34,4 +35,14 @@ function escuchandoImagenesModal() {
         };
     });
 
+}
+
+function escucnandoImagnesVideo() {
+    document.querySelectorAll(".modal-proyeccion-video").forEach(imagen => {
+        imagen.onclick = (e) => {
+            let rutaImagen = e.target.id;
+            console.log(rutaImagen);
+            document.getElementById("imagen-presentacion-aW1hZ2VuIHZpZGVvIHByZXNlbnRhY2lvbiB0YXJpbWEK").src = rutaImagen;
+        };
+    });
 }

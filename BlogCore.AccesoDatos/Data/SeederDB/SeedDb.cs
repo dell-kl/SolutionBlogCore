@@ -25,7 +25,6 @@ namespace BlogCore.AccesoDatos.Data.SeederDB
 
         public async Task InicializarDatos()
         {
-
             /*Definimos los roles vamos a crearlos... */
             if (! _rolManager.RoleExistsAsync(DefinicionRole.admin).GetAwaiter().GetResult())
                 await _rolManager.CreateAsync(new IdentityRole(DefinicionRole.admin));
@@ -49,6 +48,16 @@ namespace BlogCore.AccesoDatos.Data.SeederDB
                 await _userManager.SetEmailAsync(usuario, "dennis-ponce07@outlook.com");
                 await _userManager.CreateAsync(usuario, "TorakyLobo07@001001");
                 await _userManager.AddToRoleAsync(usuario, "Administrador");
+            }
+        }
+
+        public async Task InicializarSentenciaTSQL()
+        {
+            string ruta = "./../BlogCore.AccesoDatos/Data/SeederDB/Sentencias.sql";
+            if ( File.Exists(ruta) )
+            {
+                var sentencias = File.ReadAllText(ruta);
+                await _context.Database.ExecuteSqlRawAsync(sentencias);    
             }
         }
     }

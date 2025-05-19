@@ -1,0 +1,43 @@
+﻿@model BlogCore.Models.CategoriaProducto
+
+@{
+    ViewData["Title"] = "Crear Categoria Producto";
+}
+
+<div class="container mt-4">
+    <h1 class="text-center">Crear Categoria Producto</h1>
+
+    <form 
+    asp-area="Admin"
+    asp-action="Create"
+    asp-controller="CategoriasProducto"
+    method="post">
+        <div asp-validation-summary="All" class="text-danger"></div>
+
+        <div class="container border border-1">
+            <div class="row p-4">
+                <div class="col-4">
+                    <label class="fw-bold pt-2" asp-for="@Model.categoriaProducto_nombre"></label>
+                </div>
+                <div class="col-8">
+                    <input class="form-control" placeholder="Inserta un nombre" asp-for="@Model.categoriaProducto_nombre">
+                    <span asp-validation-for="@Model.categoriaProducto_nombre" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="col ps-4 pb-4">
+                <input type="submit" class="btn btn-warning" value="Crear Categoria Producto" />
+                <a 
+                asp-area="Admin"
+                asp-action="Index"
+                asp-controller="CategoriasProducto"
+                class="btn btn-dark">Ir a Listado Categoria Productos</a>
+            </div>
+        </div>
+
+    </form>
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BlogCore.AccesoDatos.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250516200843_Migracion_Nueva_Configuracion")]
-    partial class Migracion_Nueva_Configuracion
+    [Migration("20250519194107_MigracionGeneral")]
+    partial class MigracionGeneral
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -94,6 +94,9 @@ namespace BlogCore.AccesoDatos.Migrations
 
                     b.Property<DateTime>("categoriaProducto_fechaModificacion")
                         .HasColumnType("datetime2");
+
+                    b.Property<Guid>("categoriaProducto_guid")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("categoriaProducto_nombre")
                         .IsRequired()

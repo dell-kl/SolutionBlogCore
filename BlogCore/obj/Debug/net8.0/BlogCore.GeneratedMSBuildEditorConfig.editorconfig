@@ -40,6 +40,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJ0aWN1bG9zXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/workgroup/-- Tecnologias C\# --/-- .Net Core MVC --/ProyectosMVC/SolutionBlogCore/BlogCore/Areas/Admin/Views/CategoriasProducto/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmlhc1Byb2R1Y3RvXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workgroup/-- Tecnologias C\# --/-- .Net Core MVC --/ProyectosMVC/SolutionBlogCore/BlogCore/Areas/Admin/Views/CategoriasProducto/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmlhc1Byb2R1Y3RvXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/workgroup/-- Tecnologias C\# --/-- .Net Core MVC --/ProyectosMVC/SolutionBlogCore/BlogCore/Areas/Admin/Views/CategoriasProducto/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmlhc1Byb2R1Y3RvXFVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/workgroup/-- Tecnologias C\# --/-- .Net Core MVC --/ProyectosMVC/SolutionBlogCore/BlogCore/Areas/Admin/Views/Categorias/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmlhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

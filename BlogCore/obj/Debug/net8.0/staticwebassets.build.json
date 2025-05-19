@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CIsJhdkI8mEbeLauy7y6lpEBPDTfotIp6KL1M/3oSxk=",
+  "Hash": "FnG/un7GCzlSfSsMg5+AUWKKJ6vkVi+oylBfPJ8yZ7I=",
   "Source": "BlogCore",
   "BasePath": "_content/BlogCore",
   "Mode": "Default",
@@ -1466,6 +1466,27 @@
       "OriginalItemSpec": "wwwroot\\js\\categoria.js"
     },
     {
+      "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\js\\categoriasProducto.js",
+      "SourceId": "BlogCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\",
+      "BasePath": "_content/BlogCore",
+      "RelativePath": "js/categoriasProducto#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3r8b2a0bt1",
+      "Integrity": "8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\categoriasProducto.js"
+    },
+    {
       "Identity": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\js\\imagenesResponsive.js",
       "SourceId": "BlogCore",
       "SourceType": "Discovered",
@@ -1480,8 +1501,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "09tjzyo1fz",
-      "Integrity": "LFokWWX2FUjiQvelLcvoQ28usQdOsUAxX5Mo+EkrrVs=",
+      "Fingerprint": "i7xx92u28q",
+      "Integrity": "oojrfPDFtVfWVMjLyrj8PSTtRElEpy69qTSpS2+2+eQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\imagenesResponsive.js"
@@ -6967,8 +6988,8 @@
       ]
     },
     {
-      "Route": "js/imagenesResponsive.09tjzyo1fz.js",
-      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\js\\imagenesResponsive.js",
+      "Route": "js/categoriasProducto.3r8b2a0bt1.js",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\js\\categoriasProducto.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -6977,7 +6998,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1357"
+          "Value": "3"
         },
         {
           "Name": "Content-Type",
@@ -6985,11 +7006,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LFokWWX2FUjiQvelLcvoQ28usQdOsUAxX5Mo+EkrrVs=\""
+          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 20:04:16 GMT"
+          "Value": "Mon, 19 May 2025 19:32:49 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -6999,7 +7020,89 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "09tjzyo1fz"
+          "Value": "3r8b2a0bt1"
+        },
+        {
+          "Name": "label",
+          "Value": "js/categoriasProducto.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+        }
+      ]
+    },
+    {
+      "Route": "js/categoriasProducto.js",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\js\\categoriasProducto.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 19:32:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8ZRc1sGeVrPBx4lD717BgRaQekyh78QKV9SKsdt638U="
+        }
+      ]
+    },
+    {
+      "Route": "js/imagenesResponsive.i7xx92u28q.js",
+      "AssetFile": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\js\\imagenesResponsive.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1768"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oojrfPDFtVfWVMjLyrj8PSTtRElEpy69qTSpS2+2+eQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 19 May 2025 18:21:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "i7xx92u28q"
         },
         {
           "Name": "label",
@@ -7007,7 +7110,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-LFokWWX2FUjiQvelLcvoQ28usQdOsUAxX5Mo+EkrrVs="
+          "Value": "sha256-oojrfPDFtVfWVMjLyrj8PSTtRElEpy69qTSpS2+2+eQ="
         }
       ]
     },
@@ -7022,7 +7125,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1357"
+          "Value": "1768"
         },
         {
           "Name": "Content-Type",
@@ -7030,11 +7133,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"LFokWWX2FUjiQvelLcvoQ28usQdOsUAxX5Mo+EkrrVs=\""
+          "Value": "\"oojrfPDFtVfWVMjLyrj8PSTtRElEpy69qTSpS2+2+eQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 16 May 2025 20:04:16 GMT"
+          "Value": "Mon, 19 May 2025 18:21:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -7044,7 +7147,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-LFokWWX2FUjiQvelLcvoQ28usQdOsUAxX5Mo+EkrrVs="
+          "Value": "sha256-oojrfPDFtVfWVMjLyrj8PSTtRElEpy69qTSpS2+2+eQ="
         }
       ]
     },
