@@ -143,6 +143,7 @@ namespace BlogCore.Areas.Admin.Controllers
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Update(ProductoViewModel modelo)
         {
             //validacion adicional para verificar si el Id mandado es el correcto

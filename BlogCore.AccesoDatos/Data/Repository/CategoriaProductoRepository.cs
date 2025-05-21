@@ -18,6 +18,17 @@ namespace BlogCore.AccesoDatos.Data.Repository
             _db = db;
         }
 
+        public void Update(CategoriaProducto categoriaProducto)
+        {
+           CategoriaProducto RegistrocategoriaProducto =  _db.CategoriaProducto.Where(n => n.categoriaProducto_guid.Equals(categoriaProducto.categoriaProducto_guid)).FirstOrDefault();
+        
+            if ( RegistrocategoriaProducto is not null )
+            {
+                RegistrocategoriaProducto.categoriaProducto_fechaModificacion = DateTime.Now;
+                RegistrocategoriaProducto.categoriaProducto_nombre = categoriaProducto.categoriaProducto_nombre;
 
+                _db.CategoriaProducto.Update(RegistrocategoriaProducto);
+            }
+        }
     }
 }

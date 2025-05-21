@@ -1,0 +1,38 @@
+﻿@model BlogCore.Models.ModelView.CategoriaProductoViewModel
+
+@{
+    string action = Model.metodo.Equals("POST") ? "Create" : "Update";
+}
+
+<form asp-area="Admin"
+asp-action="@action"
+asp-controller="CategoriasProducto"
+method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    @if (Model.metodo.Equals("PUT"))
+    {
+        <input type="hidden" asp-for="@Model.categoriaProducto.categoriaProducto_guid"/>
+    }
+
+    <div class="container border border-1">
+        <div class="row p-4">
+            <div class="col-4">
+                <label class="fw-bold pt-2" asp-for="@Model.categoriaProducto.categoriaProducto_nombre"></label>
+            </div>
+            <div class="col-8">
+                <input class="form-control" placeholder="Inserta un nombre" asp-for="@Model.categoriaProducto.categoriaProducto_nombre">
+                <span asp-validation-for="@Model.categoriaProducto.categoriaProducto_nombre" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="col ps-4 pb-4">
+            <input type="submit" class="btn btn-warning" value="@Model.mensajeBoton" />
+            <a asp-area="Admin"
+               asp-action="Index"
+               asp-controller="CategoriasProducto"
+               class="btn btn-dark">Ir a Listado Categoria Productos</a>
+        </div>
+    </div>
+
+</form>

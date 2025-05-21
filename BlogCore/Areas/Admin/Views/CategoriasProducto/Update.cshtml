@@ -1,1 +1,21 @@
-﻿
+﻿@model BlogCore.Models.CategoriaProducto
+
+@{
+    ViewData["Title"] = "Actualizar Categoria Producto";
+}
+
+<div class="container mt-4">
+    <h1 class="text-center">Actualizar Categoria Producto</h1>
+
+    @await Html.PartialAsync("~/Views/Shared/Formularios/_FormularioCategoriaProducto.cshtml",
+            new BlogCore.Models.ModelView.CategoriaProductoViewModel()
+    {
+        categoriaProducto = Model,
+        mensajeBoton = "Editar Categoria Producto",
+        metodo = "PUT"
+    })
+</div>
+
+@section Scripts {
+    @await Html.PartialAsync("_ValidationScriptsPartial")
+}

@@ -8,5 +8,10 @@ namespace BlogCore.Models.ModelView
 {
     public class CategoriaProductoViewModel
     {
+        public CategoriaProducto categoriaProducto { set; get; } = null!;
+
+        public string mensajeBoton { set; get; } = null!;
+
+        public string metodo { set; get; } = null!;
     }
 }
