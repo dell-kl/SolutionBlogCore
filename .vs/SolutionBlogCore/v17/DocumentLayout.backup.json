@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|d:\\workgroup\\-- tecnologias c# --\\-- .net core mvc --\\proyectosmvc\\solutionblogcore\\blogcore\\areas\\admin\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|solutionrelative:blogcore\\areas\\admin\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|d:\\workgroup\\-- tecnologias c# --\\-- .net core mvc --\\proyectosmvc\\solutionblogcore\\blogcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|solutionrelative:blogcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|d:\\workgroup\\-- tecnologias c# --\\-- .net core mvc --\\proyectosmvc\\solutionblogcore\\blogcore\\areas\\admin\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|solutionrelative:blogcore\\areas\\admin\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06C700BA-31F3-4C2E-AC34-CCC402A7A3C9}|BlogCore.Models\\BlogCore.Models.csproj|d:\\workgroup\\-- tecnologias c# --\\-- .net core mvc --\\proyectosmvc\\solutionblogcore\\blogcore.models\\modelview\\productoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 585,
-          "SelectedChildIndex": 42,
+          "SelectedChildIndex": 39,
           "Children": [
             {
               "$type": "Bookmark",
@@ -203,13 +203,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Program.cs",
               "RelativeDocumentMoniker": "BlogCore\\Program.cs",
               "ToolTip": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Program.cs",
               "RelativeToolTip": "BlogCore\\Program.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADcAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T21:27:06.363Z",
               "EditorCaption": ""
@@ -242,13 +242,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ProductoController.cs",
               "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Admin\\Controllers\\ProductoController.cs",
               "RelativeDocumentMoniker": "BlogCore\\Areas\\Admin\\Controllers\\ProductoController.cs",
               "ToolTip": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Admin\\Controllers\\ProductoController.cs",
               "RelativeToolTip": "BlogCore\\Areas\\Admin\\Controllers\\ProductoController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAgwEkAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwEcAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T17:08:42.266Z",
               "EditorCaption": ""

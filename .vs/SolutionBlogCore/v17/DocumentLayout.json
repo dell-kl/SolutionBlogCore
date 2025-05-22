@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 585,
-          "SelectedChildIndex": 39,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -75,6 +75,79 @@
             {
               "$type": "Bookmark",
               "Name": "ST:140:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "BlogCore\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "BlogCore\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T21:28:39.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Program.cs",
+              "RelativeDocumentMoniker": "BlogCore\\Program.cs",
+              "ToolTip": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Program.cs",
+              "RelativeToolTip": "BlogCore\\Program.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAkwD0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T21:27:06.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductoViewModel.cs",
+              "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore.Models\\ModelView\\ProductoViewModel.cs",
+              "RelativeDocumentMoniker": "BlogCore.Models\\ModelView\\ProductoViewModel.cs",
+              "ToolTip": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore.Models\\ModelView\\ProductoViewModel.cs",
+              "RelativeToolTip": "BlogCore.Models\\ModelView\\ProductoViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T20:54:48.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_FormularioProducto.cshtml",
+              "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Views\\Shared\\Formularios\\_FormularioProducto.cshtml",
+              "RelativeDocumentMoniker": "BlogCore\\Views\\Shared\\Formularios\\_FormularioProducto.cshtml",
+              "ToolTip": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Views\\Shared\\Formularios\\_FormularioProducto.cshtml",
+              "RelativeToolTip": "BlogCore\\Views\\Shared\\Formularios\\_FormularioProducto.cshtml",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAEwJgAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T17:11:53.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductoController.cs",
+              "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Admin\\Controllers\\ProductoController.cs",
+              "RelativeDocumentMoniker": "BlogCore\\Areas\\Admin\\Controllers\\ProductoController.cs",
+              "ToolTip": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Admin\\Controllers\\ProductoController.cs",
+              "RelativeToolTip": "BlogCore\\Areas\\Admin\\Controllers\\ProductoController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwEcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T17:08:42.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Admin\\Views\\Producto\\Create.cshtml",
+              "RelativeDocumentMoniker": "BlogCore\\Areas\\Admin\\Views\\Producto\\Create.cshtml",
+              "ToolTip": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Admin\\Views\\Producto\\Create.cshtml",
+              "RelativeToolTip": "BlogCore\\Areas\\Admin\\Views\\Producto\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T17:11:26.469Z"
             },
             {
               "$type": "Bookmark",
@@ -187,84 +260,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Error.cshtml",
-              "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Views\\Shared\\Error.cshtml",
-              "RelativeDocumentMoniker": "BlogCore\\Views\\Shared\\Error.cshtml",
-              "ToolTip": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Views\\Shared\\Error.cshtml",
-              "RelativeToolTip": "BlogCore\\Views\\Shared\\Error.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-21T21:28:39.022Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Program.cs",
-              "RelativeDocumentMoniker": "BlogCore\\Program.cs",
-              "ToolTip": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Program.cs",
-              "RelativeToolTip": "BlogCore\\Program.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAADcAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T21:27:06.363Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProductoViewModel.cs",
-              "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore.Models\\ModelView\\ProductoViewModel.cs",
-              "RelativeDocumentMoniker": "BlogCore.Models\\ModelView\\ProductoViewModel.cs",
-              "ToolTip": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore.Models\\ModelView\\ProductoViewModel.cs",
-              "RelativeToolTip": "BlogCore.Models\\ModelView\\ProductoViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T20:54:48.958Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_FormularioProducto.cshtml",
-              "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Views\\Shared\\Formularios\\_FormularioProducto.cshtml",
-              "RelativeDocumentMoniker": "BlogCore\\Views\\Shared\\Formularios\\_FormularioProducto.cshtml",
-              "ToolTip": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Views\\Shared\\Formularios\\_FormularioProducto.cshtml",
-              "RelativeToolTip": "BlogCore\\Views\\Shared\\Formularios\\_FormularioProducto.cshtml",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAEwJgAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-21T17:11:53.506Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductoController.cs",
-              "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Admin\\Controllers\\ProductoController.cs",
-              "RelativeDocumentMoniker": "BlogCore\\Areas\\Admin\\Controllers\\ProductoController.cs",
-              "ToolTip": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Admin\\Controllers\\ProductoController.cs",
-              "RelativeToolTip": "BlogCore\\Areas\\Admin\\Controllers\\ProductoController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAgwEkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T17:08:42.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Admin\\Views\\Producto\\Create.cshtml",
-              "RelativeDocumentMoniker": "BlogCore\\Areas\\Admin\\Views\\Producto\\Create.cshtml",
-              "ToolTip": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Admin\\Views\\Producto\\Create.cshtml",
-              "RelativeToolTip": "BlogCore\\Areas\\Admin\\Views\\Producto\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-21T17:11:26.469Z",
-              "EditorCaption": ""
             }
           ]
         },
