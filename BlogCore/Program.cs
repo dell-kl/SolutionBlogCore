@@ -4,6 +4,7 @@ using BlogCore.AccesoDatos.Data.SeederDB;
 using BlogCore.Data;
 using BlogCore.Models;
 using BlogCore.Utilidades;
+using Microsoft.AspNetCore.Http.Features;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json.Serialization;
@@ -44,6 +45,16 @@ builder.Services.AddControllers()
 builder.Services.AddScoped<ISeedDb, SeedDb>();
 builder.Services.AddScoped<IUnitofWork, UnitofWork>();
 
+builder.WebHost.UseKestrel(o => o.Limits.MaxRequestBodySize = null);
+builder.Services.Configure<FormOptions>(options =>
+{
+    options.ValueCountLimit = int.MaxValue;
+    options.MultipartBodyLengthLimit = int.MaxValue;
+    options.MultipartBoundaryLengthLimit = int.MaxValue;
+    options.MultipartHeadersLengthLimit = int.MaxValue;
+    options.MultipartHeadersCountLimit = int.MaxValue;
+});
+
 var app = builder.Build();
 
 //ejecucion de la siembre de datos. 
@@ -75,6 +86,7 @@ else
 }
 
 app.UseStaticFiles();
+
 
 app.UseRouting();
 

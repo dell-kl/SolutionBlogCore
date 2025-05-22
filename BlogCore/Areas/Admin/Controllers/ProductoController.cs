@@ -6,14 +6,12 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.IdentityModel.Tokens;
-using System.Threading.Tasks;
 
 namespace BlogCore.Areas.Admin.Controllers
 {
-
     [Area("Admin")]
     public class ProductoController : Controller
-    {
+    {   
         private readonly IUnitofWork _unitOfWork;
         private readonly IWebHostEnvironment _webHostEnvironment;
         private const string RUTA = "\\pictures\\producto\\";
@@ -66,70 +64,78 @@ namespace BlogCore.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(ProductoViewModel modelo)
         {
-            if ( ModelState.IsValid )
+            try
             {
-                if ( !modelo.filesName.IsNullOrEmpty() && !modelo.videosName.IsNullOrEmpty() )
+                if (ModelState.IsValid)
                 {
-                    _unitOfWork.Producto.Add(modelo.producto);
-                    _unitOfWork.Save();
-
-                    //obtenemos el producto especificando todos sus campos. 
-                    var producto = _unitOfWork.Producto.GetAll(
-                            n => n.producto_nombre.Equals(modelo.producto.producto_nombre) &&
-                            n.producto_precio.Equals(modelo.producto.producto_precio) &&
-                            n.producto_stock.Equals(modelo.producto.producto_stock) &&
-                            n.producto_disponiblidad.Equals(modelo.producto.producto_disponiblidad) &&
-                            n.producto_descripcion.Equals(modelo.producto.producto_descripcion) &&
-                            n.producto_fechaCreacion.Equals(modelo.producto.producto_fechaCreacion) &&
-                            n.producto_fechaModificacion.Equals(modelo.producto.producto_fechaModificacion) &&
-                            n.producto_Esdescuento.Equals(modelo.producto.producto_Esdescuento) &&
-                            n.producto_descuento.Equals(modelo.producto.producto_descuento)
-                        ).FirstOrDefault();
-
-                    //guardamos las imagenes
-                    foreach (var item in modelo.filesName)
+                    if (!modelo.filesName.IsNullOrEmpty() && !modelo.videosName.IsNullOrEmpty())
                     {
-                        string ruta = ImagenesUtility.guardarImagen(RUTA, _webHostEnvironment.WebRootPath, item);
-
-                        //guardar la imagen respecitva
-                        _unitOfWork.ImagenesProducto.Add(new ImagenesProducto()
-                        {
-                            imagenesProducto_ruta = ruta,
-                            imagenesProducto_estado = true,
-                            imagenesProducto_fechaCreacion = DateTime.Now,
-                            imagenesProducto_fechaModificacion = DateTime.Now,
-                            Productoproducto_id = producto!.producto_id
-                        });
+                        _unitOfWork.Producto.Add(modelo.producto);
                         _unitOfWork.Save();
-                    }
 
-                    //guardamos los videos
-                    foreach (var item in modelo.videosName)
-                    {
-                        Dictionary<string, string> ruta = await VideosUtility.guardarVideo(RUTA_IMG_VIDEO, RUTA_VIDEO, _webHostEnvironment.WebRootPath, item);
+                        //obtenemos el producto especificando todos sus campos. 
+                        var producto = _unitOfWork.Producto.GetAll(
+                                n => n.producto_nombre.Equals(modelo.producto.producto_nombre) &&
+                                n.producto_precio.Equals(modelo.producto.producto_precio) &&
+                                n.producto_stock.Equals(modelo.producto.producto_stock) &&
+                                n.producto_disponiblidad.Equals(modelo.producto.producto_disponiblidad) &&
+                                n.producto_descripcion.Equals(modelo.producto.producto_descripcion) &&
+                                n.producto_fechaCreacion.Equals(modelo.producto.producto_fechaCreacion) &&
+                                n.producto_fechaModificacion.Equals(modelo.producto.producto_fechaModificacion) &&
+                                n.producto_Esdescuento.Equals(modelo.producto.producto_Esdescuento) &&
+                                n.producto_descuento.Equals(modelo.producto.producto_descuento)
+                            ).FirstOrDefault();
 
-                        //guardar el video respectivo
-                        _unitOfWork.Video.Add(new VideosProducto()
+                        //guardamos las imagenes
+                        foreach (var item in modelo.filesName)
                         {
-                            videosProducto_ruta = ruta["rutaVideo"],
-                            videosProducto_estado = true,
-                            videosProducto_fechaCreacion = DateTime.Now,
-                            videosProducto_fechaModificacion = DateTime.Now,
-                            videosProducto_rutaFotoVideo = ruta["rutaScreenshot"],
-                            Productoproducto_id = producto!.producto_id
-                        });
-                        _unitOfWork.Save();
-                    }
+                            string ruta = ImagenesUtility.guardarImagen(RUTA, _webHostEnvironment.WebRootPath, item);
 
+                            //guardar la imagen respecitva
+                            _unitOfWork.ImagenesProducto.Add(new ImagenesProducto()
+                            {
+                                imagenesProducto_ruta = ruta,
+                                imagenesProducto_estado = true,
+                                imagenesProducto_fechaCreacion = DateTime.Now,
+                                imagenesProducto_fechaModificacion = DateTime.Now,
+                                Productoproducto_id = producto!.producto_id
+                            });
+                            _unitOfWork.Save();
+                        }
+
+                        //guardamos los videos
+                        foreach (var item in modelo.videosName)
+                        {
+                            Dictionary<string, string> ruta = await VideosUtility.guardarVideo(RUTA_IMG_VIDEO, RUTA_VIDEO, _webHostEnvironment.WebRootPath, item);
+
+                            //guardar el video respectivo
+                            _unitOfWork.Video.Add(new VideosProducto()
+                            {
+                                videosProducto_ruta = ruta["rutaVideo"],
+                                videosProducto_estado = true,
+                                videosProducto_fechaCreacion = DateTime.Now,
+                                videosProducto_fechaModificacion = DateTime.Now,
+                                videosProducto_rutaFotoVideo = ruta["rutaScreenshot"],
+                                Productoproducto_id = producto!.producto_id
+                            });
+                            _unitOfWork.Save();
+                        }
+
+                    }
                 }
+
+                verificarArchivos(modelo, ModelState);
+                ViewData["categorias"] = retornarCategorias(_unitOfWork);
+
+                _unitOfWork.Dispose();
+
+                return RedirectToAction("Create");
+            }
+            catch (Exception e)
+            {
+                return null;
             }
 
-            verificarArchivos(modelo, ModelState);
-            ViewData["categorias"] = retornarCategorias(_unitOfWork);
-
-            _unitOfWork.Dispose();
-
-            return RedirectToAction("Create");
         }
 
         [HttpGet]
