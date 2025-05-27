@@ -621,12 +621,6 @@ D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogC
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\staticwebassets.build.json
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\staticwebassets.development.json
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\staticwebassets\msbuild.BlogCore.Microsoft.AspNetCore.StaticWebAssets.props
-D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\staticwebassets\msbuild.BlogCore.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\staticwebassets\msbuild.build.BlogCore.props
-D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.BlogCore.props
-D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.BlogCore.props
-D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\staticwebassets.pack.json
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\BlogCore.csproj.Up2Date
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\BlogCore.dll
@@ -634,3 +628,4 @@ D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogC
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\BlogCore.pdb
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\BlogCore.genruntimeconfig.cache
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\ref\BlogCore.dll
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\staticwebassets.build.json.cache

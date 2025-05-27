@@ -43,15 +43,27 @@ namespace BlogCore.Utilidades
                 FFmpeg.SetExecutablesPath(ruta);
 
                 string nombreScreenshot = $"{Guid.NewGuid()}.jpg";
-                
-                var resultado = await FFmpeg.Conversions.New()
-                    .AddParameter($"-ss {5} -i \"{rutaCompleta}\" -frames:v 1 \"{$"{rutaAbsolutaScreenshot}{nombreScreenshot}"}\"", ParameterPosition.PreInput)
-                    .Start();
+                int segundosCaptura = 5;
+                while(true)
+                {
+                    try
+                    {
+                        var resultado = await FFmpeg.Conversions.New()
+                            .AddParameter($"-ss {segundosCaptura} -i \"{rutaCompleta}\" -frames:v 1 \"{$"{rutaAbsolutaScreenshot}{nombreScreenshot}"}\"", ParameterPosition.PreInput)
+                            .Start();
 
-                //dibujamos justamente algo en la imagen ya agregada en el sistema de archivos
-                string nombreImagenDibujada = dibujarEnImagen($"{rutaAbsolutaScreenshot}", rutaRoot, $"{rutaAbsolutaScreenshot}{nombreScreenshot}");
+                        //dibujamos justamente algo en la imagen ya agregada en el sistema de archivos
+                        string nombreImagenDibujada = dibujarEnImagen($"{rutaAbsolutaScreenshot}", rutaRoot, $"{rutaAbsolutaScreenshot}{nombreScreenshot}");
 
-                rutas.Add("rutaScreenshot", $"{rutaLocal}{rutaScreenshot}{nombreImagenDibujada}");
+                        rutas.Add("rutaScreenshot", $"{rutaLocal}{rutaScreenshot}{nombreImagenDibujada}");
+
+                        break;
+                    }
+                    catch (Exception e) 
+                    {
+                        segundosCaptura = 1;
+                    }
+                }   
             }
 
             rutas.Add("rutaVideo", $"{rutaLocal}{guiImagen}");
