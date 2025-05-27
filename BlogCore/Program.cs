@@ -4,6 +4,7 @@ using BlogCore.AccesoDatos.Data.SeederDB;
 using BlogCore.Data;
 using BlogCore.Models;
 using BlogCore.Utilidades;
+using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Http.Features;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -40,7 +41,7 @@ builder.Services.AddControllers()
 .AddJsonOptions(options =>
 {
     options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
-});
+}); 
 
 builder.Services.AddScoped<ISeedDb, SeedDb>();
 builder.Services.AddScoped<IUnitofWork, UnitofWork>();
@@ -54,6 +55,9 @@ builder.Services.Configure<FormOptions>(options =>
     options.MultipartHeadersLengthLimit = int.MaxValue;
     options.MultipartHeadersCountLimit = int.MaxValue;
 });
+
+builder.Services.AddDataProtection()
+    .PersistKeysToDbContext<ApplicationDbContext>();
 
 var app = builder.Build();
 

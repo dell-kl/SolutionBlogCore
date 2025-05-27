@@ -1,10 +1,11 @@
 ﻿using BlogCore.Models;
+using Microsoft.AspNetCore.DataProtection.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace BlogCore.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : IdentityDbContext, IDataProtectionKeyContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) {
         }
@@ -24,6 +25,7 @@ namespace BlogCore.Data
         public DbSet<ComentarioArticulo> ComentarioArticulo { set; get; }
         public DbSet<ComentarioProducto> ComentarioProducto { set; get; }
 
+        public DbSet<DataProtectionKey> DataProtectionKeys => throw new NotImplementedException();
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

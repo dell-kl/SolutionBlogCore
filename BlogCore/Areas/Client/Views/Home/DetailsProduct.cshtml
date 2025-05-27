@@ -234,14 +234,33 @@
 
             <form method="get">
                 <select class="form-select" aria-label="Default select example">
-                    <option selected>Cantidad</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
+                    @{
+                        int indice = 1;
+                        string texto = "", seleccion = "";
+                    }
+                    @while(indice < Model.producto.producto_stock)
+                    {
+                        seleccion = indice.Equals(1) ? "selected" : "";
+                        texto = indice.Equals(1) ? $"Cantidad : {indice}" : $"{indice}";
+
+                        <option class="fw-bold" value="@indice" seleccion>@texto</option>
+
+                        indice += 1;
+                    }
                 </select>
 
-                <button type="button" style="background-color: #ffb443db" class="btn border border-1 rounded w-100"><i class="fa-solid fa-cart-shopping"></i> Agregar al carrito</button>
-                <button type="button" style="background-color: #ff6e21" class="btn btn-warning border border-1 rounded w-100 text-black"><i class="fa-solid fa-money-bill"></i> Comprar ahora</button>
+                <button 
+                    type="button" 
+                    style="background-color: #ffb443db" 
+                    class="btn border border-1 rounded w-100">
+                    <i class="fa-solid fa-cart-shopping"></i> Agregar al carrito
+                </button>
+                <button 
+                    type="button" 
+                    style="background-color: #ff6e21" 
+                    class="btn btn-warning border border-1 rounded w-100 text-black">
+                    <i class="fa-solid fa-money-bill"></i> Comprar ahora
+                </button>
             </form>
         </div>
     </div>

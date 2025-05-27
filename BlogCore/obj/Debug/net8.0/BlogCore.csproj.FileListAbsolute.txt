@@ -331,6 +331,9 @@ D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogC
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\Humanizer.dll
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\Microsoft.AspNetCore.DataProtection.dll
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\Microsoft.AspNetCore.DataProtection.EntityFrameworkCore.dll
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.UI.dll
@@ -619,6 +622,7 @@ D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogC
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\scopedcss\bundle\BlogCore.styles.css
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\scopedcss\projectbundle\BlogCore.bundle.scp.css
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\staticwebassets.build.json
+D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\staticwebassets.build.json.cache
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\staticwebassets.development.json
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
@@ -628,4 +632,3 @@ D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogC
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\BlogCore.pdb
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\BlogCore.genruntimeconfig.cache
 D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\ref\BlogCore.dll
-D:\workgroup\-- Tecnologias C# --\-- .Net Core MVC --\ProyectosMVC\SolutionBlogCore\BlogCore\obj\Debug\net8.0\staticwebassets.build.json.cache
