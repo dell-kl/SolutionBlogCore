@@ -28,6 +28,8 @@ namespace BlogCore.AccesoDatos.Data.Repository
         public IOpinionesProductoRepository OpinionesProducto { get; private set; }
 
         public IComentarioProductoRepository ComentarioProducto { get; private set; }
+        
+        
         public UnitofWork(ApplicationDbContext db)
         {
             this._db = db;

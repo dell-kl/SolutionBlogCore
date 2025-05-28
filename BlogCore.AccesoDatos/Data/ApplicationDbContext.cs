@@ -24,8 +24,9 @@ namespace BlogCore.Data
         public DbSet<Etiqueta> Etiqueta { set; get; }
         public DbSet<ComentarioArticulo> ComentarioArticulo { set; get; }
         public DbSet<ComentarioProducto> ComentarioProducto { set; get; }
-
-        public DbSet<DataProtectionKey> DataProtectionKeys => throw new NotImplementedException();
+        public DbSet<DataProtectionKey> DataProtectionKeys { set; get; }
+        public DbSet<CarritoCompra> CarritoCompra { set; get; }
+        public DbSet<Carrito> Carrito { set; get; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

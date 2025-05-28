@@ -1,7 +1,10 @@
 ﻿@model BlogCore.Models.ModelView.ComentarioProductoViewModel
 @using Microsoft.AspNetCore.Identity
+@using BlogCore.AccesoDatos.Data.Repository.IRepository
+
 @inject UserManager<ApplicationUser> UserManager
 @inject SignInManager<ApplicationUser> SignInManager
+@inject IDataSecurityRepository DataSecurity
 
 @{
     ViewData["Title"] = "Detalle Producto";
@@ -232,29 +235,36 @@
                 iva determinado por la <strong>Republica del Ecuador</strong>.
             </p>
 
-            <form method="get">
-                <select class="form-select" aria-label="Default select example">
+            <form method="post" asp-area="Client" asp-action="Index" asp-controller="CarritoCompras">
+                @*Poner algunos campos ocultos de configuracion importantes*@
+                
+                <input type="hidden" name="registro_aWQgZGVsIHByb2R1Y3RvCg" value="@DataSecurity.encriptarDatos(Model.producto.producto_id.ToString())"/>
+                @* <input type="hidden" id="tipo_wcSBm9" name="tipo_dGlwbyBkZSBwcm9jZXNvIGdlbmVyYWRvCg"/> *@
+
+                <select class="form-select" name="cantidad_Y2FudGlkYWQgZGVsIHByb2R1Y" aria-label="Default select example">
                     @{
                         int indice = 1;
-                        string texto = "", seleccion = "";
+                        string texto = "", seleccion = "", cifrado = "";
                     }
                     @while(indice < Model.producto.producto_stock)
                     {
                         seleccion = indice.Equals(1) ? "selected" : "";
                         texto = indice.Equals(1) ? $"Cantidad : {indice}" : $"{indice}";
-
-                        <option class="fw-bold" value="@indice" seleccion>@texto</option>
+                        cifrado = DataSecurity.encriptarDatos(indice.ToString());
+                        
+                        <option class="fw-bold" value="@cifrado" seleccion>@texto</option>
 
                         indice += 1;
                     }
                 </select>
 
                 <button 
-                    type="button" 
+                    type="submit" 
                     style="background-color: #ffb443db" 
                     class="btn border border-1 rounded w-100">
                     <i class="fa-solid fa-cart-shopping"></i> Agregar al carrito
                 </button>
+
                 <button 
                     type="button" 
                     style="background-color: #ff6e21" 

@@ -45,6 +45,7 @@ builder.Services.AddControllers()
 
 builder.Services.AddScoped<ISeedDb, SeedDb>();
 builder.Services.AddScoped<IUnitofWork, UnitofWork>();
+builder.Services.AddScoped<IDataSecurityRepository, DataSecurityRepository>();
 
 builder.WebHost.UseKestrel(o => o.Limits.MaxRequestBodySize = null);
 builder.Services.Configure<FormOptions>(options =>

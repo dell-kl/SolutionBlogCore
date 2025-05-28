@@ -19,5 +19,6 @@ namespace BlogCore.Models
 
         //relacion con reaccion Articulo
         public ICollection<ReaccionArticulo> reaccionArticulo = new List<ReaccionArticulo>();
+        public ICollection<CarritoCompra> carritoCompra = new List<CarritoCompra>();
     }
 }

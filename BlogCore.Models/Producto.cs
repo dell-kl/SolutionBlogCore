@@ -56,6 +56,6 @@ namespace BlogCore.Models
         public ICollection<ImagenesProducto> imagenesProducto { set; get; } = new List<ImagenesProducto>();
         public ICollection<VideosProducto> videosProducto { set; get; } = new List<VideosProducto>();
         public ICollection<OpinionesProducto> opinionesProducto { set; get; } = new List<OpinionesProducto>();
-
+        public ICollection<CarritoCompra> carritoCompra { set; get; } = new List<CarritoCompra>();
     }
 }
