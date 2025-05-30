@@ -3,6 +3,10 @@
 @inject SignInManager<ApplicationUser> SignInManager
 @inject UserManager<ApplicationUser> UserManager
 
+@{
+
+}
+
 <ul class="navbar-nav ps-2 d-flex align-items-baseline">
 @if (SignInManager.IsSignedIn(User))
 {

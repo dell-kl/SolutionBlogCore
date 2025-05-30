@@ -30,6 +30,7 @@ builder.Services.AddDefaultIdentity<ApplicationUser>
 .AddRoles<IdentityRole>()
 .AddEntityFrameworkStores<ApplicationDbContext>();
 
+
 builder.Services.AddScoped<
 ValidarInicioSesion<ApplicationUser>
 >();
@@ -61,6 +62,8 @@ builder.Services.AddDataProtection()
     .PersistKeysToDbContext<ApplicationDbContext>();
 
 var app = builder.Build();
+
+
 
 //ejecucion de la siembre de datos. 
 using (var scope = app.Services.CreateScope() )

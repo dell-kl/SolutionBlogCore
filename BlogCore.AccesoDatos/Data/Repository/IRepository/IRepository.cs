@@ -9,7 +9,8 @@ namespace BlogCore.AccesoDatos.Data.Repository.IRepository
         IEnumerable<T> GetAll(
             Expression<Func<T, bool>>? filter = null,
             Func<IQueryable<T>, IOrderedQueryable<T>>? orderBy = null,
-            string? includeProperties = null
+            string? includeProperties = null,
+            string? SubincludeProperties = null
         );
 
         T GetFirstOrDefault(

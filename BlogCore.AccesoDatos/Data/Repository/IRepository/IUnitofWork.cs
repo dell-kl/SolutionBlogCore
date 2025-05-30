@@ -24,6 +24,10 @@
 
         public IComentarioProductoRepository ComentarioProducto { get; }
 
+        public ICarritoRepository Carrito { get; }
+
+        public ICarritoCompraRepository CarritoCompra { get; }
+
         public void Save();
     }
 }

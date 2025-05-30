@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Identity;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BlogCore.Models
@@ -23,11 +22,10 @@ namespace BlogCore.Models
         [Column("carritoCompra_carritoId")]
         public int Carritocarrito_id { set; get; }
 
-
         [ForeignKey("Productoproducto_id")]
         public Producto producto { set; get; } = null!;
 
         [ForeignKey("Carritocarrito_id")]
-        public Carrito carrito { set; get; } = null!;
+        public Carrito carrito { set; get; } = null!;   
     }
 }

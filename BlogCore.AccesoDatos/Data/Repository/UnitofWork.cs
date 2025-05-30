@@ -29,7 +29,10 @@ namespace BlogCore.AccesoDatos.Data.Repository
 
         public IComentarioProductoRepository ComentarioProducto { get; private set; }
         
+        public ICarritoRepository Carrito { get; private set; }
         
+        public ICarritoCompraRepository CarritoCompra { get; private set; }
+
         public UnitofWork(ApplicationDbContext db)
         {
             this._db = db;
@@ -44,6 +47,8 @@ namespace BlogCore.AccesoDatos.Data.Repository
             ComentarioArticulo = new ComentarioArticuloRepository(_db);
             OpinionesProducto = new OpinionesProductoRepository(_db);
             ComentarioProducto = new ComentarioProductoRepository(_db);
+            Carrito = new CarritoRepository(_db);
+            CarritoCompra = new CarritoCompraRepository(_db);
         }
 
         public void Dispose()

@@ -1,6 +1,7 @@
 ﻿using BlogCore.AccesoDatos.Data.Repository.IRepository;
 using BlogCore.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -32,7 +33,8 @@ namespace BlogCore.AccesoDatos.Data.Repository
         public IEnumerable<T> GetAll(
             Expression<Func<T, bool>>? filter = null, 
             Func<IQueryable<T>, IOrderedQueryable<T>>? orderBy = null, 
-            string? includeProperties = null)
+            string? includeProperties = null,
+            string? SubincludeProperties = null)
         {
            
             IQueryable<T> consulta = null!;
@@ -49,6 +51,8 @@ namespace BlogCore.AccesoDatos.Data.Repository
                 foreach (string tabla in tablsRln)
                 {
                     consulta = consulta.Include(tabla.Trim());
+                
+
                 }
             }
 

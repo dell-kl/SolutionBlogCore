@@ -92,7 +92,10 @@ wwwroot\pictures\personalizacion\img_footer.jpg
 wwwroot\pictures\personalizacion\play_img.jpg
 wwwroot\pictures\personalizacion\tiendaShopping.jpg
 wwwroot\pictures\producto\356f9059-fe1a-4afd-b131-845a263f50ae.jpg
+wwwroot\pictures\producto\70b9cbcb-8e35-40a8-a852-692fc29a1018.jpg
+wwwroot\pictures\producto\730873db-c4fc-4232-b525-f0604895d7a5.jpg
 wwwroot\pictures\producto\ca22a58b-3d57-4772-a4e9-2b25922415a6.jpg
+wwwroot\pictures\producto\e29a2235-7ba3-4bd3-aadb-e11d5ec5ae68.jpg
 wwwroot\pictures\producto\e31ca3f0-0206-4d7c-a70a-bff2a7f1e3bb.jpg
 wwwroot\pictures\slider\75765ede-708b-4e8c-9d7a-118aa50ae619.jpg
 wwwroot\pictures\slider\a9720134-d09f-4201-bb54-46df54acbcfe.jpg
@@ -100,6 +103,10 @@ wwwroot\pictures\slider\cf116015-7877-47fa-973e-e7391099e0dc.jpg
 wwwroot\videos\producto\01b2f3f1-8b5a-4a23-985f-79dcac715bd6.mp4
 wwwroot\videos\producto\1351756d-32a5-48b1-ae29-f157e815f62d.mp4
 wwwroot\videos\producto\5c3da749-328b-4101-bcd2-6e9f26b64627.mp4
+wwwroot\videos\producto\7798f852-82ce-49c7-9985-deac07b946fa.mp4
+wwwroot\videos\producto\af6f8380-ba78-4cd3-a072-dc5b54189676.mp4
+wwwroot\videos\producto\screenshot_videos_producto\01cff792-e218-49c2-9635-82bbac5cac96.jpg
 wwwroot\videos\producto\screenshot_videos_producto\40a30440-cad7-49ba-8bb1-12c1910ce481.jpg
+wwwroot\videos\producto\screenshot_videos_producto\49c201d3-d783-470f-a2f3-ae1abd6e6c3d.jpg
 wwwroot\videos\producto\screenshot_videos_producto\b44ecfa4-3c6c-40ca-b646-ecf6fdd7a39c.jpg
 wwwroot\videos\producto\screenshot_videos_producto\f8d2fde3-5da4-462d-aeee-4f083032f21c.jpg
