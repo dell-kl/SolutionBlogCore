@@ -24,6 +24,10 @@
 
                                         @foreach(Producto producto in Model.producto)
                                         {
+                                            string GuidProductoCarritoCompraEncriptado = DataSecurityRepository.encriptarDatos(
+                                                Model.carritoCompra.Where(n => n.Productoproducto_id.Equals(producto.producto_id)).Select(n => n.carritoCompra_guid).First().ToString()
+                                            );
+                                            
                                             <div class="row mb-4 d-flex justify-content-between align-items-center">
                                                 <div class="col-md-2 col-lg-2 col-xl-2">
                                                     <img 
@@ -41,19 +45,24 @@
                                                 </div>
                                                 <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
                                                     <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
-                                                            onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
-                                                        <i class="fas fa-minus"></i>
+                                                            onclick="this.parentNode.querySelector('input[type=number]').stepDown();document.getElementById('input_aWQgYm90b24gcmVkdWNpciBjYW50aWRhZCWwgHVjdG8K').click()">
+                                                        <i class="fas fa-minus">
+                                                        </i>
                                                     </button>
+                                                    <input type="hidden" id="input_aWQgYm90b24gcmVkdWNpciBjYW50aWRhZCWwgHVjdG8K" name="product_IHJlZHVjaXIgY2FudGlkYWQgcHJvZH" value="@GuidProductoCarritoCompraEncriptado"/>
                                                     @{
                                                         int cantidadDelProducto = Model.carritoCompra.Where(n => n.Productoproducto_id.Equals(producto.producto_id)).Select(n => n.carritoCompra_cantidad).First();  
                                                     }
                                                     <input id="form1" min="0" name="quantity" value="@cantidadDelProducto" type="number"
                                                            class="form-control form-control-sm" />
 
+                                                    
                                                     <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
-                                                            onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                                            id="@GuidProductoCarritoCompraEncriptado"
+                                                            onclick="this.parentNode.querySelector('input[type=number]').stepUp();document.getElementById('input_4gc3VtYXIgbWFzIGNhbnRpZGFkIGRlbCBwcm9kdWN0bwo').click()">
                                                         <i class="fas fa-plus"></i>
                                                     </button>
+                                                    <input type="hidden" id="input_4gc3VtYXIgbWFzIGNhbnRpZGFkIGRlbCBwcm9kdWN0bwo" name="product_VudGFyIGNhbnRpZGFkIHByb2R1Y" value="@GuidProductoCarritoCompraEncriptado"/>
                                                 </div>
                                                 <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1" style="width: 20%;">
                                                     @{
@@ -64,18 +73,13 @@
                                                     <h6 class="mb-0"><span class="@(((bool)producto.producto_Esdescuento!) ? "text-decoration-line-through" : "")">@formatoPrecio.ToString("C0")</span><span class="ps-2">@(((bool)producto.producto_Esdescuento!) ? formatoPrecioDescuento : "")</span></h6>
                                                 </div>
                                                 <div class="col-md-1 col-lg-1 col-xl-1 text-end">
-                                                    @{
-                                                        string GuidProductoCarritoCompraEncriptado = DataSecurityRepository.encriptarDatos(
-                                                            Model.carritoCompra.Where(n => n.Productoproducto_id.Equals(producto.producto_id)).Select(n => n.carritoCompra_guid).First().ToString()
-                                                        );
-                                                    }
+               
                                                     <a asp-area="Client" asp-route-guid_Z3VpZCBwcm9kdWN0bwo="@GuidProductoCarritoCompraEncriptado" asp-action="DeleteProduct" asp-controller="CarritoCompras" class="text-muted"><i class="fa-solid fa-trash"></i></a>
                                                 </div>
                                             </div>
 
                                             <hr class="my-4">   
                                         }
-
 
                                         <div class="pt-5">
                                             <h6 class="mb-0">

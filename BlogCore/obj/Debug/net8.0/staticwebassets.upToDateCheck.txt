@@ -2,6 +2,7 @@ wwwroot\css\estilosPresentacionProductosArticulos.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\articulo.js
+wwwroot\js\carritoCompra.js
 wwwroot\js\carruselPresentacionArticulos.js
 wwwroot\js\carruselPresentacionProductos.js
 wwwroot\js\categoria.js

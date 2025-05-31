@@ -5,6 +5,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.Security.Claims;
 using BlogCore.Utilidades;
+using BlogCore.Models.Dto;
+using System.Text.Json.Serialization;
+using Newtonsoft.Json;
 
 namespace BlogCore.Areas.Client.Controllers
 {
@@ -164,24 +167,24 @@ namespace BlogCore.Areas.Client.Controllers
         }
 
         #region -- endpoints usados para comunicarse con jS -- 
-        [HttpGet]
+        [HttpPost]
         public IActionResult IncrementAmountProduct(string guid_Z3VpZCBwcm9kdWN0bwo)
         {
             try
             {
-                Guid guid = Guid.Parse(_dataSecurity.desencriptarDatos(guid_Z3VpZCBwcm9kdWN0bwo));
-                CarritoCompra registroProducto = _unitOfWork.CarritoCompra.GetFirstOrDefault(n => n.carritoCompra_guid.Equals(guid), includeProperties: "producto");
                 string mensaje = "No puedes tomar una cantidad mayor al stock";
+                //Guid guid = Guid.Parse(_dataSecurity.desencriptarDatos(guid_Z3VpZCBwcm9kdWN0bwo));
+                //CarritoCompra registroProducto = _unitOfWork.CarritoCompra.GetFirstOrDefault(n => n.carritoCompra_guid.Equals(guid), includeProperties: "producto");
 
-                if ( registroProducto.carritoCompra_cantidad <= registroProducto.producto.producto_stock)
-                {
-                    registroProducto.carritoCompra_cantidad += 1;
-                    _unitOfWork.CarritoCompra.Update(registroProducto);
-                    _unitOfWork.Save();
-                    _unitOfWork.Dispose();
+                //if ( registroProducto.carritoCompra_cantidad <= registroProducto.producto.producto_stock)
+                //{
+                //    registroProducto.carritoCompra_cantidad += 1;
+                //    _unitOfWork.CarritoCompra.Update(registroProducto);
+                //    _unitOfWork.Save();
+                //    _unitOfWork.Dispose();
                     
-                    mensaje = "cantidad agregado exitosamente";
-                }
+                //    mensaje = "cantidad agregado exitosamente";
+                //}
 
                 return StatusCode(200, new { data = mensaje });
             }
@@ -191,7 +194,8 @@ namespace BlogCore.Areas.Client.Controllers
             }
         }
 
-        [HttpGet]
+        [HttpPut]
+        [ValidateAntiForgeryToken]
         public IActionResult DecrementAmountProduct(string guid_Z3VpZCBwcm9kdWN0bwo)
         {
             try
