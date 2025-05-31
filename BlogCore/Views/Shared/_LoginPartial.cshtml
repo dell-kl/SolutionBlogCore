@@ -1,10 +1,29 @@
 ﻿@using BlogCore.Models
+@using BlogCore.Utilidades
 @using Microsoft.AspNetCore.Identity
+@using BlogCore.AccesoDatos.Data.Repository.IRepository
 @inject SignInManager<ApplicationUser> SignInManager
 @inject UserManager<ApplicationUser> UserManager
+@inject IUnitofWork UnitOfWork
+@inject IDataSecurityRepository DataSecurityRepository
+@inject IHttpContextAccessor HttpContextAccesor
 
 @{
+    string? cookie = HttpContextAccesor?.HttpContext?.Request.Cookies[DefinitionKeyCookies.keyShoppingCart];
 
+    bool productosPrendientes = false;
+
+    if ( cookie is not null )
+    {
+        string desencriptarCookie = DataSecurityRepository.desencriptarDatos(cookie);
+        Carrito carrito = UnitOfWork.Carrito.GetFirstOrDefault(
+            n => n.carrito_sessionId.Equals(desencriptarCookie),
+            includeProperties: "carritoCompra"
+        );
+
+        if ( carrito.carritoCompra.Count > 0 )
+            productosPrendientes = true;
+    }
 }
 
 <ul class="navbar-nav ps-2 d-flex align-items-baseline">
@@ -34,6 +53,20 @@ else
 }
 
     <li class="nav-item p-0">
-        <a class="nav-link"><i class="fs-1 fa-solid text-white fa-cart-shopping"></i> <span class="text-white fw-bold">Carrito</span></a>
+        <a 
+            asp-area="Client"
+            asp-controller="CarritoCompras"
+            asp-action="Index"
+            class="nav-link">
+            @if ( productosPrendientes )
+            {
+                <i class="fs-1 fa-solid text-white fa-cart-plus"></i>
+            }
+            else
+            {
+                <i class="fs-1 fa-solid text-white fa-cart-shopping"></i> 
+            }
+            <span class="text-white fw-bold">Carrito</span>
+        </a>
     </li>
 </ul>

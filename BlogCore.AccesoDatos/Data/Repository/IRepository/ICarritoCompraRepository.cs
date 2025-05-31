@@ -9,5 +9,6 @@ namespace BlogCore.AccesoDatos.Data.Repository.IRepository
 {
     public interface ICarritoCompraRepository : IRepository<CarritoCompra>
     {
+        public void Update(CarritoCompra carritoCompra);
     }
 }

@@ -12,5 +12,12 @@ namespace BlogCore.AccesoDatos.Data.Repository
         {
             _db = db;
         }
+
+        public void Update(CarritoCompra carritoCompra)
+        {
+            CarritoCompra carritoCompraRegistro = _db.CarritoCompra.Where(c => c.carritoCompra_id.Equals(carritoCompra.carritoCompra_id)).First();
+            carritoCompraRegistro.carritoCompra_cantidad = carritoCompra.carritoCompra_cantidad;
+        }
+
     }
 }
