@@ -9,6 +9,6 @@ namespace BlogCore.AccesoDatos.Data.Repository.IRepository
 {
     public interface ICarritoRepository : IRepository<Carrito>
     {
-
+        public void Update(Carrito carrito);
     }
 }

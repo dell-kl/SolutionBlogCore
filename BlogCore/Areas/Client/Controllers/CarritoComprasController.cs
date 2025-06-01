@@ -5,9 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.Security.Claims;
 using BlogCore.Utilidades;
-using BlogCore.Models.Dto;
-using System.Text.Json.Serialization;
-using Newtonsoft.Json;
+
 
 namespace BlogCore.Areas.Client.Controllers
 {
@@ -51,6 +49,106 @@ namespace BlogCore.Areas.Client.Controllers
 
             return datos;
         };
+
+        Func<ClaimsIdentity, HttpRequest, IDataSecurityRepository, IUnitofWork, CarritoViewModel> InformacionCarritoCompra = (claimsIdentity, Request, _dataSecurity, _unitOfWork) => {
+            CarritoViewModel carritoViewModel = new CarritoViewModel();
+            string? cookieCarrito = Request.Cookies[DefinitionKeyCookies.keyShoppingCart];
+
+            if (!cookieCarrito.IsNullOrEmpty())
+            {
+                // debemos realizar una verificacion de productos almancedos para sesiones de usuario autenticados y no autenticados.
+                string CookieTextoPlano = _dataSecurity.desencriptarDatos(cookieCarrito!);
+                carritoViewModel.carrito = _unitOfWork.Carrito.GetFirstOrDefault(n => n.carrito_sessionId.Equals(CookieTextoPlano));
+
+                //traer los datos del carrito de compra de clientes autenticados y no autenticados.
+                if ( 
+                !claimsIdentity.IsAuthenticated && carritoViewModel.carrito.IdentityUserId is null
+                || 
+                claimsIdentity.IsAuthenticated && carritoViewModel.carrito.IdentityUserId is not null)
+                {
+                    bool permitir = true;
+
+                    if (claimsIdentity.IsAuthenticated)
+                    {
+                        //verificamos que el carrito de compra sea del usuario autenticado.
+                        permitir = claimsIdentity.Claims.ToList()[0].Value.Equals(carritoViewModel.carrito.IdentityUserId);
+                    }
+
+                    carritoViewModel.carritoCompra = _unitOfWork.CarritoCompra.GetAll(n => n.Carritocarrito_id.Equals(carritoViewModel.carrito.carrito_id));
+
+                    ICollection<Producto> productos = new List<Producto>();
+                    foreach (var item in carritoViewModel.carritoCompra)
+                    {
+                        Producto producto = _unitOfWork.Producto.GetFirstOrDefault(n => n.producto_id.Equals(item.Productoproducto_id), includeProperties: "imagenesProducto,categoriaProducto");
+                        productos.Add(producto);
+                    }
+                    carritoViewModel.producto = productos;
+                    carritoViewModel.configurarDatosCompra();
+                }
+
+            }
+
+            return carritoViewModel;
+        };
+
+        Func<IUnitofWork, int, int, ClaimsIdentity, Dictionary<string, string>, Action> escuchandoCarritoCompra = (_unitOfWork, id_producto, cantidad_producto, claimsIdentity, cookie) =>
+        {
+            //lo primero que se ejecutara y verificara
+            Carrito carrito = (cookie["tipo"].Equals("COOKIE_NEW")) 
+                            ? new Carrito() { 
+                                carrito_sessionId = cookie["cookie"]
+                            }
+                            : _unitOfWork.Carrito.GetFirstOrDefault(
+                                carrito => carrito.carrito_sessionId.Equals(cookie["cookie"]),
+                                includeProperties: "carritoCompra");
+
+            carrito.IdentityUserId = (carrito.IdentityUserId.IsNullOrEmpty()) 
+                ? (claimsIdentity.IsAuthenticated) ? claimsIdentity.Claims.ToList()[0].Value : null : carrito.IdentityUserId;
+
+            if (cookie["tipo"].Equals("COOKIE_NEW"))
+                _unitOfWork.Carrito.Add(carrito);
+            else
+                _unitOfWork.Carrito.Update(carrito);
+           
+            CarritoCompra carritoCompra = new CarritoCompra()
+            {
+                Productoproducto_id = id_producto,
+                carritoCompra_cantidad = cantidad_producto
+            };
+
+            _unitOfWork.Save();
+
+            return () => {
+
+
+                if (cookie["tipo"].Equals("COOKIE_NEW"))
+                {
+                    carritoCompra.carritoCompra_id = _unitOfWork.Carrito
+                    .GetFirstOrDefault(c => c.carrito_sessionId.Equals(cookie["cookie"]))
+                    .carrito_id;
+                    _unitOfWork.CarritoCompra.Add(carritoCompra);
+                }
+                else
+                {
+                    CarritoCompra? productoBuscado = carrito.carritoCompra
+                        .Where(n => n.Productoproducto_id.Equals(id_producto))
+                        .FirstOrDefault();
+
+                    if (productoBuscado is null)
+                    {
+                        carritoCompra.Carritocarrito_id = carrito.carrito_id;
+                        _unitOfWork.CarritoCompra.Add(carritoCompra);
+                    }
+                    else
+                    {
+                        productoBuscado.carritoCompra_cantidad += cantidad_producto;
+                        _unitOfWork.CarritoCompra.Update(productoBuscado);
+                    }
+                }
+
+                _unitOfWork.Save();
+            };
+        };
         #endregion
 
         public CarritoComprasController(IDataSecurityRepository dataSecurity, IUnitofWork unitOfWork)
@@ -59,97 +157,20 @@ namespace BlogCore.Areas.Client.Controllers
             _unitOfWork = unitOfWork;
         }
 
-        public IActionResult Index()
-        {
-            CarritoViewModel carritoViewModel = new CarritoViewModel();
-            //hacer persistente la cookie 
-            string? cookieCarrito = Request.Cookies[DefinitionKeyCookies.keyShoppingCart];
-
-            if ( !cookieCarrito.IsNullOrEmpty() )
-            {
-
-                string CookieTextoPlano = _dataSecurity.desencriptarDatos(cookieCarrito!);
-                carritoViewModel.carrito = _unitOfWork.Carrito.GetFirstOrDefault(n => n.carrito_sessionId.Equals(CookieTextoPlano));
-                carritoViewModel.carritoCompra = _unitOfWork.CarritoCompra.GetAll(n => n.Carritocarrito_id.Equals(carritoViewModel.carrito.carrito_id));
-
-                ICollection<Producto> productos = new List<Producto>();
-                foreach (var item in carritoViewModel.carritoCompra)
-                {
-                    
-                    Producto producto = _unitOfWork.Producto.GetFirstOrDefault(n => n.producto_id.Equals(item.Productoproducto_id), includeProperties: "imagenesProducto,categoriaProducto");
-                    productos.Add(producto);
-                }
-                carritoViewModel.producto = productos;
-
-                carritoViewModel.configurarDatosCompra();
-            }
-
-            return View(carritoViewModel);
+        public IActionResult Index() { 
+            ClaimsIdentity claimsIdentity = ((ClaimsIdentity)this.User.Identity!);
+            return View(InformacionCarritoCompra(claimsIdentity, Request, _dataSecurity, _unitOfWork)); 
         }
-
 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Index(string registro_aWQgZGVsIHByb2R1Y3RvCg, string cantidad_Y2FudGlkYWQgZGVsIHByb2R1Y)
         {
-            //Este verifica si no existe cookie (La crea, la encripta y la manda como respuesta)
-            //Si ya hay cookie solamente la desencripta para poder usarla.
-            Dictionary<string, string> configuracionCokie = configuracionCookies(Request, Response, _dataSecurity);
             string idProducto = _dataSecurity.desencriptarDatos(registro_aWQgZGVsIHByb2R1Y3RvCg);
             string cantidadProducto = _dataSecurity.desencriptarDatos(cantidad_Y2FudGlkYWQgZGVsIHByb2R1Y);
-
-            Carrito carrito = new Carrito() { carrito_sessionId = configuracionCokie["cookie"] };
-            
-            //Verifica si hay inicio de sesion (SI HAY LO PONE EN EL ATRIBUTO IdentityUserId de Carrito)
-            //Caso contrario permanece null
-            var claimsIdentity = ((ClaimsIdentity)this.User.Identity!);
-            if (claimsIdentity.IsAuthenticated)
-                carrito.IdentityUserId = claimsIdentity.Claims.ToList()[0].Value;
-
-            if (configuracionCokie["tipo"].Equals("COOKIE_NEW"))
-            {
-                //1.- Creamos el carrito
-                _unitOfWork.Carrito.Add(carrito);
-                _unitOfWork.Save();
-
-                //2.- Agregamos el producto.
-                _unitOfWork.CarritoCompra.Add(new CarritoCompra()
-                {
-                    Productoproducto_id = int.Parse(idProducto),
-                    carritoCompra_cantidad = int.Parse(cantidadProducto),
-                    Carritocarrito_id = _unitOfWork.Carrito.GetFirstOrDefault(c => c.carrito_sessionId.Equals(configuracionCokie["cookie"])).carrito_id
-                });
-                _unitOfWork.Save();
-            }
-
-            if (configuracionCokie["tipo"].Equals("COOKIE_OLD") )
-            {
-                //si es vieja la cookie verificada desde 'configuracionCookie' tenemos que realizar lo siguiente
-                Carrito carritoSesionCookie = _unitOfWork.Carrito.GetFirstOrDefault(
-                    carrito => carrito.carrito_sessionId.Equals(configuracionCokie["cookie"]),
-                    includeProperties: "carritoCompra"
-                );
-
-                var productoBuscado = carritoSesionCookie.carritoCompra.Where(n => n.Productoproducto_id.Equals(int.Parse(idProducto)));
-                if ( productoBuscado.Count() == 0 )
-                {
-                    // 1.- Si el Id del producto es nuevo (entonces agregamos)
-                    _unitOfWork.CarritoCompra.Add(new CarritoCompra()
-                    {
-                        Productoproducto_id = int.Parse(idProducto),
-                        carritoCompra_cantidad = int.Parse(cantidadProducto),
-                        Carritocarrito_id = carritoSesionCookie.carrito_id
-                    });
-                    _unitOfWork.Save();
-                }
-                else
-                {
-                    // 2.- Si el Id del producto ya existe entonces actualizamos CarritoCompra
-                    productoBuscado.First().carritoCompra_cantidad += int.Parse(cantidadProducto);
-                    _unitOfWork.CarritoCompra.Update(productoBuscado.First());
-                    _unitOfWork.Save();
-                }
-            }
+            ClaimsIdentity claimsIdentity = ((ClaimsIdentity)this.User.Identity!);
+            Action ejecutarAccionCarritoCompra = escuchandoCarritoCompra(_unitOfWork, int.Parse(idProducto), int.Parse(cantidadProducto), claimsIdentity, configuracionCookies(Request, Response, _dataSecurity));
+            ejecutarAccionCarritoCompra();
 
             _unitOfWork.Dispose();            
             return RedirectToAction("Index");

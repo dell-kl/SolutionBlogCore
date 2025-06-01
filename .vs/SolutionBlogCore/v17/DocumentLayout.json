@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|d:\\workgroup\\-- tecnologias c# --\\-- .net core mvc --\\proyectosmvc\\solutionblogcore\\blogcore\\areas\\client\\controllers\\carritocomprascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|solutionrelative:blogcore\\areas\\client\\controllers\\carritocomprascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|d:\\workgroup\\-- tecnologias c# --\\-- .net core mvc --\\proyectosmvc\\solutionblogcore\\blogcore\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|solutionrelative:blogcore\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{846BBFDC-02A7-4CBA-AC92-4F93E68723E1}|BlogCore.AccesoDatos\\BlogCore.AccesoDatos.csproj|d:\\workgroup\\-- tecnologias c# --\\-- .net core mvc --\\proyectosmvc\\solutionblogcore\\blogcore.accesodatos\\data\\repository\\carritorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{846BBFDC-02A7-4CBA-AC92-4F93E68723E1}|BlogCore.AccesoDatos\\BlogCore.AccesoDatos.csproj|solutionrelative:blogcore.accesodatos\\data\\repository\\carritorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|d:\\workgroup\\-- tecnologias c# --\\-- .net core mvc --\\proyectosmvc\\solutionblogcore\\blogcore\\areas\\client\\views\\carritocompras\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|solutionrelative:blogcore\\areas\\client\\views\\carritocompras\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06C700BA-31F3-4C2E-AC34-CCC402A7A3C9}|BlogCore.Models\\BlogCore.Models.csproj|d:\\workgroup\\-- tecnologias c# --\\-- .net core mvc --\\proyectosmvc\\solutionblogcore\\blogcore.models\\modelview\\carritoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06C700BA-31F3-4C2E-AC34-CCC402A7A3C9}|BlogCore.Models\\BlogCore.Models.csproj|solutionrelative:blogcore.models\\modelview\\carritoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|d:\\workgroup\\-- tecnologias c# --\\-- .net core mvc --\\proyectosmvc\\solutionblogcore\\blogcore\\areas\\client\\controllers\\carritocomprascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|solutionrelative:blogcore\\areas\\client\\controllers\\carritocomprascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|d:\\workgroup\\-- tecnologias c# --\\-- .net core mvc --\\proyectosmvc\\solutionblogcore\\blogcore\\wwwroot\\js\\carritocompra.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -35,10 +43,6 @@
       "RelativeMoniker": "D:0:0:{846BBFDC-02A7-4CBA-AC92-4F93E68723E1}|BlogCore.AccesoDatos\\BlogCore.AccesoDatos.csproj|solutionrelative:blogcore.accesodatos\\data\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|d:\\workgroup\\-- tecnologias c# --\\-- .net core mvc --\\proyectosmvc\\solutionblogcore\\blogcore\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|solutionrelative:blogcore\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3FE93B05-06EB-4F8C-8B75-B8CBB3AE459D}|BlogCore.Utilidades\\BlogCore.Utilidades.csproj|d:\\workgroup\\-- tecnologias c# --\\-- .net core mvc --\\proyectosmvc\\solutionblogcore\\blogcore.utilidades\\definitionkeycookies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3FE93B05-06EB-4F8C-8B75-B8CBB3AE459D}|BlogCore.Utilidades\\BlogCore.Utilidades.csproj|solutionrelative:blogcore.utilidades\\definitionkeycookies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -57,6 +61,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{846BBFDC-02A7-4CBA-AC92-4F93E68723E1}|BlogCore.AccesoDatos\\BlogCore.AccesoDatos.csproj|d:\\workgroup\\-- tecnologias c# --\\-- .net core mvc --\\proyectosmvc\\solutionblogcore\\blogcore.accesodatos\\data\\repository\\irepository\\icarritocomprarepository.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{846BBFDC-02A7-4CBA-AC92-4F93E68723E1}|BlogCore.AccesoDatos\\BlogCore.AccesoDatos.csproj|solutionrelative:blogcore.accesodatos\\data\\repository\\irepository\\icarritocomprarepository.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{846BBFDC-02A7-4CBA-AC92-4F93E68723E1}|BlogCore.AccesoDatos\\BlogCore.AccesoDatos.csproj|d:\\workgroup\\-- tecnologias c# --\\-- .net core mvc --\\proyectosmvc\\solutionblogcore\\blogcore.accesodatos\\data\\repository\\irepository\\icarritorepository.cs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{846BBFDC-02A7-4CBA-AC92-4F93E68723E1}|BlogCore.AccesoDatos\\BlogCore.AccesoDatos.csproj|solutionrelative:blogcore.accesodatos\\data\\repository\\irepository\\icarritorepository.cs||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 585,
-          "SelectedChildIndex": 38,
+          "SelectedChildIndex": 40,
           "Children": [
             {
               "$type": "Bookmark",
@@ -222,33 +230,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "CarritoRepository.cs",
+              "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore.AccesoDatos\\Data\\Repository\\CarritoRepository.cs",
+              "RelativeDocumentMoniker": "BlogCore.AccesoDatos\\Data\\Repository\\CarritoRepository.cs",
+              "ToolTip": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore.AccesoDatos\\Data\\Repository\\CarritoRepository.cs",
+              "RelativeToolTip": "BlogCore.AccesoDatos\\Data\\Repository\\CarritoRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T07:17:23.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Client\\Views\\CarritoCompras\\Index.cshtml",
               "RelativeDocumentMoniker": "BlogCore\\Areas\\Client\\Views\\CarritoCompras\\Index.cshtml",
               "ToolTip": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Client\\Views\\CarritoCompras\\Index.cshtml",
               "RelativeToolTip": "BlogCore\\Areas\\Client\\Views\\CarritoCompras\\Index.cshtml",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAEwGwAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAEwG8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-05-28T18:14:55.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CarritoComprasController.cs",
               "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Client\\Controllers\\CarritoComprasController.cs",
               "RelativeDocumentMoniker": "BlogCore\\Areas\\Client\\Controllers\\CarritoComprasController.cs",
               "ToolTip": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Client\\Controllers\\CarritoComprasController.cs",
               "RelativeToolTip": "BlogCore\\Areas\\Client\\Controllers\\CarritoComprasController.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAADwv0cAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAwD8AAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T06:29:04.177Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "carritoCompra.js",
               "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\js\\carritoCompra.js",
               "RelativeDocumentMoniker": "BlogCore\\wwwroot\\js\\carritoCompra.js",
@@ -261,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "SolicitudCarritoCompraDTO.cs",
               "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore.Models\\Dto\\SolicitudCarritoCompraDTO.cs",
               "RelativeDocumentMoniker": "BlogCore.Models\\Dto\\SolicitudCarritoCompraDTO.cs",
@@ -274,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "articulo.js",
               "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\js\\articulo.js",
               "RelativeDocumentMoniker": "BlogCore\\wwwroot\\js\\articulo.js",
@@ -288,6 +309,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "BlogCore\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "BlogCore\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-30T16:59:41.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ICarritoRepository.cs",
+              "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore.AccesoDatos\\Data\\Repository\\IRepository\\ICarritoRepository.cs",
+              "RelativeDocumentMoniker": "BlogCore.AccesoDatos\\Data\\Repository\\IRepository\\ICarritoRepository.cs",
+              "ToolTip": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore.AccesoDatos\\Data\\Repository\\IRepository\\ICarritoRepository.cs",
+              "RelativeToolTip": "BlogCore.AccesoDatos\\Data\\Repository\\IRepository\\ICarritoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-01T07:17:31.639Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CarritoViewModel.cs",
               "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore.Models\\ModelView\\CarritoViewModel.cs",
               "RelativeDocumentMoniker": "BlogCore.Models\\ModelView\\CarritoViewModel.cs",
@@ -300,19 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeDocumentMoniker": "BlogCore\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Views\\Shared\\_LoginPartial.cshtml",
-              "RelativeToolTip": "BlogCore\\Views\\Shared\\_LoginPartial.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAD4AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-30T16:59:41.05Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "BlogCore\\Views\\Shared\\_Layout.cshtml",
@@ -324,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Program.cs",
               "RelativeDocumentMoniker": "BlogCore\\Program.cs",
@@ -336,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "CarritoCompraRepository.cs",
               "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore.AccesoDatos\\Data\\Repository\\CarritoCompraRepository.cs",
               "RelativeDocumentMoniker": "BlogCore.AccesoDatos\\Data\\Repository\\CarritoCompraRepository.cs",
@@ -348,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Repository.cs",
               "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore.AccesoDatos\\Data\\Repository\\Repository.cs",
               "RelativeDocumentMoniker": "BlogCore.AccesoDatos\\Data\\Repository\\Repository.cs",
@@ -360,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ICarritoCompraRepository.cs",
               "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore.AccesoDatos\\Data\\Repository\\IRepository\\ICarritoCompraRepository.cs",
               "RelativeDocumentMoniker": "BlogCore.AccesoDatos\\Data\\Repository\\IRepository\\ICarritoCompraRepository.cs",
@@ -372,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "DefinitionKeyCookies.cs",
               "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore.Utilidades\\DefinitionKeyCookies.cs",
               "RelativeDocumentMoniker": "BlogCore.Utilidades\\DefinitionKeyCookies.cs",
@@ -384,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "IRepository.cs",
               "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore.AccesoDatos\\Data\\Repository\\IRepository\\IRepository.cs",
               "RelativeDocumentMoniker": "BlogCore.AccesoDatos\\Data\\Repository\\IRepository\\IRepository.cs",
