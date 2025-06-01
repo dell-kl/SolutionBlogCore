@@ -80,6 +80,8 @@ namespace BlogCore.Areas.Client.Controllers
                     productos.Add(producto);
                 }
                 carritoViewModel.producto = productos;
+
+                carritoViewModel.configurarDatosCompra();
             }
 
             return View(carritoViewModel);
@@ -173,18 +175,18 @@ namespace BlogCore.Areas.Client.Controllers
             try
             {
                 string mensaje = "No puedes tomar una cantidad mayor al stock";
-                //Guid guid = Guid.Parse(_dataSecurity.desencriptarDatos(guid_Z3VpZCBwcm9kdWN0bwo));
-                //CarritoCompra registroProducto = _unitOfWork.CarritoCompra.GetFirstOrDefault(n => n.carritoCompra_guid.Equals(guid), includeProperties: "producto");
+                Guid guid = Guid.Parse(_dataSecurity.desencriptarDatos(guid_Z3VpZCBwcm9kdWN0bwo));
+                CarritoCompra registroProducto = _unitOfWork.CarritoCompra.GetFirstOrDefault(n => n.carritoCompra_guid.Equals(guid), includeProperties: "producto");
 
-                //if ( registroProducto.carritoCompra_cantidad <= registroProducto.producto.producto_stock)
-                //{
-                //    registroProducto.carritoCompra_cantidad += 1;
-                //    _unitOfWork.CarritoCompra.Update(registroProducto);
-                //    _unitOfWork.Save();
-                //    _unitOfWork.Dispose();
-                    
-                //    mensaje = "cantidad agregado exitosamente";
-                //}
+                if (registroProducto.carritoCompra_cantidad <= registroProducto.producto.producto_stock)
+                {
+                    registroProducto.carritoCompra_cantidad += 1;
+                    _unitOfWork.CarritoCompra.Update(registroProducto);
+                    _unitOfWork.Save();
+                    _unitOfWork.Dispose();
+
+                    mensaje = "cantidad agregado exitosamente";
+                }
 
                 return StatusCode(200, new { data = mensaje });
             }
@@ -194,8 +196,7 @@ namespace BlogCore.Areas.Client.Controllers
             }
         }
 
-        [HttpPut]
-        [ValidateAntiForgeryToken]
+        [HttpPost]
         public IActionResult DecrementAmountProduct(string guid_Z3VpZCBwcm9kdWN0bwo)
         {
             try

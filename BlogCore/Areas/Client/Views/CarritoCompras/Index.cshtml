@@ -44,25 +44,30 @@
                                                     <h6 class="mb-0">@producto.producto_nombre</h6>
                                                 </div>
                                                 <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                                    @{
+                                                        string idAleatorioInputIncrementar = DataSecurityRepository.encriptarDatos($"ID_INPUT_BUTTON_AUMENTAR_CANTIDAD_{Guid.NewGuid().ToString()}");
+                                                        string idAleatorioInputDecrementar = DataSecurityRepository.encriptarDatos($"ID_INPUT_BUTTON_DISMINUIR_CANTIDAD_{Guid.NewGuid().ToString()}");
+                                                    }
                                                     <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
-                                                            onclick="this.parentNode.querySelector('input[type=number]').stepDown();document.getElementById('input_aWQgYm90b24gcmVkdWNpciBjYW50aWRhZCWwgHVjdG8K').click()">
+                                                            onclick="this.parentNode.querySelector('input[type=number]').stepDown();document.getElementById('input_@idAleatorioInputDecrementar').click()">
                                                         <i class="fas fa-minus">
                                                         </i>
                                                     </button>
-                                                    <input type="hidden" id="input_aWQgYm90b24gcmVkdWNpciBjYW50aWRhZCWwgHVjdG8K" name="product_IHJlZHVjaXIgY2FudGlkYWQgcHJvZH" value="@GuidProductoCarritoCompraEncriptado"/>
+                                                    <input type="hidden" class="lFhrVjFKdFVrbFdWM2RMQ2c9PQo" id="input_@idAleatorioInputDecrementar" name="product_IHJlZHVjaXIgY2FudGlkYWQgcHJvZH" value="@GuidProductoCarritoCompraEncriptado"/>
                                                     @{
                                                         int cantidadDelProducto = Model.carritoCompra.Where(n => n.Productoproducto_id.Equals(producto.producto_id)).Select(n => n.carritoCompra_cantidad).First();  
                                                     }
-                                                    <input id="form1" min="0" name="quantity" value="@cantidadDelProducto" type="number"
+
+                                                    <input id="form1" min="0" value="@cantidadDelProducto" type="number"
                                                            class="form-control form-control-sm" />
 
                                                     
                                                     <button data-mdb-button-init data-mdb-ripple-init class="btn btn-link px-2"
                                                             id="@GuidProductoCarritoCompraEncriptado"
-                                                            onclick="this.parentNode.querySelector('input[type=number]').stepUp();document.getElementById('input_4gc3VtYXIgbWFzIGNhbnRpZGFkIGRlbCBwcm9kdWN0bwo').click()">
+                                                            onclick="this.parentNode.querySelector('input[type=number]').stepUp();document.getElementById('input_@idAleatorioInputIncrementar').click()">
                                                         <i class="fas fa-plus"></i>
                                                     </button>
-                                                    <input type="hidden" id="input_4gc3VtYXIgbWFzIGNhbnRpZGFkIGRlbCBwcm9kdWN0bwo" name="product_VudGFyIGNhbnRpZGFkIHByb2R1Y" value="@GuidProductoCarritoCompraEncriptado"/>
+                                                    <input type="hidden" class="EZoclZqRktkRlZyYkZkV00yUk1RMmM" id="input_@idAleatorioInputIncrementar" name="product_VudGFyIGNhbnRpZGFkIHByb2R1Y" value="@GuidProductoCarritoCompraEncriptado"/>
                                                 </div>
                                                 <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1" style="width: 20%;">
                                                     @{
@@ -95,9 +100,14 @@
                                         <h3 class="fw-bold mb-5 mt-2 pt-1">Suma Total</h3>
                                         <hr class="my-4">
 
-                                        <div class="d-flex justify-content-between mb-4">
-                                            <h5 class="text-uppercase">Productos @Model.carritoCompra.Count()</h5>
-                                            <h5>€ 132.00</h5>
+                                        <div class="d-flex justify-content-between mb-4 flex-column">
+                                            @for(int i = 0; i < Model.productosPreciosConfigurados.Count; i++)
+                                            {
+                                                <div class="d-flex justify-content-between">
+                                                    <h5 class="text-uppercase">Producto @(i+1)</h5>
+                                                    <h5>@Model.productosPreciosConfigurados[i].ToString("C2")</h5>
+                                                </div>
+                                            }
                                         </div>
 
                                         
@@ -105,7 +115,7 @@
 
                                         <div class="d-flex justify-content-between mb-5">
                                             <h5 class="text-uppercase">Precio Total</h5>
-                                            <h5>€ 137.00</h5>
+                                            <h5>@Model.precioTotal.ToString("C2")</h5>
                                         </div>
 
                                         <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-dark btn-block btn-lg w-100"
