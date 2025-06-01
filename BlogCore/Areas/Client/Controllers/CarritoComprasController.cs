@@ -73,7 +73,7 @@ namespace BlogCore.Areas.Client.Controllers
                         //verificamos que el carrito de compra sea del usuario autenticado.
                         permitir = claimsIdentity.Claims.ToList()[0].Value.Equals(carritoViewModel.carrito.IdentityUserId);
                     }
-
+                        
                     carritoViewModel.carritoCompra = _unitOfWork.CarritoCompra.GetAll(n => n.Carritocarrito_id.Equals(carritoViewModel.carrito.carrito_id));
 
                     ICollection<Producto> productos = new List<Producto>();
