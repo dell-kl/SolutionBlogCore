@@ -16,6 +16,8 @@
                 data: formdata
             }).done((resultado) => {
                 toastr.success(resultado.data);
+
+                $("#precio_bW9zdHJhcl9wcmVjaW9fZmluYWwK").text = resultado.precioTotal;
             })
             .fail((resultado) => {
                 toastr.error(resultado.data);
@@ -40,10 +42,12 @@
                 data: formdata
             }).done((resultado) => {
                 toastr.success(resultado.data);
+
+                $("#precio_bW9zdHJhcl9wcmVjaW9fZmluYWwK").text = resultado.precioTotal;
             })
-                .fail((resultado) => {
-                    toastr.error(resultado.data);
-                });
+            .fail((resultado) => {
+                toastr.error(resultado.data);
+            });
 
         });
 

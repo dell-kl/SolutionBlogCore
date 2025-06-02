@@ -2,6 +2,7 @@
 @using BlogCore.Utilidades
 @using Microsoft.AspNetCore.Identity
 @using BlogCore.AccesoDatos.Data.Repository.IRepository
+@using System.Security.Claims
 @inject SignInManager<ApplicationUser> SignInManager
 @inject UserManager<ApplicationUser> UserManager
 @inject IUnitofWork UnitOfWork
@@ -11,11 +12,11 @@
 @{
     string? cookie = HttpContextAccesor?.HttpContext?.Request.Cookies[DefinitionKeyCookies.keyShoppingCart];
     bool productosPrendientes = false;
-    string desencriptarCookie = DataSecurityRepository.desencriptarDatos(cookie!);
     Carrito? carrito = null;
 
     if (cookie is not null)
     {
+       string desencriptarCookie = DataSecurityRepository.desencriptarDatos(cookie!);
        carrito = UnitOfWork.Carrito.GetFirstOrDefault(
         n => n.carrito_sessionId.Equals(desencriptarCookie),
         includeProperties: "carritoCompra"
@@ -26,8 +27,16 @@
 <ul class="navbar-nav ps-2 d-flex align-items-baseline">
 @if (SignInManager.IsSignedIn(User))
 {
+        var identificador = ((ClaimsIdentity)this.User.Identity!).Claims.ToList()[0].Value;
+
         productosPrendientes = (carrito != null)
-        ? (carrito.carritoCompra.Count > 0 && carrito.IdentityUserId is not null) ? true : false : false;
+        ? (
+            carrito.carritoCompra.Count > 0 
+            && 
+            carrito.IdentityUserId is not null 
+            && 
+            identificador.Equals(carrito.IdentityUserId)
+        ) ? true : false : false;
     
     <li class="nav-item m-0">
         <a 

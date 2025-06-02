@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.Security.Claims;
 using BlogCore.Utilidades;
+using System.Threading.Tasks;
 
 
 namespace BlogCore.Areas.Client.Controllers
@@ -52,6 +53,7 @@ namespace BlogCore.Areas.Client.Controllers
 
         Func<ClaimsIdentity, HttpRequest, IDataSecurityRepository, IUnitofWork, CarritoViewModel> InformacionCarritoCompra = (claimsIdentity, Request, _dataSecurity, _unitOfWork) => {
             CarritoViewModel carritoViewModel = new CarritoViewModel();
+            bool auth = claimsIdentity.IsAuthenticated;
             string? cookieCarrito = Request.Cookies[DefinitionKeyCookies.keyShoppingCart];
 
             if (!cookieCarrito.IsNullOrEmpty())
@@ -62,18 +64,10 @@ namespace BlogCore.Areas.Client.Controllers
 
                 //traer los datos del carrito de compra de clientes autenticados y no autenticados.
                 if ( 
-                !claimsIdentity.IsAuthenticated && carritoViewModel.carrito.IdentityUserId is null
+                !auth && carritoViewModel.carrito.IdentityUserId is null
                 || 
-                claimsIdentity.IsAuthenticated && carritoViewModel.carrito.IdentityUserId is not null)
+                auth && carritoViewModel.carrito.IdentityUserId is not null && claimsIdentity.Claims.ToList()[0].Value.Equals(carritoViewModel.carrito.IdentityUserId) )
                 {
-                    bool permitir = true;
-
-                    if (claimsIdentity.IsAuthenticated)
-                    {
-                        //verificamos que el carrito de compra sea del usuario autenticado.
-                        permitir = claimsIdentity.Claims.ToList()[0].Value.Equals(carritoViewModel.carrito.IdentityUserId);
-                    }
-                        
                     carritoViewModel.carritoCompra = _unitOfWork.CarritoCompra.GetAll(n => n.Carritocarrito_id.Equals(carritoViewModel.carrito.carrito_id));
 
                     ICollection<Producto> productos = new List<Producto>();
@@ -83,7 +77,7 @@ namespace BlogCore.Areas.Client.Controllers
                         productos.Add(producto);
                     }
                     carritoViewModel.producto = productos;
-                    carritoViewModel.configurarDatosCompra();
+                    carritoViewModel.configurarDatosCompra();   
                 }
 
             }
@@ -116,10 +110,7 @@ namespace BlogCore.Areas.Client.Controllers
                 carritoCompra_cantidad = cantidad_producto
             };
 
-            _unitOfWork.Save();
-
             return () => {
-
 
                 if (cookie["tipo"].Equals("COOKIE_NEW"))
                 {
@@ -146,7 +137,7 @@ namespace BlogCore.Areas.Client.Controllers
                     }
                 }
 
-                _unitOfWork.Save();
+                
             };
         };
         #endregion
@@ -157,11 +148,8 @@ namespace BlogCore.Areas.Client.Controllers
             _unitOfWork = unitOfWork;
         }
 
-        public IActionResult Index() { 
-            ClaimsIdentity claimsIdentity = ((ClaimsIdentity)this.User.Identity!);
-            return View(InformacionCarritoCompra(claimsIdentity, Request, _dataSecurity, _unitOfWork)); 
-        }
-
+        public IActionResult Index() => View(InformacionCarritoCompra(((ClaimsIdentity)this.User.Identity!), Request, _dataSecurity, _unitOfWork)); 
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Index(string registro_aWQgZGVsIHByb2R1Y3RvCg, string cantidad_Y2FudGlkYWQgZGVsIHByb2R1Y)
@@ -170,9 +158,11 @@ namespace BlogCore.Areas.Client.Controllers
             string cantidadProducto = _dataSecurity.desencriptarDatos(cantidad_Y2FudGlkYWQgZGVsIHByb2R1Y);
             ClaimsIdentity claimsIdentity = ((ClaimsIdentity)this.User.Identity!);
             Action ejecutarAccionCarritoCompra = escuchandoCarritoCompra(_unitOfWork, int.Parse(idProducto), int.Parse(cantidadProducto), claimsIdentity, configuracionCookies(Request, Response, _dataSecurity));
+            _unitOfWork.Save();
             ejecutarAccionCarritoCompra();
+            _unitOfWork.Save();
+            _unitOfWork.Dispose();
 
-            _unitOfWork.Dispose();            
             return RedirectToAction("Index");
         }
 
@@ -191,16 +181,24 @@ namespace BlogCore.Areas.Client.Controllers
 
         #region -- endpoints usados para comunicarse con jS -- 
         [HttpPost]
-        public IActionResult IncrementAmountProduct(string guid_Z3VpZCBwcm9kdWN0bwo)
+        public async Task<IActionResult> IncrementAmountProduct(string guid_Z3VpZCBwcm9kdWN0bwo)
         {
             try
             {
+                //realizaremos una concurrencia 
+                Task<CarritoViewModel> ejecutarTarea = Task.Run(() => { 
+                    return InformacionCarritoCompra(((ClaimsIdentity)this.User.Identity!), Request, _dataSecurity, _unitOfWork);
+                });
+
+                /* Intermedio - Ejecucion de codigo - (Aprovechamos el hilo ejecutado en tro procesador) */
+                
                 string mensaje = "No puedes tomar una cantidad mayor al stock";
                 Guid guid = Guid.Parse(_dataSecurity.desencriptarDatos(guid_Z3VpZCBwcm9kdWN0bwo));
                 CarritoCompra registroProducto = _unitOfWork.CarritoCompra.GetFirstOrDefault(n => n.carritoCompra_guid.Equals(guid), includeProperties: "producto");
 
                 if (registroProducto.carritoCompra_cantidad <= registroProducto.producto.producto_stock)
                 {
+                    
                     registroProducto.carritoCompra_cantidad += 1;
                     _unitOfWork.CarritoCompra.Update(registroProducto);
                     _unitOfWork.Save();
@@ -209,7 +207,17 @@ namespace BlogCore.Areas.Client.Controllers
                     mensaje = "cantidad agregado exitosamente";
                 }
 
-                return StatusCode(200, new { data = mensaje });
+                /* Intermedio - Ejecucion de codigo - (Aprovechamos el hilo ejecutado en tro procesador) */
+
+                CarritoViewModel carritoViewModel =  await ejecutarTarea;
+
+                carritoViewModel.configurarDatosCompra();
+
+                return StatusCode(200, new { 
+                    data = mensaje, 
+                    precioTotal = carritoViewModel.precioTotal,
+                    preciosProductos = carritoViewModel.productosPreciosConfigurados
+                });
             }
             catch(Exception error )
             {
@@ -218,10 +226,15 @@ namespace BlogCore.Areas.Client.Controllers
         }
 
         [HttpPost]
-        public IActionResult DecrementAmountProduct(string guid_Z3VpZCBwcm9kdWN0bwo)
+        public async Task<IActionResult> DecrementAmountProduct(string guid_Z3VpZCBwcm9kdWN0bwo)
         {
             try
             {
+                //realizaremos una concurrencia 
+                Task<CarritoViewModel> ejecutarTarea = Task.Run(() => {
+                    return InformacionCarritoCompra(((ClaimsIdentity)this.User.Identity!), Request, _dataSecurity, _unitOfWork);
+                });
+
                 Guid guid = Guid.Parse(_dataSecurity.desencriptarDatos(guid_Z3VpZCBwcm9kdWN0bwo));
                 CarritoCompra registroProducto = _unitOfWork.CarritoCompra.GetFirstOrDefault(n => n.carritoCompra_guid.Equals(guid));
                 string mensaje = "No se pudo realizar dicha eliminacio de cantidad";
@@ -235,9 +248,16 @@ namespace BlogCore.Areas.Client.Controllers
                     mensaje = "cantidad eliminada exitosamente";
                 }
 
-                return StatusCode(200, new { data = mensaje });
+                CarritoViewModel carritoViewModel = await ejecutarTarea;
+                carritoViewModel.configurarDatosCompra();
+
+                return StatusCode(200, new { 
+                    data = mensaje,
+                    precioTotal = carritoViewModel.precioTotal,
+                    preciosProductos = carritoViewModel.productosPreciosConfigurados
+                });
             }
-            catch(Exception error )
+            catch( Exception error )
             {
                 return StatusCode(500, new { data = "Intentalo otra vez" });
             }
