@@ -16,9 +16,21 @@
                 data: formdata
             }).done((resultado) => {
                 toastr.success(resultado.data);
-                
+
                 $("#precio_bW9zdHJhcl9wcmVjaW9fZmluYWwK").get()[0].innerText =
                     "$" + Number(resultado.precioTotal).toLocaleString('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+
+                let HTML = ``;
+                for (let indice = 0; indice < resultado.preciosProductos.length; indice++) {
+                    HTML += `
+                    <div class="d-flex justify-content-between">
+                        <h5 class="text-uppercase">Producto ${indice + 1}</h5>
+                        <h5>$${Number(resultado.preciosProductos[indice]).toLocaleString('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</h5>
+                    </div>
+                    `;
+                }
+
+                $("#1WamFXOXpJR1JsSUdOaFpHRWdUJ3").get()[0].innerHTML = HTML;
             })
             .fail((resultado) => {
                 toastr.error(resultado.data);
@@ -46,6 +58,18 @@
 
                 $("#precio_bW9zdHJhcl9wcmVjaW9fZmluYWwK").get()[0].innerText =
                     "$" + Number(resultado.precioTotal).toLocaleString('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+
+                let HTML = ``;
+                for (let indice = 0; indice < resultado.preciosProductos.length; indice++) {
+                    HTML += `
+                    <div class="d-flex justify-content-between">
+                        <h5 class="text-uppercase">Producto ${indice + 1}</h5>
+                        <h5>$${ Number(resultado.preciosProductos[indice]).toLocaleString('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</h5>
+                    </div>
+                    `;
+                }
+
+                $("#1WamFXOXpJR1JsSUdOaFpHRWdUJ3").get()[0].innerHTML = HTML;
             })
             .fail((resultado) => {
                 toastr.error(resultado.data);
