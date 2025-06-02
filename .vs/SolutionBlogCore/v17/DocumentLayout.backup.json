@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|solutionrelative:blogcore\\areas\\client\\controllers\\carritocomprascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|d:\\workgroup\\-- tecnologias c# --\\-- .net core mvc --\\proyectosmvc\\solutionblogcore\\blogcore\\wwwroot\\js\\carritocompra.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|solutionrelative:blogcore\\wwwroot\\js\\carritocompra.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{846BBFDC-02A7-4CBA-AC92-4F93E68723E1}|BlogCore.AccesoDatos\\BlogCore.AccesoDatos.csproj|d:\\workgroup\\-- tecnologias c# --\\-- .net core mvc --\\proyectosmvc\\solutionblogcore\\blogcore.accesodatos\\data\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{846BBFDC-02A7-4CBA-AC92-4F93E68723E1}|BlogCore.AccesoDatos\\BlogCore.AccesoDatos.csproj|solutionrelative:blogcore.accesodatos\\data\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|d:\\workgroup\\-- tecnologias c# --\\-- .net core mvc --\\proyectosmvc\\solutionblogcore\\blogcore\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|solutionrelative:blogcore\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|d:\\workgroup\\-- tecnologias c# --\\-- .net core mvc --\\proyectosmvc\\solutionblogcore\\blogcore\\wwwroot\\js\\carritocompra.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|solutionrelative:blogcore\\wwwroot\\js\\carritocompra.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{93F022BF-902E-4985-80C6-C9A0C7F24392}|BlogCore\\BlogCore.csproj|d:\\workgroup\\-- tecnologias c# --\\-- .net core mvc --\\proyectosmvc\\solutionblogcore\\blogcore\\areas\\client\\views\\carritocompras\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -240,22 +240,10 @@
               "RelativeDocumentMoniker": "BlogCore\\Areas\\Client\\Controllers\\CarritoComprasController.cs",
               "ToolTip": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Areas\\Client\\Controllers\\CarritoComprasController.cs",
               "RelativeToolTip": "BlogCore\\Areas\\Client\\Controllers\\CarritoComprasController.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAswHcAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAOAAAAAAAAAAAAA9wPIAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T06:29:04.177Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SolicitudCarritoCompraDTO.cs",
-              "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore.Models\\Dto\\SolicitudCarritoCompraDTO.cs",
-              "RelativeDocumentMoniker": "BlogCore.Models\\Dto\\SolicitudCarritoCompraDTO.cs",
-              "ToolTip": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore.Models\\Dto\\SolicitudCarritoCompraDTO.cs",
-              "RelativeToolTip": "BlogCore.Models\\Dto\\SolicitudCarritoCompraDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-31T20:50:36.7Z"
             },
             {
               "$type": "Document",
@@ -271,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_LoginPartial.cshtml",
               "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "BlogCore\\Views\\Shared\\_LoginPartial.cshtml",
@@ -296,32 +284,45 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Repository.cs",
               "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore.AccesoDatos\\Data\\Repository\\Repository.cs",
               "RelativeDocumentMoniker": "BlogCore.AccesoDatos\\Data\\Repository\\Repository.cs",
               "ToolTip": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore.AccesoDatos\\Data\\Repository\\Repository.cs",
               "RelativeToolTip": "BlogCore.AccesoDatos\\Data\\Repository\\Repository.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAEwEkAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAEwDkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T21:38:34.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "carritoCompra.js",
               "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\js\\carritoCompra.js",
               "RelativeDocumentMoniker": "BlogCore\\wwwroot\\js\\carritoCompra.js",
               "ToolTip": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\wwwroot\\js\\carritoCompra.js",
               "RelativeToolTip": "BlogCore\\wwwroot\\js\\carritoCompra.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-05-31T06:17:18.812Z"
+              "WhenOpened": "2025-05-31T06:17:18.812Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
+              "Title": "SolicitudCarritoCompraDTO.cs",
+              "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore.Models\\Dto\\SolicitudCarritoCompraDTO.cs",
+              "RelativeDocumentMoniker": "BlogCore.Models\\Dto\\SolicitudCarritoCompraDTO.cs",
+              "ToolTip": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore.Models\\Dto\\SolicitudCarritoCompraDTO.cs",
+              "RelativeToolTip": "BlogCore.Models\\Dto\\SolicitudCarritoCompraDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T20:50:36.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\workgroup\\-- Tecnologias C# --\\-- .Net Core MVC --\\ProyectosMVC\\SolutionBlogCore\\BlogCore\\Program.cs",
               "RelativeDocumentMoniker": "BlogCore\\Program.cs",

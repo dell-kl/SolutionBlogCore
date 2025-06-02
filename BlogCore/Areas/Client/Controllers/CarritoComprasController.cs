@@ -5,7 +5,6 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.Security.Claims;
 using BlogCore.Utilidades;
-using System.Threading.Tasks;
 
 
 namespace BlogCore.Areas.Client.Controllers
@@ -110,11 +109,13 @@ namespace BlogCore.Areas.Client.Controllers
                 carritoCompra_cantidad = cantidad_producto
             };
 
+            _unitOfWork.Save();
+
             return () => {
 
                 if (cookie["tipo"].Equals("COOKIE_NEW"))
                 {
-                    carritoCompra.carritoCompra_id = _unitOfWork.Carrito
+                    carritoCompra.Carritocarrito_id = _unitOfWork.Carrito
                     .GetFirstOrDefault(c => c.carrito_sessionId.Equals(cookie["cookie"]))
                     .carrito_id;
                     _unitOfWork.CarritoCompra.Add(carritoCompra);
@@ -137,7 +138,7 @@ namespace BlogCore.Areas.Client.Controllers
                     }
                 }
 
-                
+                _unitOfWork.Save();
             };
         };
         #endregion
@@ -150,6 +151,7 @@ namespace BlogCore.Areas.Client.Controllers
 
         public IActionResult Index() => View(InformacionCarritoCompra(((ClaimsIdentity)this.User.Identity!), Request, _dataSecurity, _unitOfWork)); 
         
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Index(string registro_aWQgZGVsIHByb2R1Y3RvCg, string cantidad_Y2FudGlkYWQgZGVsIHByb2R1Y)
@@ -158,9 +160,7 @@ namespace BlogCore.Areas.Client.Controllers
             string cantidadProducto = _dataSecurity.desencriptarDatos(cantidad_Y2FudGlkYWQgZGVsIHByb2R1Y);
             ClaimsIdentity claimsIdentity = ((ClaimsIdentity)this.User.Identity!);
             Action ejecutarAccionCarritoCompra = escuchandoCarritoCompra(_unitOfWork, int.Parse(idProducto), int.Parse(cantidadProducto), claimsIdentity, configuracionCookies(Request, Response, _dataSecurity));
-            _unitOfWork.Save();
             ejecutarAccionCarritoCompra();
-            _unitOfWork.Save();
             _unitOfWork.Dispose();
 
             return RedirectToAction("Index");
@@ -185,11 +185,6 @@ namespace BlogCore.Areas.Client.Controllers
         {
             try
             {
-                //realizaremos una concurrencia 
-                Task<CarritoViewModel> ejecutarTarea = Task.Run(() => { 
-                    return InformacionCarritoCompra(((ClaimsIdentity)this.User.Identity!), Request, _dataSecurity, _unitOfWork);
-                });
-
                 /* Intermedio - Ejecucion de codigo - (Aprovechamos el hilo ejecutado en tro procesador) */
                 
                 string mensaje = "No puedes tomar una cantidad mayor al stock";
@@ -202,16 +197,15 @@ namespace BlogCore.Areas.Client.Controllers
                     registroProducto.carritoCompra_cantidad += 1;
                     _unitOfWork.CarritoCompra.Update(registroProducto);
                     _unitOfWork.Save();
-                    _unitOfWork.Dispose();
-
+                   
                     mensaje = "cantidad agregado exitosamente";
                 }
 
                 /* Intermedio - Ejecucion de codigo - (Aprovechamos el hilo ejecutado en tro procesador) */
 
-                CarritoViewModel carritoViewModel =  await ejecutarTarea;
+                CarritoViewModel carritoViewModel = InformacionCarritoCompra(((ClaimsIdentity)this.User.Identity!), Request, _dataSecurity, _unitOfWork);
 
-                carritoViewModel.configurarDatosCompra();
+                _unitOfWork.Dispose();
 
                 return StatusCode(200, new { 
                     data = mensaje, 
@@ -230,11 +224,6 @@ namespace BlogCore.Areas.Client.Controllers
         {
             try
             {
-                //realizaremos una concurrencia 
-                Task<CarritoViewModel> ejecutarTarea = Task.Run(() => {
-                    return InformacionCarritoCompra(((ClaimsIdentity)this.User.Identity!), Request, _dataSecurity, _unitOfWork);
-                });
-
                 Guid guid = Guid.Parse(_dataSecurity.desencriptarDatos(guid_Z3VpZCBwcm9kdWN0bwo));
                 CarritoCompra registroProducto = _unitOfWork.CarritoCompra.GetFirstOrDefault(n => n.carritoCompra_guid.Equals(guid));
                 string mensaje = "No se pudo realizar dicha eliminacio de cantidad";
@@ -243,13 +232,13 @@ namespace BlogCore.Areas.Client.Controllers
                     registroProducto.carritoCompra_cantidad -= 1;
                     _unitOfWork.CarritoCompra.Update(registroProducto);
                     _unitOfWork.Save();
-                    _unitOfWork.Dispose();
-
+                    
                     mensaje = "cantidad eliminada exitosamente";
                 }
 
-                CarritoViewModel carritoViewModel = await ejecutarTarea;
-                carritoViewModel.configurarDatosCompra();
+                CarritoViewModel carritoViewModel = InformacionCarritoCompra(((ClaimsIdentity)this.User.Identity!), Request, _dataSecurity, _unitOfWork); ;
+                
+                _unitOfWork.Dispose();
 
                 return StatusCode(200, new { 
                     data = mensaje,

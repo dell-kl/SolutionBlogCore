@@ -16,8 +16,9 @@
                 data: formdata
             }).done((resultado) => {
                 toastr.success(resultado.data);
-
-                $("#precio_bW9zdHJhcl9wcmVjaW9fZmluYWwK").text = resultado.precioTotal;
+                
+                $("#precio_bW9zdHJhcl9wcmVjaW9fZmluYWwK").get()[0].innerText =
+                    "$" + Number(resultado.precioTotal).toLocaleString('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
             })
             .fail((resultado) => {
                 toastr.error(resultado.data);
@@ -43,7 +44,8 @@
             }).done((resultado) => {
                 toastr.success(resultado.data);
 
-                $("#precio_bW9zdHJhcl9wcmVjaW9fZmluYWwK").text = resultado.precioTotal;
+                $("#precio_bW9zdHJhcl9wcmVjaW9fZmluYWwK").get()[0].innerText =
+                    "$" + Number(resultado.precioTotal).toLocaleString('es-ES', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
             })
             .fail((resultado) => {
                 toastr.error(resultado.data);
