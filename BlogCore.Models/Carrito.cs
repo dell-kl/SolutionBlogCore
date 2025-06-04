@@ -12,6 +12,9 @@ namespace BlogCore.Models
         public DateTime carrito_fechaCreacion { set; get; } = DateTime.Now;
         public DateTime carrito_fechaModificacion { set; get; } = DateTime.Now;
 
+        //este precio total sera el que nos servira para procesar y generar una orden.
+        public decimal carrito_precioTotal { set; get; } = 0.00M;
+
         [Column("carrito_usuarioId")]
         public string? IdentityUserId { set; get; }
 

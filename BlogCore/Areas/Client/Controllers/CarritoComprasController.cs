@@ -6,7 +6,6 @@ using Microsoft.IdentityModel.Tokens;
 using System.Security.Claims;
 using BlogCore.Utilidades;
 
-
 namespace BlogCore.Areas.Client.Controllers
 {
     [Area("Client")]
@@ -95,13 +94,27 @@ namespace BlogCore.Areas.Client.Controllers
                                 carrito => carrito.carrito_sessionId.Equals(cookie["cookie"]),
                                 includeProperties: "carritoCompra");
 
-            carrito.IdentityUserId = (carrito.IdentityUserId.IsNullOrEmpty()) 
+            //si el cliente inicio sesion podemos setearle su id de usuario
+            string? idUsuario = (carrito.IdentityUserId.IsNullOrEmpty()) 
                 ? (claimsIdentity.IsAuthenticated) ? claimsIdentity.Claims.ToList()[0].Value : null : carrito.IdentityUserId;
+            carrito.IdentityUserId = idUsuario;
+
+            //la parte de la suma de las cantidad de los precios que vamos generado.
+            Producto? producto = _unitOfWork.Producto.GetFirstOrDefault(n => n.producto_id.Equals(id_producto));
+            decimal precioGenerado = (producto is not null) ? (
+                    ((bool)producto.producto_Esdescuento!) ? (cantidad_producto * producto.producto_precioDescuento) : (cantidad_producto * producto.producto_precio)
+                ) : 0.00m;
 
             if (cookie["tipo"].Equals("COOKIE_NEW"))
+            {
+                carrito.carrito_precioTotal = precioGenerado;
                 _unitOfWork.Carrito.Add(carrito);
-            else
+            }
+            else if (cookie["tipo"].Equals("COOKIE_OLD"))
+            {
+                carrito.carrito_precioTotal += precioGenerado;
                 _unitOfWork.Carrito.Update(carrito);
+            }
            
             CarritoCompra carritoCompra = new CarritoCompra()
             {
@@ -118,6 +131,7 @@ namespace BlogCore.Areas.Client.Controllers
                     carritoCompra.Carritocarrito_id = _unitOfWork.Carrito
                     .GetFirstOrDefault(c => c.carrito_sessionId.Equals(cookie["cookie"]))
                     .carrito_id;
+
                     _unitOfWork.CarritoCompra.Add(carritoCompra);
                 }
                 else
@@ -169,12 +183,30 @@ namespace BlogCore.Areas.Client.Controllers
         [HttpGet]
         public IActionResult DeleteProduct(string guid_Z3VpZCBwcm9kdWN0bwo)
         {
-            Guid guid = Guid.Parse(_dataSecurity.desencriptarDatos(guid_Z3VpZCBwcm9kdWN0bwo));
-            CarritoCompra registroProducto = _unitOfWork.CarritoCompra.GetFirstOrDefault(n => n.carritoCompra_guid.Equals(guid));
+            try
+            {
+                //tenemos que restar el total que sale de la cantidad*precio_producto al precio_total del carrito para su actualizacion.
+                Guid guid = Guid.Parse(_dataSecurity.desencriptarDatos(guid_Z3VpZCBwcm9kdWN0bwo));
+                CarritoCompra registroProducto = _unitOfWork.CarritoCompra.GetFirstOrDefault(n => n.carritoCompra_guid.Equals(guid), includeProperties: "producto, carrito");
 
-            _unitOfWork.CarritoCompra.Remove(registroProducto);
-            _unitOfWork.Save();
-            _unitOfWork.Dispose();
+                decimal cantidadTotalProductoAEliminar = registroProducto.carritoCompra_cantidad*(
+                    (bool)registroProducto.producto.producto_Esdescuento! ? registroProducto.producto.producto_precioDescuento : registroProducto.producto.producto_precio
+                );
+
+                Carrito carrito = registroProducto.carrito;
+                carrito.carrito_precioTotal -= cantidadTotalProductoAEliminar;
+
+                _unitOfWork.Carrito.Update(carrito);
+                _unitOfWork.CarritoCompra.Remove(registroProducto);
+                _unitOfWork.Save();
+                _unitOfWork.Dispose();
+
+                TempData["success"] = "Producto eliminado exitosamente del carrito de compras.";
+            }
+            catch ( Exception error )
+            {
+                TempData["error"] = "No se elimino el producto, intentalo otra vez.";
+            }
 
             return RedirectToAction("Index");
         }
@@ -189,12 +221,17 @@ namespace BlogCore.Areas.Client.Controllers
                 
                 string mensaje = "No puedes tomar una cantidad mayor al stock";
                 Guid guid = Guid.Parse(_dataSecurity.desencriptarDatos(guid_Z3VpZCBwcm9kdWN0bwo));
-                CarritoCompra registroProducto = _unitOfWork.CarritoCompra.GetFirstOrDefault(n => n.carritoCompra_guid.Equals(guid), includeProperties: "producto");
+                CarritoCompra registroProducto = _unitOfWork.CarritoCompra.GetFirstOrDefault(n => n.carritoCompra_guid.Equals(guid), includeProperties: "carrito, producto");
 
                 if (registroProducto.carritoCompra_cantidad <= registroProducto.producto.producto_stock)
                 {
-                    
+                    Carrito carrito = registroProducto.carrito;
+                    decimal precioTotalProductoAAgregar = (bool)registroProducto.producto.producto_Esdescuento! ? registroProducto.producto.producto_precioDescuento : registroProducto.producto.producto_precio;
+
+                    carrito.carrito_precioTotal += precioTotalProductoAAgregar;
                     registroProducto.carritoCompra_cantidad += 1;
+
+                    _unitOfWork.Carrito.Update(carrito);
                     _unitOfWork.CarritoCompra.Update(registroProducto);
                     _unitOfWork.Save();
                    
@@ -225,11 +262,17 @@ namespace BlogCore.Areas.Client.Controllers
             try
             {
                 Guid guid = Guid.Parse(_dataSecurity.desencriptarDatos(guid_Z3VpZCBwcm9kdWN0bwo));
-                CarritoCompra registroProducto = _unitOfWork.CarritoCompra.GetFirstOrDefault(n => n.carritoCompra_guid.Equals(guid));
+                CarritoCompra registroProducto = _unitOfWork.CarritoCompra.GetFirstOrDefault(n => n.carritoCompra_guid.Equals(guid), includeProperties: "carrito");
                 string mensaje = "No se pudo realizar dicha eliminacio de cantidad";
                 if ( registroProducto.carritoCompra_cantidad > 0 )
                 {
+                    Carrito carrito = registroProducto.carrito;
+                    decimal precioTotalProductoAEliminar = (bool)registroProducto.producto.producto_Esdescuento! ? registroProducto.producto.producto_precioDescuento : registroProducto.producto.producto_precio;
+
+                    carrito.carrito_precioTotal -= precioTotalProductoAEliminar;
                     registroProducto.carritoCompra_cantidad -= 1;
+
+                    _unitOfWork.Carrito.Update(carrito);
                     _unitOfWork.CarritoCompra.Update(registroProducto);
                     _unitOfWork.Save();
                     

@@ -75,6 +75,9 @@ namespace BlogCore.AccesoDatos.Migrations
                     b.Property<DateTime>("carrito_fechaModificacion")
                         .HasColumnType("datetime2");
 
+                    b.Property<decimal>("carrito_precioTotal")
+                        .HasColumnType("decimal(18,2)");
+
                     b.Property<string>("carrito_sessionId")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");

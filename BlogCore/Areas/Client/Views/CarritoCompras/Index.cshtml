@@ -88,7 +88,10 @@
 
                                         <div class="pt-5">
                                             <h6 class="mb-0">
-                                                <a class="text-body">
+                                                <a class="text-body" 
+                                                    asp-area="Client"
+                                                    asp-controller="Home"
+                                                    asp-action="Index">
                                                     <i class="fas fa-long-arrow-alt-left me-2"></i>Regresar al inicio
                                                 </a>
                                             </h6>
@@ -118,9 +121,16 @@
                                             <h5 id="precio_bW9zdHJhcl9wcmVjaW9fZmluYWwK">@Model.precioTotal.ToString("C2")</h5>
                                         </div>
 
-                                        <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-dark btn-block btn-lg w-100"
+                                        <!-- PayPal Logo --><table border="0" cellpadding="10" cellspacing="0" align="center"><tr><td align="center"></td></tr><tr><td align="center"><a href="https://www.paypal.com/webapps/mpp/paypal-popup" title="How PayPal Works" onclick="javascript:window.open('https://www.paypal.com/webapps/mpp/paypal-popup','WIPaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=1060, height=700'); return false;"><img src="https://www.paypalobjects.com/webstatic/mktg/logo/AM_mc_vs_dc_ae.jpg" border="0" alt="PayPal Acceptance Mark"></a></td></tr></table><!-- PayPal Logo -->
+
+                                        <button type="button" 
+                                                data-mdb-button-init 
+                                                data-mdb-ripple-init class="btn btn-warning rounded btn-block p-3 btn-lg w-100"
                                                 data-mdb-ripple-color="dark">
-                                            Ir a pagar
+                                            <img
+                                                width="200"
+                                                height="50"
+                                                src="~/pictures/personalizacion/imagenPaypal.png"/>
                                         </button>
 
                                     </div>
@@ -136,4 +146,28 @@
 
 @section Scripts {
     <script src="~/js/carritoCompra.js"></script>
+
+    @if (TempData["success"] is not null)
+    {
+        <script>
+            Swal.fire({
+            icon: "success",
+            title: "Proceso Carrito Compras",
+            confirmButtonText: "Entendido",
+            text: "@TempData["success"]"
+            });
+        </script>
+    }
+
+    @if (TempData["error"] is not null)
+    {
+        <script>
+            Swal.fire({
+            icon: "error",
+            title: "Proceso Carrito Compras",
+            confirmButtonText: "Informado",
+            text: "@TempData["error"]"
+            });
+        </script>
+    }
 }

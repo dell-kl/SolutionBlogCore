@@ -16,11 +16,20 @@
 
     if (cookie is not null)
     {
-       string desencriptarCookie = DataSecurityRepository.desencriptarDatos(cookie!);
-       carrito = UnitOfWork.Carrito.GetFirstOrDefault(
-        n => n.carrito_sessionId.Equals(desencriptarCookie),
-        includeProperties: "carritoCompra"
-        );
+        try
+        {
+            string desencriptarCookie = DataSecurityRepository.desencriptarDatos(cookie!);
+            carrito = UnitOfWork.Carrito.GetFirstOrDefault(
+             n => n.carrito_sessionId.Equals(desencriptarCookie),
+             includeProperties: "carritoCompra"
+             );
+        }
+        catch ( Exception error )
+        {
+            //en caso de que no se pueda volver a desencriptar nusetra cookie
+            HttpContextAccesor?.HttpContext?.Response.Cookies.Delete(DefinitionKeyCookies.keyShoppingCart);
+            carrito = null;
+        }
     }
 }
 
