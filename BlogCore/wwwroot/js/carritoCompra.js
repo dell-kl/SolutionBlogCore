@@ -1,5 +1,21 @@
 ﻿$(document).ready(function () {
 
+    $('#button_place_page_xR3hhYUZKVk5XOVZiVEExVGxaUmQxcEhkRnBWWmgKYTBwb1ZGVmFhMk14YkRaU2F6VlNWMFZL').on('click', function () {
+        $.ajax({
+            url: '/Client/GenerarOrdenCompra/GenerarOrden',
+            method: 'POST'
+        }).done((resultado) => {
+            window.location.href = resultado.data;
+        }).error((error) => {
+            Swal.fire({
+                icon: "error",
+                title: "Proceso Compra",
+                confirmButtonText: "Entendido",
+                text: error.mensaje
+            });
+        });
+    });
+
     //section for increment value of product in shopping cart
     $.each($('input[type=hidden].EZoclZqRktkRlZyYkZkV00yUk1RMmM'), function (indice, valor) {
 

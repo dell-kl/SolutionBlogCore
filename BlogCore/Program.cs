@@ -63,6 +63,10 @@ builder.Services.Configure<FormOptions>(options =>
 builder.Services.AddDataProtection()
     .PersistKeysToDbContext<ApplicationDbContext>();
 
+builder.Services.AddHttpClient("Paypal", (client) => {
+    client.BaseAddress = new Uri("https://api-m.sandbox.paypal.com/");
+});
+
 var app = builder.Build();
 
 

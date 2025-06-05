@@ -262,12 +262,14 @@ namespace BlogCore.Areas.Client.Controllers
             try
             {
                 Guid guid = Guid.Parse(_dataSecurity.desencriptarDatos(guid_Z3VpZCBwcm9kdWN0bwo));
-                CarritoCompra registroProducto = _unitOfWork.CarritoCompra.GetFirstOrDefault(n => n.carritoCompra_guid.Equals(guid), includeProperties: "carrito");
+                CarritoCompra registroProducto = _unitOfWork.CarritoCompra.GetFirstOrDefault(n => n.carritoCompra_guid.Equals(guid), includeProperties: "carrito, producto");
                 string mensaje = "No se pudo realizar dicha eliminacio de cantidad";
                 if ( registroProducto.carritoCompra_cantidad > 0 )
                 {
                     Carrito carrito = registroProducto.carrito;
-                    decimal precioTotalProductoAEliminar = (bool)registroProducto.producto.producto_Esdescuento! ? registroProducto.producto.producto_precioDescuento : registroProducto.producto.producto_precio;
+                    decimal precioTotalProductoAEliminar = (bool) registroProducto.producto.producto_Esdescuento! 
+                        ? registroProducto.producto.producto_precioDescuento 
+                        : registroProducto.producto.producto_precio;
 
                     carrito.carrito_precioTotal -= precioTotalProductoAEliminar;
                     registroProducto.carritoCompra_cantidad -= 1;

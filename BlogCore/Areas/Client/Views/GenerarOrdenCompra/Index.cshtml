@@ -1,0 +1,18 @@
+﻿@{
+    TempData["Title"] = "Orden de Compra";
+}
+
+<div class="container">
+    <div class="d-flex">
+        <img 
+            class="m-auto"
+            width="200"
+            height="200"
+            src="~/pictures/personalizacion/success.png"/>
+    </div>
+    <div class="text-center">
+        <h1>Compra realizado exitosamente</h1>
+        <p>Todos los comprobantes de compra los podras ver en la seccion <strong>facturacion</strong></p>
+        <p class="fw-bold">ID de transaccion: <span>@TempData["codigo"]</span></p>
+    </div>
+</div>
